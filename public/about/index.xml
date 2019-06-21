@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Prabatha</title>
+    <link>https://prabatha.com/about/</link>
+    <description>Recent content in Abouts on Prabatha</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Jun 2019 14:58:21 +0530</lastBuildDate>
+    
+	<atom:link href="https://prabatha.com/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About us</title>
+      <link>https://prabatha.com/about/about/</link>
+      <pubDate>Fri, 21 Jun 2019 14:58:21 +0530</pubDate>
+      
+      <guid>https://prabatha.com/about/about/</guid>
+      <description>“Prabhat, The Temple of Art” is an internationally renowned artistic institution from India. The organisation has created stage history with a unique blend of tradition along with sophisticated stage techniques of the present technological era. What has made this group distinctive is its ability to communicate effectively by employing innovative and creative choreography along with audio-visual craftsmanship. “Prabhat” (which incidentally means artists as lively as the dancing rays of dawn) – was one of the first organisations that have overcome the language barrier and presented themes in classical dance forms using contemporary techniques.</description>
+    </item>
+    
+  </channel>
+</rss>
