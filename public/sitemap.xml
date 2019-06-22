@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://prabatha.com/our-repertoire/thematic-dance-productions/</loc>
+    <lastmod>2019-06-21T18:34:25+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://prabatha.com/about/about/</loc>
     <lastmod>2019-06-21T14:58:21+05:30</lastmod>
   </url>
@@ -47,14 +52,32 @@
   </url>
   
   <url>
+    <loc>https://prabatha.com/our-repertoire/</loc>
+    <lastmod>2019-06-21T18:34:25+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://prabatha.com/</loc>
-    <lastmod>2019-06-21T14:58:21+05:30</lastmod>
+    <lastmod>2019-06-21T18:34:25+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://prabatha.com/tags/repertoire/</loc>
+    <lastmod>2019-06-21T18:34:25+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://prabatha.com/tags/</loc>
     <lastmod>2019-06-21T14:58:21+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://prabatha.com/tags/thematic_dance/</loc>
+    <lastmod>2019-06-21T18:34:25+05:30</lastmod>
     <priority>0</priority>
   </url>
   
