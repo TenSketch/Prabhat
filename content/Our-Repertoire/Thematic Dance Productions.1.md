@@ -1,10 +1,10 @@
 ---
-title: "Thematic Dance Productions"
+title: "Thematic Dance Productions1"
 title1: "7 Rays of 7 Hills"
 image: "/images/bg-masthead.jpg"
 date: 2019-06-21T18:34:25+05:30
-tags: ["Repertoire","Thematic_Dance"]
-type: Repertoire
+tags: ["7 Rays of 7 Hills"]
+type: Repertoire2
 draft: false
 ---
 
