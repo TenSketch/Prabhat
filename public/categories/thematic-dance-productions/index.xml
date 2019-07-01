@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Repertoires on Prabhat</title>
-    <link>https://prabhatha.com/repertoire/</link>
-    <description>Recent content in Repertoires on Prabhat</description>
+    <title>Thematic Dance Productions on Prabhat</title>
+    <link>https://prabhatha.com/categories/thematic-dance-productions/</link>
+    <description>Recent content in Thematic Dance Productions on Prabhat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Jun 2019 20:08:11 +0530</lastBuildDate>
     
-	<atom:link href="https://prabhatha.com/repertoire/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://prabhatha.com/categories/thematic-dance-productions/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Our Repertoire</title>
-      <link>https://prabhatha.com/repertoire/our-repertoire/</link>
-      <pubDate>Thu, 27 Jun 2019 20:08:11 +0530</pubDate>
-      
-      <guid>https://prabhatha.com/repertoire/our-repertoire/</guid>
-      <description> Thematic dance productions. Dance Drama / Ballets. Classical dance sequences.  </description>
-    </item>
     
     <item>
       <title>Thematic Dance Productions</title>

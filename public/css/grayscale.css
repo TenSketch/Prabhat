@@ -20,10 +20,19 @@ html {
 p{
   text-align: justify!important
 }
+h3{
+  margin-top: 1rem
+}
 .img-fluid1{
   height: 120px;
   max-width: 100%;
 }
+blockquote {
+  color: rgba(0, 0, 0, 0.808);
+  padding-left: 1.5em;
+  border-left: 5px solid rgba(0,0,0,.1);
+}
+
 
 #mainNav {
   min-height: 56px;
@@ -129,6 +138,7 @@ p{
   background: -webkit-linear-gradient(rgb(178, 148, 7), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text
 }
 
 .masthead h2 {
@@ -188,18 +198,18 @@ p{
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding: 5rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(199, 84, 40, 0.9) 75%, rgba(216, 137, 20, 0.37) 100%);
 };
-}
+
 
 .about-section p {
   margin-bottom: 5rem;
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 .projects-section .featured-text {

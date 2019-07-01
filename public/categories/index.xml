@@ -1,21 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Prabatha</title>
-    <link>https://prabatha.com/categories/</link>
-    <description>Recent content in Categories on Prabatha</description>
+    <title>Categories on Prabhat</title>
+    <link>https://prabhatha.com/categories/</link>
+    <description>Recent content in Categories on Prabhat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://prabatha.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://prabhatha.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Gallery</title>
-      <link>https://prabatha.com/categories/gallery/</link>
+      <link>https://prabhatha.com/categories/gallery/</link>
       <pubDate>Thu, 20 Jun 2019 13:25:57 +0530</pubDate>
       
-      <guid>https://prabatha.com/categories/gallery/</guid>
+      <guid>https://prabhatha.com/categories/gallery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Repertoire</title>
+      <link>https://prabhatha.com/categories/repertoire/</link>
+      <pubDate>Thu, 27 Jun 2019 20:08:11 +0530</pubDate>
+      
+      <guid>https://prabhatha.com/categories/repertoire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thematic Dance Productions</title>
+      <link>https://prabhatha.com/categories/thematic-dance-productions/</link>
+      <pubDate>Thu, 27 Jun 2019 20:08:11 +0530</pubDate>
+      
+      <guid>https://prabhatha.com/categories/thematic-dance-productions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Titles</title>
+      <link>https://prabhatha.com/categories/titles/</link>
+      <pubDate>Fri, 28 Jun 2019 21:22:05 +0530</pubDate>
+      
+      <guid>https://prabhatha.com/categories/titles/</guid>
       <description></description>
     </item>
     
