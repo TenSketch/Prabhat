@@ -27,6 +27,10 @@ h3{
   height: 120px;
   max-width: 100%;
 }
+.img-fluid2{
+  height: 200px;
+  max-width: 100%;
+}
 blockquote {
   color: rgba(0, 0, 0, 0.808);
   padding-left: 1.5em;

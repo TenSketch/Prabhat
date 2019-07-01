@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Harikathas on Prabhat</title>
+    <link>https://prabhatha.com/harikatha/</link>
+    <description>Recent content in Harikathas on Prabhat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Jun 2019 20:08:11 +0530</lastBuildDate>
+    
+	<atom:link href="https://prabhatha.com/harikatha/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Harikatha</title>
+      <link>https://prabhatha.com/harikatha/harikatha/</link>
+      <pubDate>Thu, 27 Jun 2019 20:08:11 +0530</pubDate>
+      
+      <guid>https://prabhatha.com/harikatha/harikatha/</guid>
+      <description>Harikatha: About: Karnataka’s Haridaasa’s cult arouses varied questions in one’s mind. The literary works of great saint poets of Karnataka answer questions relating to spiritual experiences, knowledge of Tantra, Vedic wisdom, Societal Culture, Music, Dance, theatre and the like.</description>
+    </item>
+    
+  </channel>
+</rss>

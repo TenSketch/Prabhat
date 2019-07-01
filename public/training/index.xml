@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trainings on Prabhat</title>
+    <link>https://prabhatha.com/training/</link>
+    <description>Recent content in Trainings on Prabhat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Jun 2019 20:08:11 +0530</lastBuildDate>
+    
+	<atom:link href="https://prabhatha.com/training/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prabhat&#39;s training</title>
+      <link>https://prabhatha.com/training/training/</link>
+      <pubDate>Thu, 27 Jun 2019 20:08:11 +0530</pubDate>
+      
+      <guid>https://prabhatha.com/training/training/</guid>
+      <description>Prabhat&amp;rsquo;s Training  SAMUDYATA - Srichakra Academy of Music, Dance, Yoga, and Theatre Arts Faculty. Prabhat Kala Tapovana.  1. SAMUDYATA (Srichakra Academy of Music, Dance, Yoga, and Theatre Arts) a.</description>
+    </item>
+    
+  </channel>
+</rss>
