@@ -1,7 +1,7 @@
 ---
 title: "Prabhatha's Repertoire"
 date: 2019-06-27T20:08:11+05:30
-image: "/images/bg-masthead.jpg"
+image: "/images/reper8.jpg"
 type: Repertoire
 draft: false
 ---
