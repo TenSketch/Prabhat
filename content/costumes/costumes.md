@@ -1,5 +1,5 @@
 ---
-title: "Prabhat Costume Designers"
+title: "Costume Designers"
 image: "/images/Shiva-Nataraj.png"
 date: 2019-06-21T14:58:21+05:30
 tags: ["costumes"]

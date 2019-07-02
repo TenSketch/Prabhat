@@ -1,1 +1,11 @@
+baseURL = "https://prabhatha.com/"
+languageCode = "en-us"
+title = "Prabhat"
 theme = "Hugo- Organization Portfolio"
+summaryLength = 30
+[params]
+    description = "Prabhat, The Temple of Art is an internationally renowned artistic institution from India. The organization has created stage history with a unique blend of tradition along with sophisticated stage techniques of the present technological era."
+    
+    keywords = "arts, dance, music, theatre, plays, dramas, classical arts studios, a dance studio in Bengaluru, classical dance, theatre performance, stage props arena, costumes unit, make-up, training classes, Abhinaya, dance, music, drama, yoga courses, recording studios"
+    
+    author = "Balachandiran - TenSketch"

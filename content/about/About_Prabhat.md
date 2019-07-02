@@ -3,6 +3,8 @@ title: "About Prabhat"
 image: "/images/Shiva-Nataraj.png"
 date: 2019-06-21T14:58:21+05:30
 tags: ["about"]
+description: "Prabhat, The Temple of Art is an internationally renowned artistic institution from India."
+keywords: "about prabhat, about company, prabhatha, Artistic Directors and Choreographers, Co-Directors, Music Composers and Collaborators, Overview- Prabhat, prabhatha.com"
 draft: false
 ---
 

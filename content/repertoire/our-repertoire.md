@@ -1,5 +1,5 @@
 ---
-title: "Prabhatha's Repertoire"
+title: "Prabhat's Repertoire"
 date: 2019-06-27T20:08:11+05:30
 image: "/images/reper8.jpg"
 type: Repertoire
