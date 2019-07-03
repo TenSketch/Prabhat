@@ -8,34 +8,3 @@ summaryLength = 30
     description = "Prabhat, The Temple of Art is an internationally renowned artistic institution from India. The organization has created stage history with a unique blend of tradition along with sophisticated stage techniques of the present technological era."
     keywords = "arts, dance, music, theatre, plays, dramas, classical arts studios, a dance studio in Bengaluru, classical dance, theatre performance, stage props arena, costumes unit, make-up, training classes, Abhinaya, dance, music, drama, yoga courses, recording studios"
     author = "Balachandiran - TenSketch"
-
-    [build]
-publish = "public"
-command = "hugo --gc --minify"
-
-[context.production.environment]
-HUGO_VERSION = "0.55.6"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
-
-[context.split1]
-command = "hugo --gc --minify --enableGitInfo"
-
-[context.split1.environment]
-HUGO_VERSION = "0.55.6"
-HUGO_ENV = "production"
-
-[context.deploy-preview]
-command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
-
-[context.deploy-preview.environment]
-HUGO_VERSION = "0.55.6"
-
-[context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
-
-[context.branch-deploy.environment]
-HUGO_VERSION = "0.55.6"
-
-[context.next.environment]
-HUGO_ENABLEGITINFO = "true"
