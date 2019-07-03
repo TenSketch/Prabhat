@@ -1,8 +1,13 @@
-{{ partial "head" .}}
-{{ partial "navbar" .}}
-<section style="margin-top: 10rem">
-    <div class="container py-5 my-5">
-        {{.Content}}
-    </div>
-</section>
-{{partial "scripts" .}}
+<!DOCTYPE html>
+<html lang="en">
+{{partial "head" .}}
+<body>
+    {{partial "navbar" .}}
+    <section style="margin-top: 10rem">
+        <div class="container py-5 my-5">
+            {{.Content}}
+        </div>
+    </section>
+    {{partial "scripts" .}}
+</body>
+</html>
