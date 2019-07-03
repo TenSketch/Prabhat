@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.prabhatha.com/prabhat/</loc>
-    <lastmod>2019-06-30T18:33:40+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.prabhatha.com/harikatha/harikatha/</loc>
     <lastmod>2019-06-27T20:08:11+05:30</lastmod>
   </url>
@@ -28,7 +23,32 @@
   </url>
   
   <url>
+    <loc>https://www.prabhatha.com/about/about_us/</loc>
+    <lastmod>2019-06-21T14:58:21+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/about/co_directors/</loc>
+    <lastmod>2019-06-21T14:58:21+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.prabhatha.com/costumes/costumes/</loc>
+    <lastmod>2019-06-21T14:58:21+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/about/music_composers_and_collaborators/</loc>
+    <lastmod>2019-06-21T14:58:21+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/about/overview/</loc>
+    <lastmod>2019-06-21T14:58:21+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/about/the_company/</loc>
     <lastmod>2019-06-21T14:58:21+05:30</lastmod>
   </url>
   
@@ -139,13 +159,31 @@
   </url>
   
   <url>
+    <loc>https://www.prabhatha.com/tags/about_us/</loc>
+    <lastmod>2019-06-21T14:58:21+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.prabhatha.com/about/</loc>
     <lastmod>2019-06-21T14:58:21+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://www.prabhatha.com/tags/artistic-directors-choreographers/</loc>
+    <lastmod>2019-06-21T14:58:21+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.prabhatha.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/tags/co-directors/</loc>
+    <lastmod>2019-06-21T14:58:21+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -186,14 +224,20 @@
   </url>
   
   <url>
-    <loc>https://www.prabhatha.com/tags/home/</loc>
-    <lastmod>2019-06-30T18:33:40+05:30</lastmod>
+    <loc>https://www.prabhatha.com/tags/music_composers_and_collaborators/</loc>
+    <lastmod>2019-06-21T14:58:21+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/tags/overview/</loc>
+    <lastmod>2019-06-21T14:58:21+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.prabhatha.com/</loc>
-    <lastmod>2019-06-30T18:33:40+05:30</lastmod>
+    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -205,6 +249,18 @@
   
   <url>
     <loc>https://www.prabhatha.com/tags/</loc>
+    <lastmod>2019-06-21T14:58:21+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/tags/the-company/</loc>
+    <lastmod>2019-06-21T14:58:21+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/tags/the_company/</loc>
     <lastmod>2019-06-21T14:58:21+05:30</lastmod>
     <priority>0</priority>
   </url>

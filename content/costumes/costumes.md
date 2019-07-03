@@ -9,7 +9,7 @@ draft: false
 
 # Costumes - Prabhat
 
-## 1. Prabhat Costume Designers
+## Prabhat Costume Designers
 
 Founded in the year 1946, Prabhat Costume Designers is a company that, for the first time introduced professional costume designing venture in Karnataka. A pioneer that is synonymous to the word; Costumes is located in KR Road, Basavangudi and VV Puram.
 
@@ -40,6 +40,3 @@ Prabhat offers costumes for both rent and sale. Also, undertakes custom designin
 * Celebrities
 * Plants, Flowers and Fruits
 
-## Clients
-
-Infosys, Amazon, Oracle, Wipro, Christ, Jain, DPS, SKCH, Mounts, MS Ramaiah, RSS, TVS

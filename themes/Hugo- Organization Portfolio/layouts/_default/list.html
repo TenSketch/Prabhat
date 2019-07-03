@@ -36,17 +36,19 @@
     {{range where .Site.Pages "Type" "=" "Repertoire"}}
     <h1 class="text-center mb-5 text-uppercase">{{.Title}}</h1>
     <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-      <div class="col-xl-8 col-lg-7">
+      <div class="col-xl-8 col-lg-7" style="position: relative;">
         <img class="img-fluid mb-3 mb-lg-0" src="{{.Params.Image}}" alt="{{.Name}}">
+        <div class="bottom-middle">
+            <a href="{{.Permalink}}" class="pic-rm">Read More</a>
+        </div>
+        
       </div>
       <div class="col-xl-4 col-lg-5">
         <div class="featured-text text-center text-lg-left">
           <div class="text-black-50 mb-0">
-            <ol>
-              <li>Thematic dance productions. </li>
-              <li>Dance Drama / Ballets. </li>
-              <li>Classical dance sequences.</li>
-            </ol>
+              <p>Thematic dance productions.<br>
+                  Dance Drama / Ballets.<br>
+                  Classical dance sequences.<br></p>
           </div>
           <a href="{{.Permalink}}">Read More</a>
         </div>
@@ -69,11 +71,11 @@
           <div class="d-flex h-100">
             <div class="project-text w-100 my-auto text-center text-lg-left">
               <h4 class="text-white">{{$val.Page.Title}}</h4>
-              <ol class="mb-0 text-white-50">
-                <li>SAMUDYATA - Srichakra Academy of Music, Dance, Yoga, and Theatre Arts</li>
-                <li>Faculty.</li>
-                <li>Prabhat Kala Tapovana.</li>
-              </ol>
+              <p class="mb-0 text-white-50">
+                SAMUDYATA - Srichakra Academy of Music, Dance, Yoga, and Theatre Arts<br>
+                Faculty.<br>
+                Prabhat Kala Tapovana.<br>
+              </p>
               <hr class="d-none d-lg-block mb-0 ml-0">
               <br>
               <a href="{{$val.Page.Permalink}}">Read more</a>
