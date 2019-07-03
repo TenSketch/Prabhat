@@ -1,15 +1,20 @@
-{{ partial "head" . }}
-{{ partial "navbar" }}
-{{block "header".}}
-{{end}}
-{{block "about".}}
-{{end}}
-{{block "repertoire".}}
-{{end}}
-{{block "training".}}
-{{end}}
-{{block "costumes".}}
-{{end}}
-{{block "gallery".}}
-{{end}}
-{{partial "scripts"}}
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head" .}}
+<body>
+    {{ partial "navbar" .}}
+    {{block "header" .}}
+    {{end}}
+    {{block "about".}}
+    {{end}}
+    {{block "repertoire".}}
+    {{end}}
+    {{block "training".}}
+    {{end}}
+    {{block "costumes".}}
+    {{end}}
+    {{block "gallery".}}
+    {{end}}
+    {{partial "scripts" .}}
+</body>
+</html>
