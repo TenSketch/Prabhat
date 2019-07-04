@@ -2,12 +2,13 @@
 <html lang="en">
 {{partial "head" .}}
 <body>
-    {{partial "navbar" .}}
+    {{partial "singlenav" .}}
     <section style="margin-top: 10rem">
         <div class="container py-5 my-5">
             {{.Content}}
         </div>
     </section>
+    {{partial "footer" .}}
     {{partial "scripts" .}}
 </body>
 </html>

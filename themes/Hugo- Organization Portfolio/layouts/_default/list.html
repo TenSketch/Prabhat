@@ -5,7 +5,8 @@
     <div class="mx-auto text-center">
       <h1 class="mx-auto my-0 text-uppercase">Prabhat</h1>
       <h2 class="text-white-50 mx-auto mt-2 mb-5">The Temple of Art</h2>
-      <a href="#about" class="btn btn-primary js-scroll-trigger">Enter the temple</a>
+      <a href="#about" class="btn btn-success js-scroll-trigger">Enter the temple</a>
+      <a href="#" class="btn btn-primary js-scroll-trigger ml-5">Join Prabhat</a>
     </div>
   </div>
 </header>
@@ -24,7 +25,7 @@
         <a href="{{$val.Page.Permalink}}">Read more</a>
       </div>
     </div>
-    <img src="{{.Page.Params.Image}}" class="img-fluid" alt="{{.Name}}">
+    <img src="{{.Page.Params.Image}}" class="img-fluid3" alt="{{.Name}}">
     {{end}}
   </div>
 </section>
@@ -38,8 +39,9 @@
     <div class="row align-items-center no-gutters mb-4 mb-lg-5">
       <div class="col-xl-8 col-lg-7" style="position: relative;">
         <img class="img-fluid mb-3 mb-lg-0" src="{{.Params.Image}}" alt="{{.Name}}">
-        <div class="bottom-middle">
-            <a href="{{.Permalink}}" class="pic-rm">Read More</a>
+        <div class="bottom-right">
+            <a href="{{.Permalink}}" class="btn btn-know js-scroll-trigger">Know More</a>
+            <!-- <a href="{{.Permalink}}" class="pic-rm">Read More</a> -->
         </div>
         
       </div>
@@ -108,7 +110,7 @@
 </section>
 {{end}}
 {{define "gallery"}}
-<section id="gallery" class="pb-0">
+<section id="gallery" class="py-5">
   <!-- gallery-new-fancybox-->
   <div class="container-fluid">
     <header class="text-center mb-4">
