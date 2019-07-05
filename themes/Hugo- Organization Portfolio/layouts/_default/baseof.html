@@ -1,16 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
 {{partial "head" .}}
-{{ partial "navbar" .}}
-{{block "header" .}}
-{{end}}
-{{block "about" .}}
-{{end}}
-{{block "repertoire" .}}
-{{end}}
-{{block "training" .}}
-{{end}}
-{{block "costumes" .}}
-{{end}}
-{{block "gallery" .}}
-{{end}}
-{{partial "footer" .}}
-{{partial "scripts" .}}
+<body>
+    {{ partial "navbar" .}}
+    {{block "header" .}}
+    {{end}}
+    {{block "about" .}}
+    {{end}}
+    {{block "repertoire" .}}
+    {{end}}
+    {{block "training" .}}
+    {{end}}
+    {{block "costumes" .}}
+    {{end}}
+    {{block "gallery" .}}
+    {{end}}
+    {{partial "footer" .}}
+    {{partial "scripts" .}}
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                        document.location.href = "/admin/";
+                    });
+                }
+            });
+        }
+    </script>
+</body>
+</html>

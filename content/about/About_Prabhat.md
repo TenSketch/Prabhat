@@ -28,7 +28,7 @@ Since 1930, Prabhat is constantly contributing to the field of art and all the a
 ---
 **_Aacharya Raghavendra J Prabhat:_**
 
-&emsp; &emsp; Aacharya Raghavendra J Prabhat hails from the culturally rich Lineage of Saint Poet Purandara Dasaru, Father of Carnatic Classical Music. Often termed as an intellectual orator, Aacharya Raghavendra J Prabhat, is a writer, literati, director, philosopher, poet, Costume designer and one of Karnataka’s foremost cultural figures, well versed in diverse fields of music, dance, theatre, and spiritualism.
+Aacharya Raghavendra J Prabhat hails from the culturally rich Lineage of Saint Poet Purandara Dasaru, Father of Carnatic Classical Music. Often termed as an intellectual orator, Aacharya Raghavendra J Prabhat, is a writer, literati, director, philosopher, poet, Costume designer and one of Karnataka’s foremost cultural figures, well versed in diverse fields of music, dance, theatre, and spiritualism.
 
 An able cultural ambassador, Aacharya Raghavendra, has travelled the length and breadth of India and foreign countries like USA, Malaysia, Singapore, Switzerland, and the like, spreading the fragrance of the Indian culture and heritage.
 
@@ -42,10 +42,11 @@ A Nadaprabhu Kempegowda award winner, Aacharya Raghavendra, is one of the finest
 - Compiler and Producer of Rare Creations of Haridasas, Vachanakaaras.
 - Raghavendra has directed several plays for AIR, Central & State Academy and Door Darshan.
 
-	
+---	
+
 **_Guru Shakuntala R Prabhath:_**
 	
-&emsp; &emsp; Shakuntala R Prabhath is one of Karnataka’s many splendid artists. A classical Bharatanatyam dancer and prime Natuvanar par excellence, Guru. Shakuntala is trained in Bharatanatyam style of dance under the renowned guru Smt. Narmada. 
+Shakuntala R Prabhath is one of Karnataka’s many splendid artists. A classical Bharatanatyam dancer and prime Natuvanar par excellence, Guru. Shakuntala is trained in Bharatanatyam style of dance under the renowned guru Smt. Narmada. 
 
 Guru. Smt. Shakuntala, apart from being a Bharatanatyam dancer, is also trained in martial arts, folk dances and yoga. A splendid artist and dance choreographer, Shakuntala, has choreographed several dance dramas, plays and dance productions for stage and television.
 
@@ -55,10 +56,11 @@ Currently, Guru Shakuntala trains more than 350 students across Bangalore and ru
 
 She holds to her credit of directing 20+ dance dramas and 50+ classical compositions using the vast exposure and experience of 45 years in the field.
 
+---
 
 **_Bharat R Prabhath:_**
 
-&emsp; &emsp; Bharat R Prabhath hails from the illustrious family of Prabhath. The originative highbrow was exposed to the values of Indian arts, culture and traditions from a very young age.
+Bharat R Prabhath hails from the illustrious family of Prabhath. The originative highbrow was exposed to the values of Indian arts, culture and traditions from a very young age.
 
 Bharat began his formal training in Kathak in the year 2004 under the able guidance of Smt Nirupama and Shri Rajendra. He has had the opportunity to tour across the country and abroad and participate in a number of programmes at prestigious festivals.
 
@@ -82,9 +84,11 @@ A recent production that took entire Bangalore by storm was Kathaastra co-direct
 - Dasara Festival, Mysore.
 - Art of Living, Bangalore
 
+---
+
 **_Sharat R Prabhath:_**
 
-&emsp; &emsp; Sharat has had the fortune of being very closely associated with Indian arts and culture from a very young age. He began his training in Carnatic classical music under the able guidance of Dr Hamsini Nagendra. He now continues to learn under Karnataka Kalashree – Tirumale Srinivas.
+Sharat has had the fortune of being very closely associated with Indian arts and culture from a very young age. He began his training in Carnatic classical music under the able guidance of Dr Hamsini Nagendra. He now continues to learn under Karnataka Kalashree – Tirumale Srinivas.
 
 Sharat is also undergoing training in the classical dance style of Kathak for many years under the able tutelage of the famous dancing duo, Smt. Nirupama and Sri. Rajendra and now continues to learn under the maestro of Jaipur gharana - Pt. Rajendra Gangani (Kathak Kendra, New Delhi). Apart from being a performer, Sharat also takes a special interest in directing dance musicals and one such spectacular trend-setting production co-directed and co-choreographed by Sharat is Kathaastra, which created several benchmarks in the field of dance and theatre.
 
@@ -117,6 +121,7 @@ A favourite among audiences, Sharat has also made a mark as a creative director,
 - Deepotsava, Dharmasthala.
 - Vishwa Kannada Sammelana, Belgaum
 
+---
 
 **_Overview:_**
 

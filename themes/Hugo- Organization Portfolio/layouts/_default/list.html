@@ -40,17 +40,16 @@
       <div class="col-xl-8 col-lg-7" style="position: relative;">
         <img class="img-fluid mb-3 mb-lg-0" src="{{.Params.Image}}" alt="{{.Name}}">
         <div class="bottom-right">
-            <a href="{{.Permalink}}" class="btn btn-know js-scroll-trigger">Know More</a>
-            <!-- <a href="{{.Permalink}}" class="pic-rm">Read More</a> -->
+          <a href="{{.Permalink}}" class="btn btn-know js-scroll-trigger">Know More</a>
+          <!-- <a href="{{.Permalink}}" class="pic-rm">Read More</a> -->
         </div>
-        
       </div>
       <div class="col-xl-4 col-lg-5">
         <div class="featured-text text-center text-lg-left">
           <div class="text-black-50 mb-0">
-              <p>Thematic dance productions.<br>
-                  Dance Drama / Ballets.<br>
-                  Classical dance sequences.<br></p>
+            <p>Thematic dance productions.<br>
+              Dance Drama / Ballets.<br>
+              Classical dance sequences.<br></p>
           </div>
           <a href="{{.Permalink}}">Read More</a>
         </div>
@@ -89,24 +88,27 @@
     {{end}}
     {{range $index, $val := .Site.Taxonomies.tags.harikatha}}
     <div id="harikatha" class="row justify-content-center no-gutters">
-        <div class="col-lg-6">
-            <img class="img-fluid" src="{{.Page.Params.Image}}" alt="{{.Name}}">
-          </div>
-          <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 class="text-white">{{$val.Page.Title}}</h4>
-                  <p class="mb-0 text-white-50">Karnataka’s <span class="font-italic">Haridaasa</span>’s cult arouses varied questions in one’s mind. The literary works of great saint poets of Karnataka answer questions relating to spiritual experiences, knowledge of Tantra, Vedic wisdom, Societal Culture, Music, Dance, theatre and the like.</p>
-                  <hr class="d-none d-lg-block mb-0 mr-0">
-                  <br>
-                  <a href="{{$val.Page.Permalink}}">Read more</a>
-                </div>
-              </div>
+      <div class="col-lg-6">
+        <img class="img-fluid" src="{{.Page.Params.Image}}" alt="{{.Name}}">
+      </div>
+      <div class="col-lg-6 order-lg-first">
+        <div class="bg-black text-center h-100 project">
+          <div class="d-flex h-100">
+            <div class="project-text w-100 my-auto text-center text-lg-right">
+              <h4 class="text-white">{{$val.Page.Title}}</h4>
+              <p class="mb-0 text-white-50">Karnataka’s <span class="font-italic">Haridaasa</span>’s cult arouses varied
+                questions in one’s mind. The literary works of great saint poets of Karnataka answer questions relating
+                to spiritual experiences, knowledge of Tantra, Vedic wisdom, Societal Culture, Music, Dance, theatre and
+                the like.</p>
+              <hr class="d-none d-lg-block mb-0 mr-0">
+              <br>
+              <a href="{{$val.Page.Permalink}}">Read more</a>
             </div>
+          </div>
+        </div>
+      </div>
+      {{end}}
     </div>
-    {{end}}
-  </div>
 </section>
 {{end}}
 {{define "gallery"}}
@@ -128,21 +130,21 @@
   </div>
 </section>
 {{end}}
-
 {{define "costumes"}}
-  <!-- Signup Section -->
-  <section id="costumes" class="signup-section">
-      <div class="container">
-          {{range $index, $val := .Site.Taxonomies.tags.costumes}}
-        <div class="row">
-          <div class="col-md-10 col-lg-8 mx-auto text-center">
-              <h2 class="text-white">{{$val.Page.Title}}</h2>
-            <p class="text-white">Founded in the year 1946, Prabhat Costume Designers is a company that, for the first time introduced professional costume designing venture in Karnataka. A pioneer that is synonymous to the word; Costumes is located in KR Road, Basavangudi and VV Puram.</p>   
-            <a href="{{$val.Page.Permalink}}">Read more</a>
-  
-          </div>
-        </div>
-        {{end}}
+<!-- Signup Section -->
+<section id="costumes" class="signup-section">
+  <div class="container">
+    {{range $index, $val := .Site.Taxonomies.tags.costumes}}
+    <div class="row">
+      <div class="col-md-10 col-lg-8 mx-auto text-center">
+        <h2 class="text-white">{{$val.Page.Title}}</h2>
+        <p class="text-white">Founded in the year 1946, Prabhat Costume Designers is a company that, for the first time
+          introduced professional costume designing venture in Karnataka. A pioneer that is synonymous to the word;
+          Costumes is located in KR Road, Basavangudi and VV Puram.</p>
+        <a href="{{$val.Page.Permalink}}">Read more</a>
       </div>
-    </section>
+    </div>
+    {{end}}
+  </div>
+</section>
 {{end}}
