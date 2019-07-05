@@ -1,5 +1,5 @@
 {{partial "head" .}}
-{{ partial "navbar" }}
+{{ partial "navbar" .}}
 {{block "header" .}}
 {{end}}
 {{block "about" .}}
@@ -12,5 +12,5 @@
 {{end}}
 {{block "gallery" .}}
 {{end}}
-{{partial "footer"}}
-{{partial "scripts"}}
+{{partial "footer" .}}
+{{partial "scripts" .}}
