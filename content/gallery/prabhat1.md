@@ -1,8 +1,9 @@
 ---
-title: "Prabhat1"
-image: "/images/port1.jpg"
-date: 2019-06-20T13:11:48+05:30
-categories: ["gallery"]
+image: /images/port1.jpg
+title: Prabhat1
+categories:
+  - gallery1
+date: 2019-06-20T07:41:48.000Z
 draft: false
 ---
 
