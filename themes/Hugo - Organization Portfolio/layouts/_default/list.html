@@ -121,8 +121,8 @@
     <div class="row p-0">
       {{range $index, $val := .Site.Taxonomies.categories.gallery}}
       <div class="col-lg-3 col-md-4 col-4 p-0">
-        <a href="{{.Page.Params.image | absURL}}" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-          <img src="{{.Page.Params.image | absURL}}" class="zoom" alt="{{.Name}}">
+        <a href="{{.Page.Params.image}}" class="fancybox" aria-label="Prabhat Gallery" rel="group">
+          <img src="{{.Page.Params.image}}" class="zoom" alt="{{.Name}}">
         </a>
       </div>
       {{end}}
