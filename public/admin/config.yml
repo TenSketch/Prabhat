@@ -1,9 +1,11 @@
 backend:   
   name: git-gateway   
   branch: master # Branch to update (optional; defaults to master)
+
 publish_mode: editorial_workflow
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
 collections:
   - name: "gallery" # Used in routes, e.g., /admin/collections/gallery
     label: "Gallery" # Used in the UI
@@ -73,7 +75,7 @@ collections:
         widget: "boolean"
         default: false
         required: false
-  - name: "costumes" # Used in routes, e.g., /admin/collections/about
+  - name: "costumes" # Used in routes, e.g., /admin/collections/costumes
     label: "Costumes" # Used in the UI
     folder: "content/costumes" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -113,7 +115,7 @@ collections:
         widget: "boolean"
         default: false
         required: false
-  - name: "repertoire" # Used in routes, e.g., /admin/collections/about
+  - name: "repertoire" # Used in routes, e.g., /admin/collections/repertoire
     label: "Repertoire" # Used in the UI
     folder: "content/repertoire" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection

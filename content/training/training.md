@@ -26,7 +26,7 @@ draft: false
 
 We believe in providing holistic development to the students who come to our institute. At SAMUDYATA, more than 50% of the students learning dance opt for training in vocal music too. Clinical training in Carnatic, Vocal music is provided at the institute.
 
-![](/images/uploads/train24.png)
+![image-SAMUDYATA-Music](/images/uploads/train24.png "SAMUDYATA-Music")
 
 > ~~Register to the institute (Button) - Clicking which, our number and email are displayed.~~
 

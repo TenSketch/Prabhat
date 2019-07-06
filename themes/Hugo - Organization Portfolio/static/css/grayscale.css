@@ -35,6 +35,14 @@ h3{
   height: 400px;
   max-width: 100%;
 }
+/* img[src*="#img-fluid"]{
+  max-width: 100%;
+  height: auto;
+} */
+#single img{
+  max-width: 100%;
+  height: auto;
+}
 blockquote {
   color: rgba(0, 0, 0, 0.808);
   padding-left: 1.5em;
