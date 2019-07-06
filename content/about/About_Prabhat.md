@@ -1,5 +1,5 @@
 ---
-title: About Prabhat1
+title: About Prabhat
 image: /images/Shiva-Nataraj.png
 tags:
   - about
