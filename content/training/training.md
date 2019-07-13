@@ -1,6 +1,6 @@
 ---
 title: Prabhat training
-image: /images/train1.jpg
+image: /images/uploads/9m8a5454-1-.jpg
 tags:
   - training
 description: Prabhat- training.
