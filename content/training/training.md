@@ -38,7 +38,7 @@ Be a part of  dance institute. We conduct regular training sessions in classical
 
 As cultural ambassadors, we also take the responsibility of spreading awareness about health and well-being. And Yoga is the best path for perfect health and well-being. We also offer our students a privilege to get trained in Yoga and Pranayama by professionals to improve their quality of life and also foster their development as artists.
 
-![](/images/uploads/yoga.jpg)
+![](/images/uploads/yoga.jpg#thumbnail)
 
 ### **Indian Contemporary and Kalari Payittu:**
 
