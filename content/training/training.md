@@ -24,19 +24,13 @@ draft: false
 
 ### **Music:**
 
-We believe in providing holistic development to the students who come to our institute. At SAMUDYATA, more than 50% of the students learning dance opt for training in vocal music too. Clinical training in Carnatic, Vocal music is provided at the institute.
-
 ![](/images/uploads/music.jpg#thumbnail)
 
 ### **Dance:**
 
-Be a part of  dance institute. We conduct regular training sessions in classical _Bharatanatyam_ style of dance for people who are passionate about dance. “Class is our second home” is how our students feel after being a part of the training institute, SAMUDYATA.
-
 ![](/images/uploads/train9.jpg#thumbnail)
 
 ### **Yoga:**
-
-As cultural ambassadors, we also take the responsibility of spreading awareness about health and well-being. And Yoga is the best path for perfect health and well-being. We also offer our students a privilege to get trained in Yoga and Pranayama by professionals to improve their quality of life and also foster their development as artists.
 
 ![](/images/uploads/yoga.jpg#thumbnail)
 
