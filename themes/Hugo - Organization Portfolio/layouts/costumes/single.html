@@ -1,0 +1,27 @@
+{{define "costumes"}}
+<!-- Signup Section -->
+<section id="costumes" class="signup-section">
+  <div class="container">
+    {{range $index, $val := .Site.Taxonomies.tags.costumes}}
+    <div class="row">
+      <div class="col-md-10 col-lg-8 mx-auto text-center">
+        <p class="text-white">{{.Content}}</p>
+      </div>
+    </div>
+    {{end}} 
+    <div class="row">
+      {{range $index, $val := .Site.Taxonomies.categories.grid}}
+      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 mb-3">
+          <div class="card img-fluid">
+              <img class="card-img-top" src="{{.Page.Params.image}}" alt="{{.Name}}" style="width:100%">
+              <div class="card-img-overlay">
+                <h4 class="card-title">{{.Page.Title}}</h4>
+              </div>
+            </div>
+         
+        </div>
+        {{end}}     
+  </div>   
+  </div>
+</section>
+{{end}}

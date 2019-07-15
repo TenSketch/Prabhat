@@ -130,6 +130,25 @@
   </div>
 </section>
 {{end}}
+{{define "media"}}
+<section id="gallery" class="py-5 bg-dark">
+  <!-- gallery-new-fancybox-->
+  <div class="container-fluid">
+    <header class="text-center mb-4">
+      <h2 class="text-uppercase mb-5 text-white">Prabhat's media</h2>
+    </header>
+    <div class="row">
+      {{range $index, $val := .Site.Taxonomies.categories.media}}
+      <div class="col-lg-3 col-md-4 col-4">
+        <a href="{{.Page.Params.image}}" class="fancybox" aria-label="Prabhat media" rel="group">
+          <img src="{{.Page.Params.image}}" class="zoom" style="border: 1px solid; margin: .5rem"alt="{{.Name}}">
+        </a>
+      </div>
+      {{end}}
+    </div>
+  </div>
+</section>
+{{end}}
 {{define "costumes"}}
 <!-- Signup Section -->
 <section id="costumes" class="signup-section">
@@ -138,13 +157,12 @@
     <div class="row">
       <div class="col-md-10 col-lg-8 mx-auto text-center">
         <h2 class="text-white">{{$val.Page.Title}}</h2>
-        <p class="text-white">Founded in the year 1946, Prabhat Costume Designers is a company that, for the first time
-          introduced professional costume designing venture in Karnataka. A pioneer that is synonymous to the word;
-          Costumes is located in KR Road, Basavangudi and VV Puram.</p>
+        <p class="text-white">{{.Summary}}</p>
         <a href="{{$val.Page.Permalink}}">Read more</a>
       </div>
     </div>
-    {{end}}
+    {{end}} 
+      
   </div>
 </section>
 {{end}}
