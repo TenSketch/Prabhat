@@ -73,6 +73,11 @@
   </url>
   
   <url>
+    <loc>https://www.prabhatha.com/join-prabhat/register/</loc>
+    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.prabhatha.com/repertoire/our-repertoire/</loc>
     <lastmod>2019-06-27T20:08:11+05:30</lastmod>
   </url>
@@ -382,6 +387,12 @@
   
   <url>
     <loc>https://www.prabhatha.com/harikatha/</loc>
+    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/join-prabhat/</loc>
     <lastmod>2019-06-27T20:08:11+05:30</lastmod>
     <priority>0</priority>
   </url>

@@ -19,10 +19,10 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         <h2 class="text-white mb-4">{{$val.Page.Title}}</h2>
-        <div class="text-white-50">Prabhat, The Temple of Art is an internationally renowned artistic institution from
+        <div class="text-white">Prabhat, The Temple of Art is an internationally renowned artistic institution from
           India. The organization has created stage history with a unique blend of tradition along with sophisticated
           stage techniques of the present technological era.</div>
-        <a href="{{$val.Page.Permalink}}">Read more</a>
+        <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
       </div>
     </div>
     <img src="{{.Page.Params.Image}}" class="img-fluid3" alt="{{.Name}}">
@@ -32,10 +32,10 @@
 {{end}}
 {{define "repertoire"}}
 <!-- repertoire Section -->
-<section id="repertoire" class="projects-section bg-light">
+<section id="repertoire" class="projects-section">
   <div class="container">
     {{range where .Site.Pages "Type" "=" "Repertoire"}}
-    <h1 class="text-center mb-5 text-uppercase">{{.Title}}</h1>
+    
     <div class="row align-items-center no-gutters mb-4 mb-lg-5">
       <div class="col-xl-8 col-lg-7" style="position: relative;">
         <img class="img-fluid mb-3 mb-lg-0" src="{{.Params.Image}}" alt="{{.Name}}">
@@ -46,12 +46,13 @@
       </div>
       <div class="col-xl-4 col-lg-5">
         <div class="featured-text text-center text-lg-left">
-          <div class="text-black-50 mb-0">
+          <div class="text-black mb-0">
+              <h4 class="text-uppercase">{{.Title}}</h4>
             <p>Thematic dance productions.<br>
               Dance Drama / Ballets.<br>
               Classical dance sequences.<br></p>
           </div>
-          <a href="{{.Permalink}}">Read More</a>
+          <a href="{{.Permalink}}"style="text-decoration: underline">Read More</a>
         </div>
       </div>
     </div>
@@ -79,7 +80,7 @@
               </p>
               <hr class="d-none d-lg-block mb-0 ml-0">
               <br>
-              <a href="{{$val.Page.Permalink}}">Read more</a>
+              <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
             </div>
           </div>
         </div>
@@ -102,7 +103,7 @@
                 the like.</p>
               <hr class="d-none d-lg-block mb-0 mr-0">
               <br>
-              <a href="{{$val.Page.Permalink}}">Read more</a>
+              <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
             </div>
           </div>
         </div>
@@ -155,10 +156,10 @@
   <div class="container">
     {{range $index, $val := .Site.Taxonomies.tags.costumes}}
     <div class="row">
-      <div class="col-md-10 col-lg-8 mx-auto text-center">
+      <div class="col-md-10 col-lg-8 mx-auto text-center" style="background:#3c2d2d6b">
         <h2 class="text-white">{{$val.Page.Title}}</h2>
         <p class="text-white">{{.Summary}}</p>
-        <a href="{{$val.Page.Permalink}}">Read more</a>
+        <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
       </div>
     </div>
     {{end}} 
