@@ -5,7 +5,7 @@
     <link>https://www.prabhatha.com/</link>
     <description>Recent content on Prabhat</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Sun, 14 Jul 2019 16:42:23 +0530</lastBuildDate>
     
 	<atom:link href="https://www.prabhatha.com/index.xml" rel="self" type="application/rss+xml" />
@@ -125,6 +125,15 @@
       <pubDate>Sun, 14 Jul 2019 16:42:23 +0530</pubDate>
       
       <guid>https://www.prabhatha.com/costumes/portfolio/world_leaders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comming-soon-Prabhat</title>
+      <link>https://www.prabhatha.com/comming-soon/</link>
+      <pubDate>Thu, 27 Jun 2019 20:08:11 +0530</pubDate>
+      
+      <guid>https://www.prabhatha.com/comming-soon/</guid>
       <description></description>
     </item>
     

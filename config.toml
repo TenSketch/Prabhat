@@ -1,5 +1,5 @@
 baseURL = "https://www.prabhatha.com/"
-languageCode = "en-us"
+languageCode = "en"
 title = "Prabhat"
 theme = "Hugo - Organization Portfolio"
 summaryLength = 30

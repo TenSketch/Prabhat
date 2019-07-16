@@ -1,0 +1,14 @@
+    {{ partial "navbar" .}}
+
+{{block "about" .}}
+    {{end}}
+    {{block "repertoire" .}}
+    {{end}}
+    {{block "training" .}}
+    {{end}}
+    {{block "costumes" .}}
+    {{end}}
+    {{block "gallery" .}}
+    {{end}}
+    {{block "media" .}}
+    {{end}}
