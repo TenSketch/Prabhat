@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Comming-soons on Prabhat</title>
+    <link>https://www.prabhatha.com/comming-soon/</link>
+    <description>Recent content in Comming-soons on Prabhat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Jun 2019 20:08:11 +0530</lastBuildDate>
+    
+	<atom:link href="https://www.prabhatha.com/comming-soon/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comming-soon-Prabhat</title>
+      <link>https://www.prabhatha.com/comming-soon/comming-soon/</link>
+      <pubDate>Thu, 27 Jun 2019 20:08:11 +0530</pubDate>
+      
+      <guid>https://www.prabhatha.com/comming-soon/comming-soon/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

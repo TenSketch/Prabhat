@@ -1,4 +1,4 @@
-    {{ partial "navbar" .}}
+  
 
 {{block "about" .}}
     {{end}}
@@ -11,4 +11,7 @@
     {{block "gallery" .}}
     {{end}}
     {{block "media" .}}
+    {{end}}
+
+    {{block "soon" .}}
     {{end}}
