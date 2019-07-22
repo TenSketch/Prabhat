@@ -15,7 +15,7 @@ draft: false
 * Classical dance sequences.
 
 ---
-### **_Thematic Dance Productions_**
+### **Thematic Dance Productions**
 
 ---
 #### **7 Rays of 7 Hills:**
@@ -74,7 +74,7 @@ A very innovative concept that talks about the greatness of a guru using the tex
 
 **Music:** RoSha (Rohit Bhat and Sharat R Prabhat)
 
-### **_Dance Drama/Ballets_**
+### **Dance Drama/Ballets**
 
 #### **Kathaastra:** 
  ~~4 images~~
@@ -167,7 +167,7 @@ A special dance production for a niche audience who believe in the philosophy of
 
 **Duration:** 60 mins
 
-### **_Classical dance sequences:_**
+### **Classical dance sequences:**
 ---
 The company has a mountainous list of classical compositions that include compositions of Haridasas, Vachana Kartas, Keertanakars like Tygaraja and Dikshitar, Works of contemporary poets and the like.
 
