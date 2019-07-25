@@ -3,31 +3,51 @@
 {{partial "head" .}}
 <body>
     {{partial "singlenav" .}}
-    
+    <div class="micro">
+
+    </div>
+      <ul class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+        </ul>
             
 <!-- Signup Section -->
-<section class="costumes">
-  <div class="container">
-    {{range $index, $val := .Site.Taxonomies.tags.costumes}}
-    <div class="row">
-      <div class="col-md-10 col-lg-8 mx-auto text-center">
-        <p class="text-white">{{.Content}}</p>
-      </div>
-    </div>
-    {{end}} 
-    <div class="row">
-      {{range $index, $val := .Site.Taxonomies.categories.grid}}
-      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 mb-3">
-          <div class="card img-fluid">
-              <img class="card-img-top" src="{{.Page.Params.image}}" alt="{{.Name}}" style="width:100%; height: 250px;">
-              <div class="card-img-overlay">
-                <h4 class="card-title">{{.Page.Title}}</h4>
-              </div>
+<section id="about" class="costumes parallax">
+  <div class="parallax-overlay py-5">
+      <div class="container">
+          {{range $index, $val := .Site.Taxonomies.tags.costumes}}
+          <div class="row">
+            <div class="col-md-10 col-lg-8 mx-auto text-center">
+              <p class="text-white">{{.Content}}</p>
             </div>
-         
+          </div>
+          {{end}}   
         </div>
-        {{end}}     
-  </div>   
+  </div>
+</section>
+<section id="portfolio" class="py-5">
+  <div class="container">
+      <h1 class="text-center text-uppercase pt-5 my-5">Portfolio</h1>
+      <div class="row">
+          {{range $index, $val := .Site.Taxonomies.categories.grid}}
+          
+          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 mb-3">
+              
+              <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">{{.Page.Title}}</h4>
+                    <p class="card-text">{{.Content}}</p>
+                    <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+                  </div>
+                  <img class="card-img-bottom" src="{{.Page.Params.image}}" alt="{{.Name}}" style="width:100%; height: 240px;">
+                </div>
+            </div>
+            {{end}}     
+      </div>
   </div>
 </section>
 

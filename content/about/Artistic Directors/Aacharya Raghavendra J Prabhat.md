@@ -2,6 +2,7 @@
 title: Aacharya Raghavendra J Prabhat
 image: /images/Shiva-Nataraj.png
 type: Aacharya
+tags: ["about1"]
 description: >-
   Prabhat, The Temple of Art is an internationally renowned artistic institution
   from India.

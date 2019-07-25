@@ -2,6 +2,7 @@
 title: Bharat R Prabhath
 image: /images/Shiva-Nataraj.png
 type: Bharat
+tags: ["about1"]
 description: >-
   Prabhat, The Temple of Art is an internationally renowned artistic institution
   from India.

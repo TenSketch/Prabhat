@@ -34,11 +34,11 @@
 <!-- repertoire Section -->
 <section id="repertoire" class="projects-section">
   <div class="container">
-    {{range where .Site.Pages "Type" "=" "Repertoire"}}
+    {{range $index, $val := .Site.Taxonomies.tags.repertoire}}
     
     <div class="row align-items-center no-gutters mb-4 mb-lg-5">
       <div class="col-xl-8 col-lg-7" style="position: relative;">
-        <img class="img-fluid mb-3 mb-lg-0" src="{{.Params.Image}}" alt="{{.Name}}">
+        <img class="img-fluid mb-3 mb-lg-0" src="{{.Page.Params.Image}}" alt="{{.Name}}">
         <div class="bottom-right">
           <a href="{{.Permalink}}" class="btn btn-know js-scroll-trigger">Know More</a>
           <!-- <a href="{{.Permalink}}" class="pic-rm">Read More</a> -->
@@ -48,9 +48,7 @@
         <div class="featured-text text-center text-lg-left">
           <div class="text-black mb-0">
               <h4 class="text-uppercase">{{.Title}}</h4>
-            <p>Thematic dance productions.<br>
-              Dance Drama / Ballets.<br>
-              Classical dance sequences.<br></p>
+           {{.Content}}
           </div>
           <a href="{{.Permalink}}"style="text-decoration: underline">Read More</a>
         </div>

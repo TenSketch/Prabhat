@@ -1,75 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 {{partial "head" .}}
-<body>
+
+<body style="background: #000">
     {{partial "singlenav" .}}
-    <section class="py-5 my-5">
-        {{range $index, $val := .Site.Taxonomies.tags.about}}
-        <div class="container mt-5 py-3">
-            <h2 class="text-center text-uppercase my-5">{{.Title}}</h2>
-            <hr>
-            <p class="text-white">{{.Content}} </p>
-        </div>
-        <div class="youtube-player mt-2" data-id="{{.Page.Params.Youtube}}"></div>
-        {{end}}
-        <div class="container-fluid">
-            <h2 class="text-center text-uppercase my-5 pt-3">Artistic Directors</h2>
-            {{range where .Site.Pages "Type" "=" "Aacharya"}}
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5 bg-black text-white">
-                    {{.Content}}
-                </div>
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5">
-                    <img class="img-fluid p-3" src="{{.Params.Image}}" alt="{{.Name}}">
-                </div>
-            </div>
-            {{end}}
-            {{range where .Site.Pages "Type" "=" "Shakuntala"}}
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5">
-                    <img class="img-fluid p-3" src="{{.Params.Image}}" alt="{{.Name}}">
-                </div>
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5 bg-prabhat">
-                    {{.Content}}
-                </div>
-            </div>
-            {{end}}
-            {{range where .Site.Pages "Type" "=" "Bharat"}}
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5 bg-black text-white">
-                    {{.Content}}
-                </div>
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5">
-                    <img class="img-fluid p-3" src="{{.Params.Image}}" alt="{{.Name}}">
+    <div class="micro">
+    </div>
+    <hr style="margin-top: 4rem" >
+    <h2 class="text-center text-white py-4">Prabhat's Repertoire</h2>    
+<div class="sidebar">
+  <a href="#tdp">Thematic Dance Productions</a>
+  <a href="#ddb">Dance Drama and Ballets</a>
+  <a href="#cds">Classical dance sequences</a>
+</div>
+
+<div class="content">   
+    <section id="tdp" class="reper parallax">
+            <div class="parallax-overlay" style="padding: 6rem 0rem;">
+                <div class="container-fluid">
+                        <h3 class="text-center font-weight-bold my-5 pt-3">Thematic Dance Productions</h3>
+                        {{range $index, $val := .Site.Taxonomies.tags.tdp}}
+                    
+                    
+                    <div class="row">
+                        <div class="col-md-8 col-lg-8 mx-auto">
+                            <p class="text-white">{{.Content}}</p>
+                        </div>
+                        <div class="col-md-4 col-lg-4 mx-auto">
+                            <img src="{{.Page.Params.Image}}" class="img-thumbnail" alt="{{.Name}}">
+                        </div>
+                    </div>
+                    {{end}}
                 </div>
             </div>
-            {{end}}
-            {{range where .Site.Pages "Type" "=" "Sharat"}}
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5">
-                    <img class="img-fluid p-3" src="{{.Params.Image}}" alt="{{.Name}}">
+        </section>
+    <section id="ddb" class="parallax" style="background: #7a7a7a85;padding: 6rem 0rem">
+            
+                <div class="container-fluid">
+                        <h3 class="text-center font-weight-bold my-5 pt-3">Dance Drama and Ballets</h3>
+                        {{range $index, $val := .Site.Taxonomies.tags.ddb}}
+                    
+                    
+                    <div class="row">
+                            <div class="col-md-4 col-lg-4 mx-auto">
+                                    <img src="{{.Page.Params.Image}}" class="img-thumbnail" alt="{{.Name}}">
+                                </div>
+                        <div class="col-md-8 col-lg-8 mx-auto">
+                            <p class="text-white">{{.Content}}</p>
+                        </div>
+                        
+                    </div>
+                    {{end}}
                 </div>
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5 bg-prabhat">
-                    {{.Content}}
+            
+        </section>
+    <section id="cds" class="cds parallax">
+        <div class="parallax-overlay" style="padding: 6rem 0rem;">
+            <div class="container-fluid">
+                    <h3 class="text-center font-weight-bold my-5 pt-3">Classical dance sequences</h3>
+                    {{range $index, $val := .Site.Taxonomies.tags.cds}}
+                
+                
+                <div class="row">
+                    <div class="col-md-8 col-lg-8 mx-auto">
+                        <p class="text-white">{{.Content}}</p>
+                    </div>
+                    <div class="col-md-4 col-lg-4 mx-auto">
+                        <img src="{{.Page.Params.Image}}" class="img-thumbnail" alt="{{.Name}}">
+                    </div>
                 </div>
+                {{end}}
             </div>
-            {{end}}
-        </div>
-    </section>
-    <section class="overview">
-        <div class="parallax-overlay py-5">
-            {{range where .Site.Pages "Type" "=" "Overview"}}
-            <div class="row px-5 mx-5">
-                <div class="col-lg-12 col-md-12 px-5 mx-5">
-                    <h2 class="text-center text-uppercase my-5 pt-3">{{.Title}}</h2>
-                    {{.Content}}
-                </div>
-            </div>
-            {{end}}
         </div>
     </section>
     {{partial "footer" .}}
+</div>
+    
     {{partial "scripts" .}}
     {{partial "youtube" .}}
 </body>
+
 </html>

@@ -2,6 +2,7 @@
 title: Guru Shakuntala R Prabhath
 image: /images/Shiva-Nataraj.png
 type: Shakuntala
+tags: ["about1"]
 description: >-
   Prabhat, The Temple of Art is an internationally renowned artistic institution
   from India.
