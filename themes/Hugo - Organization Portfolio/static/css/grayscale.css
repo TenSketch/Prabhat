@@ -742,6 +742,17 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     padding-top: 4rem;
     
       }
+      .px-5{
+        padding-left: 1rem!important;
+        padding-right: 1rem!important
+      }
+      .mx-5{
+        margin-left: 1rem!important;
+        margin-right: 1rem!important
+      }
+      .contact-section .card1 {
+        border-bottom: none!important
+      }
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -750,6 +761,15 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     padding-top: 4rem;
     
       }
+      .px-5{
+        padding-left: 1.5rem!important;
+        padding-right: 1.5rem!important
+      }
+      .mx-5{
+        margin-left: 1.5rem!important;
+        margin-right: 1.5rem!important
+      }
+      
 }
 
 /* Large devices (desktops, 992px and up) */

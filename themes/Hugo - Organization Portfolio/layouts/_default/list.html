@@ -35,13 +35,11 @@
 <section id="repertoire" class="projects-section">
   <div class="container">
     {{range $index, $val := .Site.Taxonomies.tags.repertoire}}
-    
     <div class="row align-items-center no-gutters mb-4 mb-lg-5">
       <div class="col-xl-8 col-lg-7" style="position: relative;">
         <img class="img-fluid mb-3 mb-lg-0" src="{{.Page.Params.Image}}" alt="{{.Name}}">
         <div class="bottom-right">
           <a href="{{.Permalink}}" class="btn btn-know js-scroll-trigger">Know More</a>
-          <!-- <a href="{{.Permalink}}" class="pic-rm">Read More</a> -->
         </div>
       </div>
       <div class="col-xl-4 col-lg-5">
