@@ -6,22 +6,38 @@
     {{partial "singlenav" .}}
     <div class="micro">
     </div>
-    <hr style="margin-top: 4rem" >
-    <h2 class="text-center text-white py-4">Prabhat's Repertoire</h2>    
-<div class="sidebar">
-  <a href="#tdp">Thematic Dance Productions</a>
-  <a href="#ddb">Dance Drama and Ballets</a>
-  <a href="#cds">Classical dance sequences</a>
-</div>
-
-<div class="content">   
-    <section id="tdp" class="reper parallax">
-            <div class="parallax-overlay" style="padding: 6rem 0rem;">
+    <h2 class="text-center text-white py-4">Prabhat's Repertoire</h2>
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark fixed-bottom d-md-none">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+            style="color: #000">
+            Repertoire-Menu&nbsp;<i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav" style="color: #000">
+                <li class="nav-item">
+                    <a class="nav-link" href="#tdp">Thematic Dance Productions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ddb">Dance Drama and Ballets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cds">Classical dance sequences</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="sidebar">
+        <a href="#tdp">Thematic Dance Productions</a>
+        <a href="#ddb">Dance Drama and Ballets</a>
+        <a href="#cds">Classical dance sequences</a>
+    </div>
+    <div class="content">
+        <section id="tdp" class="reper parallax">
+            <div class="parallax-overlay">
                 <div class="container-fluid">
-                        <h3 class="text-center font-weight-bold my-5 pt-3">Thematic Dance Productions</h3>
-                        {{range $index, $val := .Site.Taxonomies.tags.tdp}}
-                    
-                    
+                    <h3 class="text-center font-weight-bold my-5 pt-3">Thematic Dance Productions</h3>
+                    {{range $index, $val := .Site.Taxonomies.tags.tdp}}
                     <div class="row">
                         <div class="col-md-8 col-lg-8 mx-auto">
                             <p class="text-white">{{.Content}}</p>
@@ -34,48 +50,45 @@
                 </div>
             </div>
         </section>
-    <section id="ddb" class="parallax" style="background: #7a7a7a85;padding: 6rem 0rem">
-            
+        <section id="ddb" class="dance parallax">
+            <div class="parallax-overlay">
                 <div class="container-fluid">
-                        <h3 class="text-center font-weight-bold my-5 pt-3">Dance Drama and Ballets</h3>
-                        {{range $index, $val := .Site.Taxonomies.tags.ddb}}
-                    
-                    
+                    <h3 class="text-center font-weight-bold my-5 pt-3">Dance Drama and Ballets</h3>
+                    {{range $index, $val := .Site.Taxonomies.tags.ddb}}
                     <div class="row">
-                            <div class="col-md-4 col-lg-4 mx-auto">
-                                    <img src="{{.Page.Params.Image}}" class="img-thumbnail" alt="{{.Name}}">
-                                </div>
+                        <div class="col-md-4 col-lg-4 mx-auto">
+                            <img src="{{.Page.Params.Image}}" class="img-thumbnail" alt="{{.Name}}">
+                        </div>
                         <div class="col-md-8 col-lg-8 mx-auto">
                             <p class="text-white">{{.Content}}</p>
                         </div>
-                        
                     </div>
                     {{end}}
                 </div>
-            
+            </div>
         </section>
-    <section id="cds" class="cds parallax">
-        <div class="parallax-overlay" style="padding: 6rem 0rem;">
-            <div class="container-fluid">
+        <section id="cds" class="cds parallax">
+            <div class="parallax-overlay">
+                <div class="container-fluid">
                     <h3 class="text-center font-weight-bold my-5 pt-3">Classical dance sequences</h3>
                     {{range $index, $val := .Site.Taxonomies.tags.cds}}
-                
-                
-                <div class="row">
-                    <div class="col-md-8 col-lg-8 mx-auto">
-                        <p class="text-white">{{.Content}}</p>
+                    <div class="row">
+                        <div class="col-md-8 col-lg-8 mx-auto">
+                            <p class="text-white">{{.Content}}</p>
+                        </div>
+                        <div class="col-md-4 col-lg-4 mx-auto">
+                            <img src="{{.Page.Params.Image}}" class="img-thumbnail" alt="{{.Name}}">
+                        </div>
                     </div>
-                    <div class="col-md-4 col-lg-4 mx-auto">
-                        <img src="{{.Page.Params.Image}}" class="img-thumbnail" alt="{{.Name}}">
-                    </div>
+                    {{end}}
                 </div>
-                {{end}}
             </div>
-        </div>
-    </section>
-    {{partial "footer" .}}
-</div>
-    
+        </section>
+        {{partial "footer" .}}
+    </div>
+    <a id="back-to-top" href="#" class="btn btn-primary btn-top     back-to-top" role="button"
+        title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><i
+            class="fas fa-chevron-up fa-3x"></i></a>
     {{partial "scripts" .}}
     {{partial "youtube" .}}
 </body>

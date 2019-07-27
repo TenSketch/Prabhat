@@ -3,13 +3,11 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
-
  body {
   width: 100%;
   height: 100%;
   -webkit-font-smoothing: antialiased;
   position: relative; 
-  
 }
 html, body{
     -webkit-overflow-scrolling: touch;
@@ -48,7 +46,6 @@ h3{
 .card-title{
   text-align: center;
   color: #fff
-
 }
 #single img{
   max-width: 100%;
@@ -75,51 +72,42 @@ blockquote {
   background-color: #bca2279c;
   border-color: #1a15009c;
   padding: .5rem 1rem!important;
-
 }
 .btn-know:hover {
   color: #fff;
   background-color: #bca227;
   border-color: #bca227;
 }
-
 .btn-know:focus, .btn-know.focus {
   box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
 }
-
 #mainNav {
   min-height: 56px;
   background-color: #fff;
 }
-
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
   color: #bca227;
   border: 1px solid #bca227;
 }
-
 #mainNav .navbar-toggler:focus {
   outline: none;
 }
-
 #mainNav .navbar-brand {
   color: #161616;
   font-weight: 700;
   padding: .9rem 0;
 }
-
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(white, 80%);
   outline: none;
   background-color: transparent;
 }
-
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
 }
-
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 0;
@@ -170,41 +158,33 @@ blockquote {
     border-bottom: 0.25rem solid #bca227;
   }
 }
-
 /* singlenav */
 #singlenav {
   min-height: 56px;
-  
 }
-
 #singlenav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
   color: #bca227;
   border: 1px solid #bca227;
 }
-
 #singlenav .navbar-toggler:focus {
   outline: none;
 }
-
 #singlenav .navbar-brand {
   color: #161616;
   font-weight: 700;
   padding: .9rem 0;
 }
-
 #singlenav .navbar-nav .nav-item:hover {
   color: fade(white, 80%);
   outline: none;
   background-color: transparent;
 }
-
 #singlenav .navbar-nav .nav-item:active, #singlenav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
 }
-
 @media (min-width: 992px) {
   #singlenav {
     padding-top: 0;
@@ -255,7 +235,6 @@ blockquote {
 .navbar-light .navbar-nav .nav-link{
   color: #fff
 }
-
 .overview blockquote,.cds blockquote{
   color: #fff;
   border-left: 5px solid rgba(255, 255, 255, 0.5);
@@ -285,7 +264,6 @@ blockquote {
   background-attachment: fixed;
   background-size: cover;
 }
-
 .masthead h1 {
   font-family: 'Varela Round';
   font-size: 2.5rem;
@@ -296,19 +274,16 @@ blockquote {
   -webkit-background-clip: text;
   background-clip: text
 }
-
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
 }
-
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
     line-height: 4rem;
   }
 }
-
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
@@ -324,7 +299,6 @@ blockquote {
     font-size: 1.25rem;
   }
 }
-
 /* soon */
 .soon {
   position: relative;
@@ -339,7 +313,6 @@ blockquote {
   background-attachment: fixed;
   background-size: cover;
 }
-
 .soon h1 {
   font-family: 'Varela Round';
   font-size: 2.5rem;
@@ -350,19 +323,16 @@ blockquote {
   -webkit-background-clip: text;
   background-clip: text
 }
-
 .soon h2 {
   max-width: 20rem;
   font-size: 1rem;
 }
-
 @media (min-width: 768px) {
   .soon h1 {
     font-size: 4rem;
     line-height: 4rem;
   }
 }
-
 @media (min-width: 992px) {
   .soon {
     height: 100vh;
@@ -391,7 +361,6 @@ blockquote {
   width: 100%;
   height: 100%;
 }
-
 /* youtube-15kb */
 .youtube-player {
   position: relative;
@@ -402,7 +371,6 @@ blockquote {
   max-width: 100%;
   background: #000;
 }
-
 .youtube-player iframe {
   position: absolute;
   top: 0;
@@ -412,7 +380,6 @@ blockquote {
   z-index: 100;
   background: transparent;
 }
-
 .youtube-player img {
   bottom: 0;
   display: block;
@@ -430,12 +397,10 @@ blockquote {
   -moz-transition: .4s all;
   transition: .4s all;
 }
-
 .youtube-player img:hover {
   filter: brightness(75%);
   -webkit-filter: brightness(75%)
 }
-
 .youtube-player .play {
   height: 72px;
   width: 72px;
@@ -447,7 +412,6 @@ blockquote {
   background: url("//i.imgur.com/TxzC70f.png") no-repeat;
   cursor: pointer;
 }
-
 .btn {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -458,55 +422,43 @@ blockquote {
   letter-spacing: .15rem;
   border: 0;
 }
-
 .btn-primary {
   background-color: #bca227;
 }
-
 .btn-primary:hover {
   background-color: #4f837f;
 }
-
 .btn-primary:focus {
   background-color: #4f837f;
   color: white;
 }
-
 .btn-primary:active {
   background-color: #467370 !important;
 }
-
 .about-section {
   padding: 5rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(199, 84, 40, 0.9) 75%, rgba(216, 137, 20, 0.37) 100%);
 };
-
-
 .about-section p {
   margin-bottom: 5rem;
 }
-
 .projects-section {
   padding: 5rem 0;
 }
-
 .projects-section .featured-text {
   padding: 2rem;
 }
-
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #bca227;
   }
 }
-
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
 }
-
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
@@ -517,7 +469,6 @@ blockquote {
     width: 30%;
   }
 }
-
 .signup-section {
   padding: 10rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../images/costumes.jpg");
@@ -527,7 +478,6 @@ blockquote {
   background-attachment: scroll;
   background-size: cover;
 }
-
 .signup-section .form-inline input {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -539,36 +489,30 @@ blockquote {
   letter-spacing: 0.15rem;
   border: 0;
 }
-
 .contact-section {
   padding: 5rem 0 0;
 }
-
 .contact-section .card {
   border: 0;
   border-bottom: 0.25rem solid #bca227;
 }
-
 .contact-section .card h4 {
   font-size: 0.8rem;
   font-family: 'Varela Round';
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
-
 .contact-section .card hr {
   border-color: #bca227;
   border-width: 0.25rem;
   width: 3rem;
 }
-
 /* card1-contact form */
 .contact-section .card1 {
   border-top: 0.25rem solid #bca227;
   border-bottom: 0.25rem solid #bca227;
   color: #fff
 }
-
 .contact-section .card1 h4 {
   font-size: 0.8rem;
   font-family: 'Varela Round';
@@ -576,7 +520,6 @@ blockquote {
   letter-spacing: 0.15rem;
   color: #fff
 }
-
 .contact-section .card1 hr {
   border-color: #bca227;
   border-width: 0.25rem;
@@ -587,21 +530,17 @@ blockquote {
   background-color: #bca227;
   border-color: #bca227;
 }
-
 .btn-info1:hover {
   color: #fff;
   background-color: #bca32775;
   border-color: #bca32775;
 }
-
 .btn-info1:focus, .btn-info1.focus {
   box-shadow: 0 0 0 0.2rem #bca32775;
 }
-
 .contact-section .social {
   margin-top: 5rem;
 }
-
 .contact-section .social a {
   text-align: center;
   height: 3rem;
@@ -611,31 +550,25 @@ blockquote {
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
 }
-
 .contact-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
-
 .contact-section .social a:active {
   color: #fff;
 }
 .h2b{
   border: 0.1rem solid #bca227;
   border-radius: 3px
-
 }
 body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
 }
-
 a {
   color: #635618;
   font-weight: 600;
   /* font-size: 1.2rem; */
-  
 }
-
 a:focus, a:hover {
   text-decoration: none;
   color: #bca227;
@@ -644,28 +577,22 @@ a:focus, a:hover {
   color: rgb(255, 208, 147);
   font-size: 1.2rem;
   text-decoration: none
-  
-  
 }
 .bg-black {
   background-color: #000 !important;
 }
-
 .bg-primary {
   background-color: #bca227 !important;
 }
-
 .text-primary {
   color: #bca227 !important;
 }
-
 footer {
   padding: 5rem 0;
 }
 .p-single{
   padding: 5rem 0rem
 }
-
 .join{
   position: relative;
   width: 100%;
@@ -679,10 +606,8 @@ footer {
   background-attachment: fixed;
   background-size: cover;
 }
-
 .costumes{
   background-image: url(/images/join.jpg);
-            
   }
   .costumes blockquote{
     color: #fff;
@@ -703,12 +628,10 @@ margin: 3rem 0rem 3rem 0rem
     background-color: #b29407;
     color: #fff
   }
-
   .container .dropdown .dropdown-menu a:hover
   {
     color: #fff;
     background-color: #b29407;
-    
   }
   .dropdown-menu{
     border-radius: .25rem;
@@ -718,29 +641,23 @@ margin: 3rem 0rem 3rem 0rem
 M E D I A  Q U E R I E S
 ####################################################
 */
-
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 Bootstrap 4 breakpoints
 */
-
 /* 
 Extra small devices (portrait phones, less than 576px) 
 No media query since this is the default in Bootstrap because it is "mobile first"
 */
-
-
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
   .micro{
     padding-top: 4rem;
-    
       }
 }
 @media (max-width: 576px) {  
   .micro{
     padding-top: 4rem;
-    
       }
       .px-5{
         padding-left: 1rem!important;
@@ -754,12 +671,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         border-bottom: none!important
       }
 }
-
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
   .micro{
     padding-top: 4rem;
-    
       }
       .px-5{
         padding-left: 1.5rem!important;
@@ -771,41 +686,36 @@ No media query since this is the default in Bootstrap because it is "mobile firs
       }
       
 }
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
   .micro{
     padding-top: 2.5rem;
-    
       }
 }
-
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-    
 }
-
-
-
 /*
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 Custom media queries
 */
-
 /* Set width to make card deck cards 100% width */
 @media (max-width: 950px) { 
-
+  .btn-top{
+    padding: 1rem
+  }
 }
-
 .dropdown:hover>.dropdown-menu {
   display: block;
-  
 }
 .overview{
   background-image: url(../images/reper9.jpg);
 }
 .reper{
   background-image: url(../images/reper.jpg);
+}
+.dance{
+  background-image: url(../images/ddb.jpg);
 }
 .cds{
   background-image: url(../images/cds.jpg);
@@ -820,19 +730,22 @@ Custom media queries
 }
 .parallax-overlay{
   position: relative;
-    background: #0a0a0ab8;
-    width: 100%;
+  background: #0a0a0ab8;
+  width: 100%;
+  padding: 6rem 0rem;
 }
-
+.navbar-dark .navbar-nav .nav-link{
+  color: #000
+}
   /* sidebar responsive and affix */
-  .sidebar {
-    margin: 0;
+.sidebar {
+    margin: 1px;
     padding: 0;
     width: 200px;
     position: fixed;
     height: 100%;
     overflow: auto;
-  
+    border-right: 1px solid
   }
   
   .sidebar a {
@@ -842,38 +755,36 @@ Custom media queries
     text-decoration: none;
     border-bottom: 1px solid  
   }
-   
-  
   .sidebar a:hover:not(.active) {
     background-color: #b29407;
     color: #fff
   }
-  
   div.content {
     margin-left: 200px;
-    /* padding: 1px 16px; */
+    padding: 1px 16px;
   }
-  
-  @media screen and (max-width: 700px) {
-    .sidebar {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .sidebar a {float: left;}
+  @media (max-width: 767px) {
+    .sidebar {display: none}
     div.content {margin-left: 0;}
+    .back-to-top {
+      bottom: 60px!important
+    }
+    .btn-top{
+      padding: 0.5rem
+    }
   }
   
-  @media screen and (max-width: 400px) {
-    .sidebar a {
-      text-align: center;
-      float: none;
-      color: #bca227;
-      
-  }
-  }
 hr{
-  height:3px; 
-  border-top: 2px solid rgb(175, 145, 6);
-
+  height:1px; 
+  border-top: 1px solid rgb(175, 145, 6);
+}
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display:none;
+}
+label{
+  color: #fff
 }

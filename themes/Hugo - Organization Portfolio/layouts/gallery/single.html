@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+{{partial "head" .}}
+<body>
+    {{partial "singlenav" .}}
+    <section class="py-5 my-5">
+            <section id="gallery" class="py-5 bg-dark">
+                    <!-- gallery-new-fancybox-->
+                    <div class="container-fluid">
+                      <header class="text-center mb-4">
+                        <h2 class="text-uppercase mb-5 text-white">Prabhat's media</h2>
+                      </header>
+                      <div class="row">
+                        {{range $index, $val := .Site.Taxonomies.categories.media}}
+                        <div class="col-lg-3 col-md-4 col-4">
+                          <a href="{{.Page.Params.image}}" class="fancybox" aria-label="Prabhat media" rel="group">
+                            <img src="{{.Page.Params.image}}" class="zoom" style="border: 1px solid; margin: .5rem"alt="{{.Name}}">
+                          </a>
+                        </div>
+                        {{end}}
+                      </div>
+                    </div>
+                  </section>
+    </section>
+   
+    
+
+    {{partial "footer" .}}
+    {{partial "scripts" .}}
+    {{partial "youtube" .}}
+</body>
+</html>
