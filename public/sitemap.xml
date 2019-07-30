@@ -328,11 +328,6 @@
   </url>
   
   <url>
-    <loc>https://www.prabhatha.com/home/homepage/</loc>
-    <lastmod>2019-06-21T09:28:21+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.prabhatha.com/costumes/home/</loc>
     <lastmod>2019-06-21T14:58:21+05:30</lastmod>
   </url>
@@ -662,12 +657,6 @@
   <url>
     <loc>https://www.prabhatha.com/tags/harikatha/</loc>
     <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/home/</loc>
-    <lastmod>2019-06-21T09:28:21+00:00</lastmod>
     <priority>0</priority>
   </url>
   
