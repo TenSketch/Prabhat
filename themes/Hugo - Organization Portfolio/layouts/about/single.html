@@ -10,47 +10,18 @@
             <hr>
             <p class="text-white">{{.Content}} </p>
         </div>
-        <div class="youtube-player mt-2" data-id="{{.Page.Params.Youtube}}"></div>
+        <!-- <div class="youtube-player mt-2" data-id="{{.Page.Params.Youtube}}"></div> -->
         {{end}}
         <div class="container-fluid">
             <h2 class="text-center text-uppercase my-5 pt-3">Artistic Directors</h2>
-            {{range where .Site.Pages "Type" "=" "Aacharya"}}
+            {{range $index, $val := .Site.Taxonomies.tags.about1}}
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5 bg-black text-white">
+                <div class="col-lg-6 col-md-6 col-xs-12 p-5 bg-primary text-white">
                     {{.Content}}
                 </div>
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5">
-                    <img class="img-fluid p-3" src="{{.Params.Image}}" alt="{{.Name}}">
-                </div>
-            </div>
-            {{end}}
-            {{range where .Site.Pages "Type" "=" "Shakuntala"}}
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5">
-                    <img class="img-fluid p-3" src="{{.Params.Image}}" alt="{{.Name}}">
-                </div>
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5 bg-prabhat">
-                    {{.Content}}
-                </div>
-            </div>
-            {{end}}
-            {{range where .Site.Pages "Type" "=" "Bharat"}}
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5 bg-black text-white">
-                    {{.Content}}
-                </div>
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5">
-                    <img class="img-fluid p-3" src="{{.Params.Image}}" alt="{{.Name}}">
-                </div>
-            </div>
-            {{end}}
-            {{range where .Site.Pages "Type" "=" "Sharat"}}
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5">
-                    <img class="img-fluid p-3" src="{{.Params.Image}}" alt="{{.Name}}">
-                </div>
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5 bg-prabhat">
-                    {{.Content}}
+                <div class="col-lg-6 col-md-6 col-xs-12 p-0 bg-black">
+                    <img class="img-fluid" src="{{.Params.Image}}" alt="{{.Name}}">
+                    
                 </div>
             </div>
             {{end}}

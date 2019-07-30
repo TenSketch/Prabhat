@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sidet on Prabhat</title>
+    <link>https://www.prabhatha.com/tags/sidet/</link>
+    <description>Recent content in Sidet on Prabhat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Jul 2019 08:39:57 +0530</lastBuildDate>
+    
+	<atom:link href="https://www.prabhatha.com/tags/sidet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SAMUDYATA</title>
+      <link>https://www.prabhatha.com/sidebar/training/samudyata/</link>
+      <pubDate>Mon, 29 Jul 2019 08:39:57 +0530</pubDate>
+      
+      <guid>https://www.prabhatha.com/sidebar/training/samudyata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dance Faculty</title>
+      <link>https://www.prabhatha.com/sidebar/training/dance-faculty/</link>
+      <pubDate>Mon, 29 Jul 2019 08:37:57 +0530</pubDate>
+      
+      <guid>https://www.prabhatha.com/sidebar/training/dance-faculty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music Faculty</title>
+      <link>https://www.prabhatha.com/sidebar/training/music-faculty/</link>
+      <pubDate>Mon, 29 Jul 2019 08:36:57 +0530</pubDate>
+      
+      <guid>https://www.prabhatha.com/sidebar/training/music-faculty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prabhat Kala Tapovana</title>
+      <link>https://www.prabhatha.com/sidebar/training/prabhat-kala-tapovana/</link>
+      <pubDate>Mon, 29 Jul 2019 08:35:57 +0530</pubDate>
+      
+      <guid>https://www.prabhatha.com/sidebar/training/prabhat-kala-tapovana/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

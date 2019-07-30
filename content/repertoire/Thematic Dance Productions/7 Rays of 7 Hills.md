@@ -1,7 +1,7 @@
 ---
 title: "7 Rays of 7 Hills"
 date: 2019-06-27T20:08:11+05:30
-image: "/images/reper8.jpg"
+image: "/images/reper9.jpg"
 tags: ["PrabhatRepertoire","tdp"]
 description: "Prabhat- Repertoire."
 keywords: "Thematic dance productions, Dance Drama / Ballets, Classical dance sequences."

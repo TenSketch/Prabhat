@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sidebar on Prabhat</title>
+    <link>https://www.prabhatha.com/tags/sidebar/</link>
+    <description>Recent content in Sidebar on Prabhat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Jul 2019 08:41:57 +0530</lastBuildDate>
+    
+	<atom:link href="https://www.prabhatha.com/tags/sidebar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>about</title>
+      <link>https://www.prabhatha.com/sidebar/costumes/about/</link>
+      <pubDate>Mon, 29 Jul 2019 08:41:57 +0530</pubDate>
+      
+      <guid>https://www.prabhatha.com/sidebar/costumes/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>portfolio</title>
+      <link>https://www.prabhatha.com/sidebar/costumes/portfolio/</link>
+      <pubDate>Mon, 29 Jul 2019 08:40:17 +0530</pubDate>
+      
+      <guid>https://www.prabhatha.com/sidebar/costumes/portfolio/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

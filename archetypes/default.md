@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 image: "/images/logo.png"
 date: {{ .Date }}
-categories: ["grid"]
+tags: ["grid"]
 draft: false
 ---
 

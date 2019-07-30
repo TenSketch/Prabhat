@@ -1,6 +1,6 @@
 ---
 title: Sharat R Prabhath
-image: /images/Shiva-Nataraj.png
+image: /images/Sharath.jpg
 type: Sharat
 tags: ["about1"]
 description: >-

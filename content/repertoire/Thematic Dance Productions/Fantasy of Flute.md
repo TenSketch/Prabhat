@@ -1,7 +1,7 @@
 ---
 title: "Fantasy of Flute"
 date: 2019-06-27T20:08:11+05:30
-image: "/images/reper8.jpg"
+image: "/images/reper2.jpg"
 tags: ["PrabhatRepertoire","tdp"]
 description: "Prabhat- Repertoire."
 keywords: "Thematic dance productions, Dance Drama / Ballets, Classical dance sequences."

@@ -2,36 +2,36 @@
 <html lang="en">
 {{partial "head" .}}
 
-<body style="background: #000">
+<body class="bg-black">
     {{partial "singlenav" .}}
     <div class="micro">
     </div>
-    <h2 class="text-center text-white py-4">Prabhat's Repertoire</h2>
-    <nav class="navbar navbar-expand-md bg-primary navbar-dark fixed-bottom d-md-none">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
-            style="color: #000">
-            Repertoire-Menu&nbsp;<i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav" style="color: #000">
-                <li class="nav-item">
-                    <a class="nav-link" href="#tdp">Thematic Dance Productions</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#ddb">Dance Drama and Ballets</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#cds">Classical dance sequences</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="sidebar">
-        <a href="#tdp">Thematic Dance Productions</a>
-        <a href="#ddb">Dance Drama and Ballets</a>
-        <a href="#cds">Classical dance sequences</a>
+    <div class="container">
+        <h2 class="text-center text-white py-4">Prabhat's Repertoire</h2>
     </div>
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark fixed-bottom d-md-none">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+                style="color: #000">
+                Repertoire-Menu&nbsp;<i class="fas fa-bars"></i>
+            </button>
+            {{range $index, $val := .Site.Taxonomies.tags.side}}
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav" style="color: #000">
+                    <li class="nav-item">
+                        <a class="nav-link text-right" href="#{{.Description}}">{{.Page.Title}}</a>
+                    </li>
+                </ul>
+            </div>
+            {{end}}
+        </nav>
+    
+      
+        <div class="sidebar">
+                {{range $index, $val := .Site.Taxonomies.tags.side}}
+            <a href="#{{.Description}}">{{.Title}}</a>
+            {{end}}
+        </div>
     <div class="content">
         <section id="tdp" class="reper parallax">
             <div class="parallax-overlay">

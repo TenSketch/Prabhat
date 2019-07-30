@@ -33,19 +33,20 @@
 {{define "about"}}
 <!-- About Section -->
 <section id="about" class="about-section text-center">
-  <div class="container">
-    {{range $index, $val := .Site.Taxonomies.tags.about}}
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <h2 class="text-white mb-4">{{$val.Page.Title}}</h2>
-        <div class="text-white">Prabhat, The Temple of Art is an internationally renowned artistic institution from
-          India. The organization has created stage history with a unique blend of tradition along with sophisticated
-          stage techniques of the present technological era.</div>
-        <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
-      </div>
-    </div>
-    <img src="{{.Page.Params.Image}}" class="img-fluid3" alt="{{.Name}}">
-    {{end}}
+  <div class="parallax-overlay">
+      <div class="container">
+          {{range $index, $val := .Site.Taxonomies.tags.about}}
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-white my-4">{{$val.Page.Title}}</h2>
+              <div class="text-white">Prabhat, The Temple of Art is an internationally renowned artistic institution from
+                India. The organization has created stage history with a unique blend of tradition along with sophisticated
+                stage techniques of the present technological era.</div>
+              <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
+            </div>
+          </div>
+          {{end}}
+        </div>
   </div>
 </section>
 {{end}}

@@ -1,6 +1,6 @@
 ---
 title: Bharat R Prabhath
-image: /images/Shiva-Nataraj.png
+image: /images/Bharath.jpeg 
 type: Bharat
 tags: ["about1"]
 description: >-

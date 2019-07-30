@@ -1,6 +1,6 @@
 ---
 title: Guru Shakuntala R Prabhath
-image: /images/Shiva-Nataraj.png
+image: /images/Shakuntala.jpg
 type: Shakuntala
 tags: ["about1"]
 description: >-

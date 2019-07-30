@@ -1,6 +1,6 @@
 ---
 title: Aacharya Raghavendra J Prabhat
-image: /images/Shiva-Nataraj.png
+image: /images/Raghavendra1.jpg
 type: Aacharya
 tags: ["about1"]
 description: >-

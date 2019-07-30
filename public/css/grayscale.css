@@ -167,7 +167,7 @@ blockquote {
   background-color: transparent;
 }
 #mainNav.navbar-shrink {
-  background-color: #fff;
+  background-color: #000;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -197,13 +197,13 @@ blockquote {
     color: white;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #000;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #161616;
+    color: #fff;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #161616;
+    color: #fff;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -513,18 +513,15 @@ blockquote {
 .about-section {
   position: relative;
   width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../images/train13.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../images/train13.jpg");
+  min-height: 30rem;
+  background-image: url("../images/train30.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 .about-section p {
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
 }
 .projects-section {
   padding: 5rem 0;
@@ -700,6 +697,15 @@ footer {
     color: #000;
     font-size: 1rem
   }
+  .card-img-bottom {width:100%; height: 220px;}
+  @media (max-width:991px) and (min-width:425px){
+.col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.card-img-bottom {height: 200px;}
+}
   .micro{
 padding-top: 2.5rem;
 margin: 3rem 0rem 3rem 0rem
@@ -815,7 +821,7 @@ Custom media queries
   position: relative;
   background: #0a0a0ab8;
   width: 100%;
-  padding: 6rem 0rem;
+  padding: 10rem 0rem;
 }
 .navbar-dark .navbar-nav .nav-link{
   color: #000
@@ -871,3 +877,4 @@ hr{
 label{
   color: #fff
 }
+

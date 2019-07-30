@@ -1,74 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 {{partial "head" .}}
-<body>
+<body class="bg-black">
     {{partial "singlenav" .}}
-    <section class="py-5 my-5">
-        {{range $index, $val := .Site.Taxonomies.tags.about}}
-        <div class="container mt-5 py-3">
-            <h2 class="text-center text-uppercase my-5">{{.Title}}</h2>
-            <hr>
-            <p class="text-white">{{.Content}} </p>
+    <div class="micro"></div>
+    <div class="container">
+        <h2 class="text-center text-white py-4">Prabhat's Training</h2>
+    </div>
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark fixed-bottom d-md-none">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+            style="color: #000">
+            Training-Menu&nbsp;<i class="fas fa-bars"></i>
+        </button>
+        {{range $index, $val := .Site.Taxonomies.tags.sidet}}
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav" style="color: #000">
+                <li class="nav-item">
+                    <a class="nav-link text-capitalize text-right" href="#{{.Description}}">{{.Title}}</a>
+                </li>
+            </ul>
         </div>
-        <div class="youtube-player mt-2" data-id="{{.Page.Params.Youtube}}"></div>
         {{end}}
-        <div class="container-fluid">
-            <h2 class="text-center text-uppercase my-5 pt-3">Artistic Directors</h2>
-            {{range where .Site.Pages "Type" "=" "Aacharya"}}
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5 bg-black text-white">
-                    {{.Content}}
+    </nav>
+   
+    
+    <div class="sidebar">
+            {{range $index, $val := .Site.Taxonomies.tags.sidet}}
+            <a href="#{{.Description}}">{{.Title}}</a>
+        {{end}}
+    </div>
+    
+    <div class="content">
+            <section id="sam" class="py-5">
+              <div class="container">
+                  <h3 class="text-center text-white text-uppercase my-5 pt-5">SAMUDYATA - Srichakra Academy of Music, Dance, Yoga, and Theatre Arts</h3>
+                  <div class="row">
+                      {{range $index, $val := .Site.Taxonomies.categories.samudyata}}
+                      
+                      <div class="col-md-4 col-12 mb-3">
+                          
+                          <div class="card">
+                              <div class="card-body">
+                                <h4 class="card-title">{{.Page.Title}}</h4>
+                              </div>
+                              <img class="card-img-bottom" src="{{.Page.Params.image}}" alt="{{.Name}}">
+                            </div>
+                        </div>
+                        {{end}}     
+                  </div>
+              </div>
+            </section>
+            <section id="df" class="reper parallax">
+                <div class="parallax-overlay">
+                    <div class="container-fluid">
+                        <h3 class="text-center my-5 pt-3">Dance Faculty</h3>
+                        {{range $index, $val := .Site.Taxonomies.tags.df}}
+                        <div class="row my-2">
+                            <div class="col-md-6 col-lg-6 mx-auto">
+                                <p class="text-white">{{.Content}}</p>
+                            </div>
+                            <div class="col-md-6 col-lg-6 mx-auto">
+                                <img src="{{.Page.Params.Image}}" class="img-thumbnail" alt="{{.Name}}">
+                            </div>
+                        </div>
+                        {{end}}
+                    </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5">
-                    <img class="img-fluid p-3" src="{{.Params.Image}}" alt="{{.Name}}">
+            </section>
+            <section id="mf" class="reper parallax">
+                <div class="parallax-overlay">
+                    <div class="container-fluid">
+                        <h3 class="text-center my-5 pt-3">Music Faculty</h3>
+                        {{range $index, $val := .Site.Taxonomies.tags.mf}}
+                        <div class="row my-2">
+                            <div class="col-md-6 col-lg-6 mx-auto">
+                                <img src="{{.Page.Params.Image}}" class="img-thumbnail" alt="{{.Name}}">
+                            </div>
+                            <div class="col-md-6 col-lg-6 mx-auto">
+                                <p class="text-white">{{.Content}}</p>
+                            </div>
+                        </div>
+                        {{end}}
+                    </div>
                 </div>
-            </div>
-            {{end}}
-            {{range where .Site.Pages "Type" "=" "Shakuntala"}}
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5">
-                    <img class="img-fluid p-3" src="{{.Params.Image}}" alt="{{.Name}}">
+            </section>
+            <section id="pkt">
+                    <div class="container">
+                          
+                    </div>
+            </section>
+                {{partial "footer" .}}
                 </div>
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5 bg-prabhat">
-                    {{.Content}}
-                </div>
-            </div>
-            {{end}}
-            {{range where .Site.Pages "Type" "=" "Bharat"}}
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5 bg-black text-white">
-                    {{.Content}}
-                </div>
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5">
-                    <img class="img-fluid p-3" src="{{.Params.Image}}" alt="{{.Name}}">
-                </div>
-            </div>
-            {{end}}
-            {{range where .Site.Pages "Type" "=" "Sharat"}}
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5">
-                    <img class="img-fluid p-3" src="{{.Params.Image}}" alt="{{.Name}}">
-                </div>
-                <div class="col-lg-6 col-md-6 col-xs-12 p-5 bg-prabhat">
-                    {{.Content}}
-                </div>
-            </div>
-            {{end}}
-        </div>
-    </section>
-    <section class="overview">
-        <div class="parallax-overlay py-5">
-            {{range where .Site.Pages "Type" "=" "Overview"}}
-            <div class="row px-5 mx-5">
-                <div class="col-lg-12 col-md-12 px-5 mx-5">
-                    <h2 class="text-center text-uppercase my-5 pt-3">{{.Title}}</h2>
-                    {{.Content}}
-                </div>
-            </div>
-            {{end}}
-        </div>
-    </section>
-    {{partial "footer" .}}
     {{partial "scripts" .}}
     {{partial "youtube" .}}
 </body>
