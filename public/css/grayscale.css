@@ -1,7 +1,9 @@
 /*!
  * Start Bootstrap - Grayscale v5.0.8 (https://startbootstrap.com/template-overviews/grayscale)
  * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-
+
+ /blob/master/LICENSE)
  */
  * {
    box-sizing: border-box
@@ -520,9 +522,7 @@ blockquote {
   background-attachment: fixed;
   background-size: cover;
 }
-.about-section p {
-  /* margin-bottom: 5rem; */
-}
+
 .projects-section {
   padding: 5rem 0;
 }
@@ -674,17 +674,9 @@ footer {
   padding: 5rem 0rem
 }
 .join{
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../images/join.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../images/join.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+ 
+  background-image: url("../images/join.jpg");
+ 
 }
 .costumes{
   background-image: url(/images/join.jpg);
@@ -705,6 +697,13 @@ footer {
     max-width: 50%;
 }
 .card-img-bottom {height: 200px;}
+.carousel-inner {
+  height: auto
+}
+.carousel-caption {
+  margin-bottom: 10rem!important;
+ 
+}
 }
   .micro{
 padding-top: 2.5rem;
@@ -759,6 +758,13 @@ No media query since this is the default in Bootstrap because it is "mobile firs
       .contact-section .card1 {
         border-bottom: none!important
       }
+      .carousel-caption {
+        margin-bottom: 0rem!important;
+       
+      }
+      .carousel-inner {
+        height: auto
+      }
 }
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
@@ -773,6 +779,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         margin-left: 1.5rem!important;
         margin-right: 1.5rem!important
       }
+      
       
 }
 /* Large devices (desktops, 992px and up) */
@@ -805,6 +812,9 @@ Custom media queries
 }
 .dance{
   background-image: url(../images/ddb.jpg);
+}
+.cds{
+  background-image: url(../images/cds.jpg);
 }
 .cds{
   background-image: url(../images/cds.jpg);
@@ -878,3 +888,16 @@ label{
   color: #fff
 }
 
+.carousel-inner {
+  height: 100vh
+}
+.carousel-caption p{
+ 
+  text-align: center!important
+}
+.carousel-caption {
+  margin-bottom: 40rem;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.315);
+  border-radius: 50px
+}
