@@ -897,7 +897,7 @@ label{
   }
 }
 
-@media (max-width: 991px) and (min-width:768px) and (max-width: 375px) {
+@media (max-width: 991px) and (min-width:768px) {
   .recaptcha{
     margin: 0rem 0rem 1rem 0rem
   }
@@ -914,8 +914,8 @@ label{
     margin: 0rem 0rem 1rem 1.6rem!important
   }
 }
-/* @media (max-width: 375px) {
+@media (max-width: 375px) {
   .recaptcha{
     margin: 0rem 0rem 1rem 0rem!important
   }
-} */
+}
