@@ -16,7 +16,7 @@ draft: false
 
 > Prabhat was established in 1930 and ever since then; the organization has been involved in serving and contributing to society through its offerings. Prabhat is known for,
 
-- [Prabhat Auditoriums](https://www.prabhathauditoriums.com)
+<!-- - [Prabhat Auditoriums](https://www.prabhathauditoriums.com)
 - [Prabhat Sound Studio](http://www.prabhathstudios.com/)
 - [Prabhat Lighting and Sound System](http://www.prabhathstage.com/)
-- [Prabhath Event Managers](http://artoholic.co.in/)
+- [Prabhath Event Managers](http://artoholic.co.in/) -->
