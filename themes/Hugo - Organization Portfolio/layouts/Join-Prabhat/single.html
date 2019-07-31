@@ -53,7 +53,7 @@
                 <h1 class="text-center mb-5">Join Prabhat form</h1>
                 <div class="row">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <form action="">
+                            <form name="join-Prabhat" method="POST" data-netlify="true" data-netlify-recaptcha="true">
                             <div class="form-group">
                                 <label style="text-align:left" for="parent-name">Name of the Parent</label>
                                 <input type="text" class="form-control" id="parent-name"
@@ -103,6 +103,7 @@
                                     placeholder="Enter your message" rows="3" aria-label="message" spellcheck="false"
                                     required></textarea>
                             </div>
+                            <div data-netlify-recaptcha="true" class="recaptcha"></div>
                             <input type="submit" class="btn btn-info1" value="Submit" aria-label="Submit button">
                         </form>
                     </div>
