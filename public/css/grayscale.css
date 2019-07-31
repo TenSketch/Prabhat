@@ -711,7 +711,7 @@ footer a{
  
 }
 .recaptcha{
-  margin-bottom: 1rem
+  margin-bottom: 1rem!important
 }
 }
   .micro{
@@ -776,7 +776,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         height: auto
       }
       .recaptcha{
-        margin: 0rem 0rem 1rem 1.6rem;
+        margin: 0rem 0rem 1rem 1.6rem!important;
       }
 }
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
