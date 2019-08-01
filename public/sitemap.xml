@@ -213,11 +213,6 @@
   </url>
   
   <url>
-    <loc>https://www.prabhatha.com/repertoire/home/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.prabhatha.com/repertoire/dance-drama-ballets/prahladam-vande-jagath-gurum/</loc>
     <lastmod>2019-06-27T20:08:11+05:30</lastmod>
   </url>
@@ -234,6 +229,11 @@
   
   <url>
     <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/pushpanjali-malahari-mand-and-amrutavarshini/</loc>
+    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/home/</loc>
     <lastmod>2019-06-27T20:08:11+05:30</lastmod>
   </url>
   
@@ -298,7 +298,7 @@
   </url>
   
   <url>
-    <loc>https://www.prabhatha.com/training/samudyata/theatre/</loc>
+    <loc>https://www.prabhatha.com/training/samudyata/dance-production-crafting/</loc>
     <lastmod>2019-06-27T14:34:11+00:00</lastmod>
   </url>
   
@@ -313,16 +313,6 @@
   </url>
   
   <url>
-    <loc>https://www.prabhatha.com/about/artistic-directors/bharat-r-prabhath/</loc>
-    <lastmod>2019-06-21T09:28:21+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/about/artistic-directors/guru-shakuntala-r-prabhath/</loc>
-    <lastmod>2019-06-21T09:28:21+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.prabhatha.com/about/overview/</loc>
     <lastmod>2019-06-21T09:28:21+00:00</lastmod>
   </url>
@@ -333,8 +323,18 @@
   </url>
   
   <url>
+    <loc>https://www.prabhatha.com/about/artistic-directors/guru-shakuntala-r-prabhath/</loc>
+    <lastmod>2019-06-21T08:28:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/about/artistic-directors/bharat-r-prabhath/</loc>
+    <lastmod>2019-06-21T07:28:21+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.prabhatha.com/about/artistic-directors/sharat-r-prabhath/</loc>
-    <lastmod>2019-06-21T09:28:21+00:00</lastmod>
+    <lastmod>2019-06-21T06:28:21+00:00</lastmod>
   </url>
   
   <url>

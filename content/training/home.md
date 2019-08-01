@@ -10,7 +10,7 @@ keywords: >-
 date: 2019-06-27T14:38:11.000Z
 draft: false
 ---
-# Prabhat's Training
+# Training
 
 - - -
 
