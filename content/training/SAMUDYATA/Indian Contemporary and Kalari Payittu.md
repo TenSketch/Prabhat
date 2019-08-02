@@ -1,6 +1,6 @@
 ---
 title: Indian Contemporary and Kalari Payittu
-image: /images/uploads/9m8a5454-1-.jpg
+image: /images/train9.jpg
 categories: ["samudyata"]
 description: Prabhat- training.
 keywords: >-

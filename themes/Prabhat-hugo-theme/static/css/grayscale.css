@@ -107,6 +107,29 @@ h3{
   text-align: center;
   color: #fff
 }
+.card-cost {
+ 
+  background-color: transparent;
+  border: none;
+  border-radius: none;
+  
+}
+
+.img-thumbnail {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  
+}
+.img-thumbnail:hover{
+  box-shadow: 0px 0px 10px 3px #fff;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
 #single img{
   max-width: 100%;
   height: auto;
@@ -143,7 +166,7 @@ blockquote {
 }
 #mainNav {
   min-height: 56px;
-  /* background-color: #fff; */
+  background-color: #000;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -167,6 +190,9 @@ blockquote {
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+  color: #bca227!important
 }
 #mainNav.navbar-shrink {
   background-color: #000;
@@ -221,6 +247,7 @@ blockquote {
     border-bottom: 0.25rem solid #bca227;
   }
 }
+
 /* singlenav */
 #singlenav {
   min-height: 56px;
@@ -362,10 +389,17 @@ blockquote {
     font-size: 1.25rem;
   }
 }
-@media (max-width: 489px) {
+@media (max-width: 768px) {
   .pt-v{
-    padding-top: 5rem
+    padding-top: 8rem
   }
+  .ml-5{
+    margin-left: 0rem!important
+  }
+  
+}
+@media (max-width: 442px) {
+
   .ml-5{
     margin-left: 0rem!important
   }
@@ -549,26 +583,7 @@ blockquote {
     width: 30%;
   }
 }
-.signup-section {
-  padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../images/costumes.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../images/costumes.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-.signup-section .form-inline input {
-  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: 'Varela Round';
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
-}
+
 .contact-section {
   padding: 5rem 0 0;
 }
@@ -680,14 +695,12 @@ footer a{
   padding: 5rem 0rem
 }
 .join{
- 
-  background-image: url("../images/join.jpg");
- 
+ background-image: url("../images/join.jpg");
 }
-.costumes{
-  background-image: url(/images/join.jpg);
-  }
-  .costumes blockquote{
+.ch{
+  background-image: url("../images/costume-home.jpg");
+ }
+  .join blockquote{
     color: #fff;
     border-left: 5px solid rgba(255, 255, 255, 0.5);
   }
@@ -785,7 +798,7 @@ margin: 3rem 0rem 3rem 0rem
       }
 }
 
-@media (max-width: 950px) { 
+@media (min-width: 768px) { 
   .btn-top{
     padding: 1rem
   }
@@ -854,11 +867,14 @@ margin: 3rem 0rem 3rem 0rem
   @media (max-width: 767px) {
     .sidebar {display: none}
     div.content {margin-left: 0;}
-    .back-to-top {
-      bottom: 60px!important
+    .bt-bottom {
+      bottom: 55px!important
     }
     .btn-top{
       padding: 0.5rem
+    }
+    .mx-auto-1{
+      text-align: right
     }
   }
   
@@ -869,7 +885,7 @@ hr{
 .back-to-top {
   cursor: pointer;
   position: fixed;
-  bottom: 60px;
+  bottom: 17px;
   right: 20px;
   display:none;
 }
@@ -909,6 +925,20 @@ label{
   .recaptcha{
     margin: 0rem 0rem 1rem 0rem
   }
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+}
+@media (max-width: 991px) {
+ 
+  .bottom-right {
+    
+    bottom: 20px;
+    right: auto;
+    
+  }
 }
 @media (max-width: 767px) and (min-width:576px) {
   .recaptcha{
@@ -928,9 +958,7 @@ label{
     box-shadow: none!important;
     }
     
-    .mx-auto-1{
-      text-align: right
-    }
+  
 }
 @media (max-width: 375px) {
   .recaptcha{
@@ -948,4 +976,8 @@ label{
 
 .card-t{
   height: 350px
+}
+
+.bt-bottom{
+  bottom: 60px;
 }

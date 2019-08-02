@@ -1,6 +1,6 @@
 ---
 title: Kruthika Tyagarajan
-image: /images/uploads/9m8a5454-1-.jpg
+image: /images/train25.jpg
 tags: df
 description: Prabhat- training.
 keywords: >-

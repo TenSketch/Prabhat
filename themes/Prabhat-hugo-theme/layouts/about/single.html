@@ -7,7 +7,7 @@
     <section class="pt-3 mt-3">
         {{range $index, $val := .Site.Taxonomies.tags.about}}
         <div class="container mt-5 py-3">
-            <h2 class="text-center text-uppercase my-5">{{.Title}}</h2>
+            <h2 class="text-center text-lowercase my-5">{{.Title}}</h2>
             <hr>
             <p class="text-white">{{.Content}} </p>
         </div>

@@ -1,6 +1,6 @@
 ---
 title: Yoga
-image: /images/uploads/9m8a5454-1-.jpg
+image: /images/yoga.jpg
 categories: ["samudyata"]
 description: Prabhat- training.
 keywords: >-

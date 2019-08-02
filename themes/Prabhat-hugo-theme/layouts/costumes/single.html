@@ -4,28 +4,16 @@
 
 <body class="bg-black">
   {{partial "singlenav" .}}
-  <div class="container">
-    <h2 class="text-center text-white py-4">Prabhat Costume Designers</h2>
-  </div>
-  <nav class="navbar navbar-expand-md bg-primary navbar-dark fixed-bottom">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
-      style="color: #000">
-      Costumes-Menu&nbsp;<i class="fas fa-bars"></i>
-    </button>
+  
+ {{partial "page-nav-head" .}}
     {{range $index, $val := .Site.Taxonomies.tags.sidebar}}
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav ml-auto mx-auto-1" style="color: #000">
-        <li class="nav-item">
-          <a class="nav-link text-capitalize" href="#{{.Title}}">{{.Title}}</a>
-        </li>
-      </ul>
-    </div>
+    {{partial "page-nav" .}}
     {{end}}
-  </nav>
-  <section id="about" class="costumes parallax">
+  {{partial "page-nav-tail" .}}
+  <section id="about" class="join parallax">
     <div class="parallax-overlay">
       <div class="container">
+          <h2 class="text-center text-white text-lowercase py-4">Prabhat Costume Designers</h2>
         {{range $index, $val := .Site.Taxonomies.tags.costumes}}
         <div class="row">
           <div class="col-md-10 col-lg-8 mx-auto text-center">
@@ -38,23 +26,26 @@
   </section>
   <section id="portfolio" class="py-5">
     <div class="container">
-      <h1 class="text-center text-white text-uppercase pt-5 my-5">Portfolio</h1>
+      <h1 class="text-center text-white text-lowercase pt-5 my-5">Portfolio</h1>
       <div class="row">
         {{range $index, $val := .Site.Taxonomies.categories.grid}}
-        <div class="col-md-3 col-sm-6 col-12 mb-3">
-          <div class="card">
+        <div class="col-lg-4 col-md-4 p-0">
+          <div class="card card-cost">
             <div class="card-body">
-              <h4 class="card-title">{{.Page.Title}}</h4>
+              <h4 class="card-title text-white text-lowercase">{{.Page.Title}}</h4>
               <p class="card-text">{{.Content}}</p>
             </div>
-            <img class="card-img-bottom" src="{{.Page.Params.image}}" alt="{{.Name}}">
+            <a href="{{.Page.Params.image}}" class="fancybox" aria-label="costumes-portfolio" rel="group">
+                <img src="{{.Page.Params.image}}" class="img-thumbnail" alt="{{.Name}}">
+              </a>
+            <!-- <img class="img-thumbnail" src="{{.Page.Params.image}}" alt="{{.Name}}"> -->
           </div>
         </div>
         {{end}}
       </div>
     </div>
   </section>
-  {{partial "footer" .}}
+  {{partial "footer-single" .}}
   {{partial "scripts" .}}
 </body>
 

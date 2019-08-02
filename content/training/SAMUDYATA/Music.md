@@ -1,6 +1,6 @@
 ---
 title: Music
-image: /images/uploads/9m8a5454-1-.jpg
+image: /images/train25.jpg
 categories: ["samudyata"]
 description: Prabhat- training.
 keywords: >-
