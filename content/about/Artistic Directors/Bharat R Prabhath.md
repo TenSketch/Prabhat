@@ -14,7 +14,7 @@ date: 2019-06-21T07:28:21.000Z
 draft: false
 ---
 
-## **Bharat R Prabhath:**
+### **Bharat R Prabhath:**
 ---
 Bharat R Prabhath hails from the illustrious family of Prabhath. The originative highbrow was exposed to the values of Indian arts, culture and traditions from a very young age.
 

@@ -13,7 +13,7 @@
   <section id="about" class="join parallax">
     <div class="parallax-overlay">
       <div class="container">
-          <h2 class="text-center text-white text-lowercase py-4">Prabhat Costume Designers</h2>
+          <h2 class="text-center text-white py-4">Prabhat Costume Designers</h2>
         {{range $index, $val := .Site.Taxonomies.tags.costumes}}
         <div class="row">
           <div class="col-md-10 col-lg-8 mx-auto text-center">
@@ -26,13 +26,13 @@
   </section>
   <section id="portfolio" class="py-5">
     <div class="container">
-      <h1 class="text-center text-white text-lowercase pt-5 my-5">Portfolio</h1>
+      <h1 class="text-center text-white pt-5 my-5">Portfolio</h1>
       <div class="row">
         {{range $index, $val := .Site.Taxonomies.categories.grid}}
         <div class="col-lg-4 col-md-4 p-0">
           <div class="card card-cost">
             <div class="card-body">
-              <h4 class="card-title text-white text-lowercase">{{.Page.Title}}</h4>
+              <h4 class="card-title text-white">{{.Page.Title}}</h4>
               <p class="card-text">{{.Content}}</p>
             </div>
             <a href="{{.Page.Params.image}}" class="fancybox" aria-label="costumes-portfolio" rel="group">

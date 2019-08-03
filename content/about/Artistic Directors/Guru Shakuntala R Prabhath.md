@@ -14,7 +14,7 @@ date: 2019-06-21T08:28:21.000Z
 draft: false
 ---
 
-## **Guru Shakuntala R Prabhath:**
+### **Guru Shakuntala R Prabhath:**
 ---
 Shakuntala R Prabhath is one of Karnataka’s many splendid artists. A classical Bharatanatyam dancer and prime Natuvanar par excellence, Guru. Shakuntala is trained in Bharatanatyam style of dance under the renowned guru Smt. Narmada. 
 

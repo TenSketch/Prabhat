@@ -15,7 +15,7 @@ draft: false
 ---
 
 
-## **Aacharya Raghavendra J Prabhat:**
+### **Aacharya Raghavendra J Prabhat:**
 ---
 Aacharya Raghavendra J Prabhat hails from the culturally rich Lineage of Saint Poet Purandara Dasaru, Father of Carnatic Classical Music. Often termed as an intellectual orator, Aacharya Raghavendra J Prabhat, is a writer, literati, director, philosopher, poet, Costume designer and one of Karnataka’s foremost cultural figures, well versed in diverse fields of music, dance, theatre, and spiritualism.
 

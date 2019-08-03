@@ -26,10 +26,13 @@ html {
 p{
   text-align: justify!important
 }
-h3{
+h2,h3,h4,h5,h6{
+text-transform: lowercase;
   margin-top: 1rem
 }
-
+.art-h h3{
+  text-transform: capitalize
+}
 /* video */
 .v-header {
   position: relative;
@@ -191,7 +194,7 @@ blockquote {
   outline: none;
   background-color: transparent;
 }
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
   color: #bca227!important
 }
 #mainNav.navbar-shrink {
@@ -218,8 +221,8 @@ blockquote {
   }
   #mainNav .nav-link:hover {
     color: #b29407;
-    background-color: #000;
-    border-radius: 3px
+    box-shadow: 0px 0px 10px 3px #fff;
+    border-radius: .25rem
   }
   #mainNav .nav-link:active {
     color: white;
@@ -232,7 +235,7 @@ blockquote {
   }
   #mainNav.navbar-shrink .nav-link {
     color: #fff;
-    padding: 1.5rem 1.5rem 1.25rem;
+    padding: 1.25rem 2rem;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
@@ -356,8 +359,8 @@ blockquote {
 } */
 .masthead h1 {
   font-family: 'Varela Round';
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 4rem;
+  line-height: 6rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgb(178, 148, 7), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
@@ -370,8 +373,8 @@ blockquote {
 }
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 5rem;
+    line-height: 5rem;
   }
 }
 @media (min-width: 992px) {
@@ -380,8 +383,8 @@ blockquote {
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
+    font-size: 8rem;
+    line-height: 12rem;
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
