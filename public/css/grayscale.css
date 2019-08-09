@@ -344,19 +344,29 @@ blockquote {
 .bg-prabhat{
  background: #bca227; 
 }
-/* .masthead {
+.masthead1 {
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../images/train13.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../images/train13.jpg");
+   background-image: url(/images/uploads/dusk-of-an-era-18-days.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-} */
+}
+.btn1{
+  padding: 1rem!important;
+ 
+}
+.btn1:hover{
+  background: none!important;
+  box-shadow: 1px 1px 10px 5px #d8b400f3!important;
+  color: #fff!important;
+  font-size: 2rem;
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  transition: .5s all;
+}
 .masthead h1 {
   font-family: 'Varela Round';
   font-size: 4rem;
