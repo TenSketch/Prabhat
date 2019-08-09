@@ -8,10 +8,10 @@
   <div class="container masthead h-100">
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white pt-v">
-          <h1 class="mx-auto my-0">prabhat</h1>
-          <h2 class="text-white mx-auto mt-2 mb-5">The Temple of Art</h2>
-          <a href="#about" class="btn btn-success mbv-3">Enter the temple</a>
-          <a href="{{.Site.BaseURL}}join-prabhat/register/" class="btn btn-primary ml-5">Join Prabhat</a>
+        <h1 class="mx-auto my-0">prabhat</h1>
+        <h2 class="text-white mx-auto mt-2 mb-5">The Temple of Art</h2>
+        <a href="#about" class="btn btn-success mbv-3">Enter the temple</a>
+        <a href="{{.Site.BaseURL}}join-prabhat/register/" class="btn btn-primary ml-5">Join Prabhat</a>
       </div>
     </div>
   </div>
@@ -19,43 +19,41 @@
 {{end}}
 {{define "events"}}
 <!-- Header -->
-<header class="masthead1">
-  <div class="parallax-overlay">
-    <div class="container d-flex h-100 align-items-center">
-      {{range $index, $val := .Site.Taxonomies.tags.events}}
-        <div class="row">
-          <div class="col-md-6">
-            <h2 class="text-white my-4">{{$val.Page.Title}}</h2>
-            
-            <div class="text-white">{{.Content}}</div>
-            <a href="{{.Description}}"><button class="btn btn-primary btn1" type="button">Book Now</button></a>
-          </div>
-          <div class="col-md-6">
-            <img class="img-fluid mb-lg-0" src="{{.Page.Params.Image}}" alt="{{.Name}}">
-          </div>
-        </div>
+<section class="py-5 bg-light">
+  <div class="container">
+    {{range $index, $val := .Site.Taxonomies.tags.events}}
+    <div class="row">
+      <div class="col-md-6 col-lg-6">
+        <h2>{{$val.Page.Title}}</h2>
+        {{.Content}}
+        <a href="{{.Description}}"><button class="btn btn-primary btn1" type="button">Book Now</button></a>
+      </div>
+      <div class="col-md-6 col-lg-6">
+        <a href="{{.Page.Params.image}}" class="fancybox" aria-label="costumes-portfolio" rel="group">
+          <img src="{{.Page.Params.image}}" class="img-thumbnail p-0 m-0 img-events" alt="{{.Name}}">
+        </a>
+      </div>
       {{end}}
     </div>
-  </div>
-</header>
+</section>
 {{end}}
 {{define "about"}}
 <!-- About Section -->
 <section id="about" class="about-section text-center">
   <div class="parallax-overlay">
-      <div class="container">
-          {{range $index, $val := .Site.Taxonomies.tags.about}}
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-white my-4">{{$val.Page.Title}}</h2>
-              <div class="text-white">Prabhat, The Temple of Art is an internationally renowned artistic institution from
-                India. The organization has created stage history with a unique blend of tradition along with sophisticated
-                stage techniques of the present technological era.</div>
-              <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
-            </div>
-          </div>
-          {{end}}
+    <div class="container">
+      {{range $index, $val := .Site.Taxonomies.tags.about}}
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white my-4">{{$val.Page.Title}}</h2>
+          <div class="text-white">Prabhat, The Temple of Art is an internationally renowned artistic institution from
+            India. The organization has created stage history with a unique blend of tradition along with sophisticated
+            stage techniques of the present technological era.</div>
+          <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
         </div>
+      </div>
+      {{end}}
+    </div>
   </div>
 </section>
 {{end}}
@@ -74,10 +72,10 @@
       <div class="col-xl-4 col-lg-5">
         <div class="featured-text text-center text-lg-left">
           <div class="text-black mb-0">
-              <h4 class="text-lowercase">{{.Title}}</h4>
-           {{.Content}}
+            <h4 class="text-lowercase">{{.Title}}</h4>
+            {{.Content}}
           </div>
-          <a href="{{.Permalink}}"style="text-decoration: underline">Read More</a>
+          <a href="{{.Permalink}}" style="text-decoration: underline">Read More</a>
         </div>
       </div>
     </div>
@@ -91,9 +89,9 @@
     {{range $index, $val := .Site.Taxonomies.tags.training}}
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-lg-6">
-          <div class="d-flex h-100">
-        <img class="img-fluid" src="{{.Page.Params.Image}}" alt="{{.Name}}">
-      </div>
+        <div class="d-flex h-100">
+          <img class="img-fluid" src="{{.Page.Params.Image}}" alt="{{.Name}}">
+        </div>
       </div>
       <div class="col-lg-6">
         <div class="bg-black text-center h-100 project">
@@ -117,9 +115,9 @@
     {{range $index, $val := .Site.Taxonomies.tags.harikatha}}
     <div id="harikatha" class="row justify-content-center no-gutters">
       <div class="col-lg-6">
-          <div class="d-flex h-100">
-        <img class="img-fluid" src="{{.Page.Params.Image}}" alt="{{.Name}}">
-      </div>
+        <div class="d-flex h-100">
+          <img class="img-fluid" src="{{.Page.Params.Image}}" alt="{{.Name}}">
+        </div>
       </div>
       <div class="col-lg-6 order-lg-first">
         <div class="bg-black project">
@@ -156,31 +154,28 @@
         </a>
       </div>
       {{end}}
-    <div class="mx-auto mt-5 justify-content-center">
+      <div class="mx-auto mt-5 justify-content-center">
         <a href="{{.Site.BaseURL}}gallery/home/" class="font-weight-bold display-5">View more</a>
-    </div>  
+      </div>
     </div>
-    
   </div>
 </section>
 {{end}}
-
 {{define "costumes"}}
 <!-- Signup Section -->
 <section id="costumes" class="ch parallax">
   <div class="parallax-overlay">
-      <div class="container">
-          {{range $index, $val := .Site.Taxonomies.tags.costumes}}
-          <div class="row">
-            <div class="col-md-10 col-lg-8 mx-auto text-center">
-              <h2 class="text-white">{{$val.Page.Title}}</h2>
-              <p class="text-white">{{.Summary}}</p>
-              <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
-            </div>
-          </div>
-          {{end}} 
-            
+    <div class="container">
+      {{range $index, $val := .Site.Taxonomies.tags.costumes}}
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+          <h2 class="text-white">{{$val.Page.Title}}</h2>
+          <p class="text-white">{{.Summary}}</p>
+          <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
         </div>
+      </div>
+      {{end}}
+    </div>
   </div>
 </section>
 {{end}}

@@ -7,21 +7,14 @@ tags: ["events"]
 draft: false
 ---
 
-## Hello,
-
 > _THE TICKETS FOR THE MOST AWAITED DANCE MUSICAL - 18 DAYS ARE OUT!!!_
 
-<!-- [18 days- Dusk of an Era](https://in.bookmyshow.com/events/18-days-dusk-of-an-era/ET00108178) -->
-
-### Book your seats now to watch one of the most interesting experiments in the field of dance and theater!
-
-#### #18days
-#### #iamjawan
-
-    *Dates:*
-- 31st August (Saturday)
-- 1st September (Sunday)
-- Venue: Ravindra Kalakshetra, Bangalore from 6:15 PM onward.
+#### Book your seats now to watch one of the most interesting experiments in the field of dance and theater!
+#18days, #iamjawan <br>
+*Dates:*<br>
+* 31st August (Saturday)<br>
+* 1st September (Sunday)<br>
+* Venue: Ravindra Kalakshetra, Bangalore from 6:15 PM onward.
 
 
 _Artistically yours,_
