@@ -7,15 +7,17 @@ tags: ["events"]
 draft: false
 ---
 
-> _THE TICKETS FOR THE MOST AWAITED DANCE MUSICAL - 18 DAYS ARE OUT!!!_
+_THE TICKETS FOR THE MOST AWAITED DANCE MUSICAL - 18 DAYS ARE OUT!!!_
 
-#### Book your seats now to watch one of the most interesting experiments in the field of dance and theater!
+> #### Book your seats now to watch one of the most interesting experiments in the field of dance and theater!
 #18days, #iamjawan <br>
-*Dates:*<br>
+
+### Dates:
+
 * 31st August (Saturday)<br>
 * 1st September (Sunday)<br>
 * Venue: Ravindra Kalakshetra, Bangalore from 6:15 PM onward.
 
 
-_Artistically yours,_
+_Artistically yours,_<br>
 _Sharat R Prabhath_

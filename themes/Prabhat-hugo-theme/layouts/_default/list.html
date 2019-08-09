@@ -21,12 +21,13 @@
 <!-- Header -->
 <section class="py-5 bg-light">
   <div class="container">
+    <h1 class="text-center mb-5">latest events</h1>
     {{range $index, $val := .Site.Taxonomies.tags.events}}
     <div class="row">
-      <div class="col-md-6 col-lg-6">
+      <div class="col-md-6 col-lg-6 pr-5">
         <h2>{{$val.Page.Title}}</h2>
         {{.Content}}
-        <a href="{{.Description}}"><button class="btn btn-primary btn1" type="button">Book Now</button></a>
+        <a href="{{.Description}}"><button class="btn btn1" type="button">Book Now</button></a>
       </div>
       <div class="col-md-6 col-lg-6">
         <a href="{{.Page.Params.image}}" class="fancybox" aria-label="costumes-portfolio" rel="group">

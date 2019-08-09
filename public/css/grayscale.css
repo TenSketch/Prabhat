@@ -359,13 +359,15 @@ blockquote {
 } */
 .btn1{
   padding: 1rem!important;
+  background: #bca227;
+  width: 100%
  
 }
 .btn1:hover{
-  background: none!important;
+  background:#000;
   box-shadow: 1px 1px 10px 5px #d8b400f3!important;
   color: #fff!important;
-  font-size: 2rem;
+  font-size: 1.5rem;
   -webkit-transition: .5s all;
   -moz-transition: .5s all;
   transition: .5s all;
