@@ -796,7 +796,12 @@ margin: 3rem 0rem 3rem 0rem
       .carousel-inner {
         height: auto
       }
-   
+   .events p{
+     text-align: center
+   }
+   .pr-5{
+     padding: 1.5rem!important
+   }
 }
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
