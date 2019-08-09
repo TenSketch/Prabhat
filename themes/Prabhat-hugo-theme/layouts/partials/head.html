@@ -3,33 +3,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=egde">
     <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
     <meta name="generator" content="Hugo 0.55.6">
-    <title>{{ if .Title }}{{ .Title }}{{ end }}</title>
-    {{ if .Params.description }}
-    <meta name="description" content="{{ .Params.description }}">
-    {{ else if .Site.Params.description }}
-    <meta name="description" content="{{ .Site.Params.description }}">
-    {{ end }}
-    {{ if .Params.keywords }}
-    <meta name="keywords" content="{{ .Params.keywords }}">
-    {{ else if .Site.Params.keywords }}
-    <meta name="keywords" content="{{ .Site.Params.keywords }}">
-    {{ end }}
+    <title>{{if .Title}}{{.Title}}{{end}}</title>
+    {{if .Params.description}}
+    <meta name="description" content="{{.Params.description}}">
+    {{else if .Site.Params.description}}
+    <meta name="description" content="{{.Site.Params.description}}">
+    {{end}}
+    {{if .Params.keywords}}
+    <meta name="keywords" content="{{.Params.keywords}}">
+    {{else if .Site.Params.keywords}}
+    <meta name="keywords" content="{{.Site.Params.keywords}}">
+    {{end}}
     <!-- og meta tags -->
     <meta property="og:type" content="website"/>
     <meta property="og:site_name" content="Prabhat">
-    <meta property="og:title" content="Prabhat" />
-    <meta property="og:url" content="{{.Site.BaseURL}}">
-    <meta property="og:image" itemprop="image" content="{{.Site.BaseURL}}images/oglogo.png">
-    {{ if .Params.description }}
-    <meta property="og:description" content="{{.Params.description}}">
-    {{ else if .Site.Params.description }}
-    <meta property="og:description" content="{{.Site.Params.description}}">
-    {{ end }}
-    {{ if .Params.keywords }}
-    <meta property="og:keywords" content="{{.Params.keywords}}">
-    {{ else if .Site.Params.keywords }}
-    <meta property="og:keywords" content="{{.Site.Params.keywords}}">
-    {{ end }}
+    <meta property="og:title" content="Prabhat"/>
+    <meta property="og:url" content="{{.Site.BaseURL}}"/>
+    <meta property="og:image:secure_url" itemprop="image" content="{{.Site.BaseURL}}images/ogimage.png"/>
+    {{if .Params.description}}
+    <meta property="og:description" content="{{.Params.description}}"/>
+    {{else if .Site.Params.description}}
+    <meta property="og:description" content="{{.Site.Params.description}}"/>
+    {{end}}
+    {{if .Params.keywords}}
+    <meta property="og:keywords" content="{{.Params.keywords}}"/>
+    {{else if .Site.Params.keywords}}
+    <meta property="og:keywords" content="{{.Site.Params.keywords}}"/>
+    {{end}}
     <!-- favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-icon-60x60.png">
