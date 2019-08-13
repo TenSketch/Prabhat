@@ -123,6 +123,7 @@ text-transform: lowercase;
   border: none;
   padding: 0;
   border-radius: 0;
+  width: 100%
   
 }
 .img-thumbnail:hover{

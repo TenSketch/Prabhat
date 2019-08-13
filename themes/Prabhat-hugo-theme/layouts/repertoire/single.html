@@ -15,12 +15,12 @@
             <div class="container">
                 <h3 class="text-center font-weight-bold my-5 pt-3">Thematic Dance Productions</h3>
                 {{range $index, $val := .Site.Taxonomies.tags.tdp}}
-                <div class="row">
-                    <div class="col-md-8 col-lg-8 mx-auto">
+                <div class="row my-4">
+                    <div class="col-md-8 col-lg-8">
                         <p class="text-white">{{.Content}}</p>
                     </div>
-                    <div class="col-md-4 col-lg-4 mx-auto">
-                        <img src="{{.Page.Params.Image}}" class="img-fluid" alt="{{.Name}}">
+                    <div class="col-md-4 col-lg-4">
+                        <img src="{{.Page.Params.Image}}" class="img-fluid my-2" alt="{{.Name}}">
                     </div>
                 </div>
                 {{end}}
@@ -32,11 +32,11 @@
             <div class="container">
                 <h3 class="text-center font-weight-bold my-5 pt-3">Dance Drama and Ballets</h3>
                 {{range $index, $val := .Site.Taxonomies.tags.ddb}}
-                <div class="row">
-                    <div class="col-md-4 col-lg-4 mx-auto">
-                        <img src="{{.Page.Params.Image}}" class="img-fluid" alt="{{.Name}}">
+                <div class="row my-4">
+                    <div class="col-md-4 col-lg-4">
+                        <img src="{{.Page.Params.Image}}" class="img-fluid my-2" alt="{{.Name}}">
                     </div>
-                    <div class="col-md-8 col-lg-8 mx-auto">
+                    <div class="col-md-8 col-lg-8">
                         <p class="text-white">{{.Content}}</p>
                     </div>
                 </div>
@@ -49,12 +49,12 @@
             <div class="container">
                 <h3 class="text-center font-weight-bold my-5 pt-3">Classical dance sequences</h3>
                 {{range $index, $val := .Site.Taxonomies.tags.cds}}
-                <div class="row">
-                    <div class="col-md-8 col-lg-8 mx-auto">
+                <div class="row my-4">
+                    <div class="col-md-8 col-lg-8">
                         <p class="text-white">{{.Content}}</p>
                     </div>
-                    <div class="col-md-4 col-lg-4 mx-auto">
-                        <img src="{{.Page.Params.Image}}" class="img-fluid" alt="{{.Name}}">
+                    <div class="col-md-4 col-lg-4">
+                        <img src="{{.Page.Params.Image}}" class="img-fluid my-2" alt="{{.Name}}">
                     </div>
                 </div>
                 {{end}}
