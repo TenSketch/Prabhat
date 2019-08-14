@@ -26,7 +26,7 @@
   </section>
   <section id="portfolio" class="py-5">
     <div class="container">
-      <h1 class="text-center text-white pt-5 my-5">Portfolio</h1>
+      <h1 class="text-center text-white text-lowercase pt-5 my-5">Portfolio</h1>
       <div class="row">
         {{range $index, $val := .Site.Taxonomies.categories.grid}}
         <div class="col-lg-4 col-md-4 p-0">
@@ -36,7 +36,7 @@
               <p class="card-text">{{.Content}}</p>
             </div>
             <a href="{{.Page.Params.image}}" class="fancybox" aria-label="costumes-portfolio" rel="group">
-                <img src="{{.Page.Params.image}}" class="img-thumbnail" alt="{{.Name}}">
+                <img src="{{.Page.Params.image}}" class="img-thumbnail" style="height: 500px" alt="{{.Name}}">
               </a>
             <!-- <img class="img-thumbnail" src="{{.Page.Params.image}}" alt="{{.Name}}"> -->
           </div>
