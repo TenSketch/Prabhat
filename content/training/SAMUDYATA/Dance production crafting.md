@@ -1,6 +1,6 @@
 ---
 title: Dance production crafting
-image: /images/train25.jpg
+image: /images/dance-production-crafting.jpg
 categories: ["samudyata"]
 description: Prabhat- training.
 keywords: >-

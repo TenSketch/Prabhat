@@ -10,19 +10,19 @@
     {{end}}
   {{partial "page-nav-tail" .}}
   
-    <section id="sam" class="py-5 mt-5 art-h">
+    <section id="sam" class="py-5 my-5 art-h">
         <div class="container">
             <h3 class="text-center text-white my-5 pt-5">SAMUDYATA - Srichakra Academy of Music, Dance,
                 Yoga, and Theatre Arts</h3>
             <div class="row">
                 {{range $index, $val := .Site.Taxonomies.categories.samudyata}}
-                <div class="col-md-6 col-12 mb-3">
+                <div class="col-md-6 col-12">
                     <div class="card card-cost">
                         <div class="card-body">
                             <h4 class="card-title  text-white">{{.Page.Title}}</h4>
                         </div>
                         <a href="{{.Page.Params.image}}" class="fancybox" aria-label="costumes-portfolio" rel="group">
-                                <img src="{{.Page.Params.image}}" class="img-thumbnail" alt="{{.Name}}">
+                                <img src="{{.Page.Params.image}}" class="img-thumbnail" style="height: 350px;" alt="{{.Name}}">
                               </a>
                     </div>
                 </div>
@@ -30,16 +30,16 @@
             </div>
         </div>
     </section>
-    <section id="df" class="join parallax">
+    <section id="df" class="parallax">
         <div class="parallax-overlay">
             <div class="container">
                 <h3 class="text-center my-5 pt-3">Dance Faculty</h3>
                 {{range $index, $val := .Site.Taxonomies.tags.df}}
-                <div class="row my-2">
-                    <div class="col-md-6 col-lg-6 mx-auto">
+                <div class="row my-5">
+                    <div class="col-md-6 col-lg-6">
                         <p class="text-white">{{.Content}}</p>
                     </div>
-                    <div class="col-md-6 col-lg-6 mx-auto">
+                    <div class="col-md-6 col-lg-6">
                         <img src="{{.Page.Params.Image}}" class="img-fluid" alt="{{.Name}}">
                     </div>
                 </div>
@@ -47,16 +47,16 @@
             </div>
         </div>
     </section>
-    <section id="mf" class="reper parallax">
+    <section id="mf" class="parallax">
         <div class="parallax-overlay">
             <div class="container">
                 <h3 class="text-center my-5 pt-3">Music Faculty</h3>
                 {{range $index, $val := .Site.Taxonomies.tags.mf}}
                 <div class="row my-2">
-                    <div class="col-md-6 col-lg-6 mx-auto">
+                    <div class="col-md-6 col-lg-6">
                         <img src="{{.Page.Params.Image}}" class="img-fluid" alt="{{.Name}}">
                     </div>
-                    <div class="col-md-6 col-lg-6 mx-auto">
+                    <div class="col-md-6 col-lg-6">
                         <p class="text-white">{{.Content}}</p>
                     </div>
                 </div>

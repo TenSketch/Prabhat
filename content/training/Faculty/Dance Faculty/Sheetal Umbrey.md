@@ -1,6 +1,6 @@
 ---
 title: Sheetal Umbrey
-image: /images/train25.jpg
+image: /images/Sheetal-Umbrey.jpeg
 tags: df
 description: Prabhat- training.
 keywords: >-

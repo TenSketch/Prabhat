@@ -1,6 +1,6 @@
 ---
 title: Prabhat training
-image: /images/train25.jpg
+image: /images/Rohit-Bhat.jpg
 tags: mf
 description: Prabhat- training.
 keywords: >-

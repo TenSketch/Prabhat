@@ -1,6 +1,6 @@
 ---
 title: Dance
-image: /images/dance.jpg
+image: /images/train9.jpg
 categories: ["samudyata"]
 description: Prabhat- training.
 keywords: >-

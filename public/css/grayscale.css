@@ -123,8 +123,8 @@ text-transform: lowercase;
   border: none;
   padding: 0;
   border-radius: 0;
-  width: 100%
-  
+  width: 100%;
+ 
 }
 .img-thumbnail:hover{
   box-shadow: 0px 0px 10px 3px #fff;
@@ -139,9 +139,9 @@ text-transform: lowercase;
   height: auto;
 }
 blockquote {
-  color: rgba(0, 0, 0, 0.808);
+  color: #fff;
   padding-left: 1.5em;
-  border-left: 5px solid rgba(0, 0, 0, 0.267);
+  border-left: 5px solid #fff;
   font-weight: 700
 }
 .bottom-middle {
@@ -1007,4 +1007,15 @@ label{
 
 .bt-bottom{
   bottom: 60px;
+}
+
+#mf{
+  background-image: url("../images/music.jpg")
+}
+#df{
+  background-image: url("../images/dance-bg.jpg")
+}
+
+#mf h4, #df h4{
+  text-transform: capitalize!important
 }

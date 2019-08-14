@@ -1,6 +1,6 @@
 ---
 title: Chaithra Ananth
-image: /images/train25.jpg
+image: /images/chaithra-anant.jpg
 tags: df
 description: Prabhat- training.
 keywords: >-
