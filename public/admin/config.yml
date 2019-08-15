@@ -26,7 +26,7 @@ collections:
         name: "categories"
         default: "gallery"
         required: false
-        widget: "list"
+        widget: "hidden"
       - label: "Upload Date"
         name: "date"
         required: false
@@ -58,7 +58,7 @@ collections:
         name: "tags"
         default: "about"
         required: false
-        widget: "list"
+        widget: "hidden"
       - label: "Description"
         name: "description"
         required: false
@@ -98,7 +98,7 @@ collections:
         name: "tags"
         default: "costumes"
         required: false
-        widget: "list"
+        widget: "hidden"
       - label: "Description"
         name: "description"
         required: false
@@ -178,7 +178,7 @@ collections:
         name: "tags"
         default: "training"
         required: false
-        widget: "list"
+        widget: "hidden"
       - label: "Description"
         name: "description"
         required: false
