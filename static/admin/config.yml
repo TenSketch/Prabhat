@@ -26,7 +26,7 @@ collections:
         name: "categories"
         default: "gallery"
         required: false
-        widget: "hidden"
+        widget: "list"
       - label: "Upload Date"
         name: "date"
         required: false
