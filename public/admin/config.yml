@@ -18,13 +18,41 @@ collections:
         name: "image"
         required: true
         widget: "image"
-      - label: "Picture Title"
+      - label: "Image Title"
         name: "title"
         widget: "string"
         required: true
       - label: "Categories"
         name: "categories"
-        default: "gallery"
+        default: ["gallery"]
+        required: false
+        widget: "list"
+      - label: "Upload Date"
+        name: "date"
+        required: false
+        widget: "datetime"
+      - label: "Draft"
+        name: "draft"
+        widget: "boolean"
+        default: false
+        required: false
+  - name: "media" # Used in routes, e.g., /admin/collections/media
+    label: "Media" # Used in the UI
+    folder: "content/gallery" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - label: "Image"
+        name: "image"
+        required: true
+        widget: "image"
+      - label: "Image Title"
+        name: "title"
+        widget: "string"
+        required: true
+      - label: "Categories"
+        name: "categories"
+        default: ["media"]
         required: false
         widget: "list"
       - label: "Upload Date"
@@ -37,7 +65,7 @@ collections:
         default: false
         required: false
   - name: "about" # Used in routes, e.g., /admin/collections/about
-    label: "About us" # Used in the UI
+    label: "About Prabhat" # Used in the UI
     folder: "content/about" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -46,7 +74,7 @@ collections:
         name: "title"
         widget: "string"
         required: true
-      - label: "Body"
+      - label: "Content"
         name: "body"
         widget: "markdown"
         required: true
@@ -56,9 +84,9 @@ collections:
         widget: "image"
       - label: "Tags"
         name: "tags"
-        default: "about"
+        default: ["about"]
         required: false
-        widget: "hidden"
+        widget: "list"
       - label: "Description"
         name: "description"
         required: false
@@ -86,7 +114,7 @@ collections:
         name: "title"
         widget: "string"
         required: true
-      - label: "Body"
+      - label: "Content"
         name: "body"
         widget: "markdown"
         required: true
@@ -96,9 +124,9 @@ collections:
         widget: "image"
       - label: "Tags"
         name: "tags"
-        default: "costumes"
+        default: ["costumes"]
         required: false
-        widget: "hidden"
+        widget: "list"
       - label: "Description"
         name: "description"
         required: false
@@ -126,7 +154,7 @@ collections:
         name: "title"
         widget: "string"
         required: true
-      - label: "Body"
+      - label: "Content"
         name: "body"
         widget: "markdown"
         required: true
@@ -166,7 +194,7 @@ collections:
         name: "title"
         widget: "string"
         required: true
-      - label: "Body"
+      - label: "Content"
         name: "body"
         widget: "markdown"
         required: true
@@ -176,9 +204,9 @@ collections:
         widget: "image"
       - label: "Tags"
         name: "tags"
-        default: "training"
+        default: ["training"]
         required: false
-        widget: "hidden"
+        widget: "list"
       - label: "Description"
         name: "description"
         required: false
