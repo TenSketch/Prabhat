@@ -1,6 +1,6 @@
 baseURL = "https://www.prabhatha.com/"
 languageCode = "en"
-title = "Prabhat"
+title = "Prabhat-The Temple of Art"
 theme = "Prabhat-hugo-theme"
 summaryLength = 30
 [params]
