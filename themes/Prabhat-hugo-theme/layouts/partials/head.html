@@ -14,6 +14,8 @@
         <meta name="keywords" content="{{ .Site.Params.Keywords }}">
         {{ end }}
         <!-- og meta tags -->
+        <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ end }}">
+        <meta property="og:type" content="website">
         <meta property="og:url" content="{{.Site.BaseURL}}">
         <meta property="og:image" content="{{.Site.BaseURL}}ogimage.png">
         {{ if .Params.Description }}
