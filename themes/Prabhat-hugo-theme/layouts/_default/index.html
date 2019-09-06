@@ -5,23 +5,31 @@
                 <meta http-equiv="X-UA-Compatible" content="IE=egde">
                 <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
                 <meta name="generator" content="Hugo 0.55.6">
-                <title>Prabhat-The Temple of Art</title>
-                
-                <meta name="description" content="Prabhat, The Temple of Art is an internationally renowned artistic institution from India. The organization has created stage history with a unique blend of tradition along with sophisticated stage techniques of the present technological era.">
-                
-                
-                <meta name="keywords" content="arts, dance, music, theatre, plays, dramas, classicaldancesequence arts studios, a dance studio in Bengaluru, classical dance, theatre performance, stage props arena, costumes unit, make-up, training classes, Abhinaya, dance, music, drama, yoga courses, recording studios">
-                
-                
-                <meta property="og:url" content="https://www.prabhatha.com/">
-                <meta property="og:image" content="https://www.prabhatha.com/images/ogimage.png">
-                
-                <meta property="og:description" content="Prabhat, The Temple of Art is an internationally renowned artistic institution from India. The organization has created stage history with a unique blend of tradition along with sophisticated stage techniques of the present technological era.">
-                
-                
-                <meta property="og:keywords" content="arts, dance, music, theatre, plays, dramas, classicaldancesequence arts studios, a dance studio in Bengaluru, classical dance, theatre performance, stage props arena, costumes unit, make-up, training classes, Abhinaya, dance, music, drama, yoga courses, recording studios">
-                
-                
+                <title>{{ if .Title }}{{ .Title }}{{ end }}</title>
+                {{ if .Params.Description }}
+                <meta name="description" content="{{ .Params.Description }}">
+                {{ else if .Site.Params.Description }}
+                <meta name="description" content="{{ .Site.Params.Description }}">
+                {{ end }}
+                {{ if .Params.Keywords }}
+                <meta name="keywords" content="{{ .Params.Keywords }}">
+                {{ else if .Site.Params.Keywords }}
+                <meta name="keywords" content="{{ .Site.Params.Keywords }}">
+                {{ end }}
+                <!-- og meta tags -->
+                <meta property="og:url" content="{{.Site.BaseURL}}">
+                <meta property="og:image" content="{{.Site.BaseURL}}images/ogimage.png">
+                {{ if .Params.Description }}
+                <meta property="og:description" content="{{ .Params.Description }}">
+                {{ else if .Site.Params.Description }}
+                <meta property="og:description" content="{{ .Site.Params.Description }}">
+                {{ end }}
+                {{ if .Params.Keywords }}
+                <meta property="og:keywords" content="{{ .Params.Keywords }}">
+                {{ else if .Site.Params.Keywords }}
+                <meta property="og:keywords" content="{{ .Site.Params.Keywords }}">
+                {{ end }}
+                <!-- favicons -->
                 <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-icon-57x57.png">
                 <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-icon-60x60.png">
                 <link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-icon-72x72.png">
@@ -37,7 +45,7 @@
                 <meta name="msapplication-TileColor" content="#ffffff">
                 <meta name="msapplication-TileImage" content="/images/favicons/ms-icon-144x144.png">
                 <meta name="theme-color" content="#ffffff">
-                
+                <!-- Latest compiled and minified CSS -->
                 <link rel="stylesheet" href="/css/bootstrap.min.css">
                 <link rel="stylesheet" href="/fontawesome-free-5.9.0-web/css/all.min.css">
                 <link rel="stylesheet"
@@ -51,10 +59,10 @@
 
             <body>
 
-                
+                <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container-fluid">
-          <a class="navbar-brand" href="https://www.prabhatha.com/">
+          <a class="navbar-brand" href="{{.Site.BaseURL}}">
             <img src="/images/logo2.png" class="img-fluid1" alt="Prabhat logo">
           </a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -102,7 +110,7 @@
                   <h1 class="mx-auto my-0">prabhat</h1>
                   <h2 class="text-white mx-auto mt-2 mb-5">The Temple of Art</h2>
                   <a href="#about" class="btn btn-success mbv-3">Enter the temple</a>
-                  <a href="https://www.prabhatha.com/join-prabhat/register/" class="btn btn-primary ml-5">Join Prabhat</a>
+                  <a href="{{.Site.BaseURL}}join-prabhat/register/" class="btn btn-primary ml-5">Join Prabhat</a>
                 </div>
               </div>
             </div>
@@ -111,66 +119,59 @@
           <section id="about" class="about-section text-center">
                 <div class="parallax-overlay">
                   <div class="container">
-                    
+                    {{range $index, $val := .Site.Taxonomies.tags.about}}
                     <div class="row">
                       <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white my-4">About Prabhat</h2>
+                        <h2 class="text-white my-4">{{$val.Page.Title}}</h2>
                         <div class="text-white">Prabhat, The Temple of Art is an internationally renowned artistic institution from
                           India. The organization has created stage history with a unique blend of tradition along with sophisticated
                           stage techniques of the present technological era.</div>
-                        <a href="https://www.prabhatha.com/about/about_prabhat/" class="href-a">Read more</a>
+                        <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
                       </div>
                     </div>
-                    
+                    {{end}}
                   </div>
                 </div>
               </section>
 
               <section id="repertoire" class="projects-section">
                     <div class="container">
-                      
+                      {{range $index, $val := .Site.Taxonomies.tags.repertoire}}
                       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
                         <div class="col-xl-8 col-lg-7" style="position: relative;">
-                          <img class="img-fluid mb-3 mb-lg-0" src="/images/reper8.jpg" alt="Repertoire">
+                          <img class="img-fluid mb-3 mb-lg-0" src="{{.Page.Params.Image}}" alt="{{.Name}}">
                           <div class="bottom-right">
-                            <a href="https://www.prabhatha.com/repertoire/home/" class="btn btn-know">Know More</a>
+                            <a href="{{.Permalink}}" class="btn btn-know">Know More</a>
                           </div>
                         </div>
                         <div class="col-xl-4 col-lg-5">
                           <div class="featured-text text-center text-lg-left">
                             <div class="text-black mb-0">
-                              <h4 class="text-lowercase">Repertoire</h4>
-                              <hr />
-
-<ul>
-<li>Thematic dance productions.</li>
-<li>Dance Drama / Ballets.</li>
-<li>Classical dance sequences.</li>
-</ul>
-
+                              <h4 class="text-lowercase">{{.Title}}</h4>
+                              {{.Content}}
                             </div>
-                            <a href="https://www.prabhatha.com/repertoire/home/" style="text-decoration: underline">Read More</a>
+                            <a href="{{.Permalink}}" style="text-decoration: underline">Read More</a>
                           </div>
                         </div>
                       </div>
-                      
+                      {{end}}
                     </div>
                   </section>
 
                   <section id="training" class="projects-section">
                         <div class="container">
-                          
+                          {{range $index, $val := .Site.Taxonomies.tags.training}}
                           <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
                             <div class="col-lg-6">
                               <div class="d-flex h-100">
-                                <img class="img-fluid" src="/images/port19.jpg" alt="Prabhat training">
+                                <img class="img-fluid" src="{{.Page.Params.Image}}" alt="{{.Name}}">
                               </div>
                             </div>
                             <div class="col-lg-6">
                               <div class="bg-black text-center h-100 project">
                                 <div class="d-flex">
                                   <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Prabhat training</h4>
+                                    <h4 class="text-white">{{$val.Page.Title}}</h4>
                                     <p class="mb-0 text-white">
                                       SAMUDYATA - Srichakra Academy of Music, Dance, Yoga, and Theatre Arts<br>
                                       Faculty.<br>
@@ -178,7 +179,7 @@
                                     </p>
                                     <hr class="d-none d-lg-block mb-0 ml-0">
                                     <br>
-                                    <a href="https://www.prabhatha.com/training/home/" class="href-a">Read more</a>
+                                    <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
                                   </div>
                                 </div>
                               </div>
@@ -188,14 +189,14 @@
                           <div id="harikatha" class="row justify-content-center no-gutters">
                                 <div class="col-lg-6">
                                   <div class="d-flex h-100">
-                                    <img class="img-fluid" src="/images/port19.jpg" alt="Prabhat training">
+                                    <img class="img-fluid" src="{{.Page.Params.Image}}" alt="{{.Name}}">
                                   </div>
                                 </div>
                                 <div class="col-lg-6 order-lg-first">
                                   <div class="bg-black project">
                                     <div class="d-flex h-100">
                                       <div class="project-text w-100 my-auto text-center text-lg-right">
-                                        <h4 class="text-white">Prabhat training</h4>
+                                        <h4 class="text-white">{{$val.Page.Title}}</h4>
                                         <p class="mb-0 text-white">Karnataka’s <span class="font-italic">Haridaasa</span>’s cult arouses varied
                                           questions in one’s mind. The literary works of great saint poets of Karnataka answer questions relating
                                           to spiritual experiences, knowledge of Tantra, Vedic wisdom, Societal Culture, Music, Dance, theatre and
@@ -207,140 +208,26 @@
                                     </div>
                                   </div>
                                 </div>
-                                
+                                {{end}}
                               </div>
                           </section>
 
                           <section id="gallery" class="py-5">
-                                
+                                <!-- gallery-new-fancybox-->
                                 <div class="container-fluid">
                                   <header class="text-center mb-4">
                                     <h2 class="text-lowercase mb-5">gallery</h2>
                                   </header>
                                   <div class="row p-0">
-                                    
+                                    {{range $index, $val := .Site.Taxonomies.categories.gallery}}
                                     <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port10.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port10.jpg" class="zoom" alt="Prabhat10">
+                                      <a href="{{.Page.Params.image}}" class="fancybox" aria-label="Prabhat Gallery" rel="group">
+                                        <img src="{{.Page.Params.image}}" class="zoom" alt="{{.Name}}">
                                       </a>
                                     </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port11.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port11.jpg" class="zoom" alt="Prabhat11">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port12.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port12.jpg" class="zoom" alt="Prabhat12">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port13.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port13.jpg" class="zoom" alt="Prabhat13">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port14.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port14.jpg" class="zoom" alt="Prabhat14">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port16.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port16.jpg" class="zoom" alt="Prabhat15">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port16.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port16.jpg" class="zoom" alt="Prabhat16">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port17.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port17.jpg" class="zoom" alt="Prabhat17">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port18.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port18.jpg" class="zoom" alt="Prabhat18">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port19.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port19.jpg" class="zoom" alt="Prabhat19">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port2.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port2.jpg" class="zoom" alt="Prabhat2">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port20.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port20.jpg" class="zoom" alt="Prabhat20">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port3.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port3.jpg" class="zoom" alt="Prabhat3">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port4.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port4.jpg" class="zoom" alt="Prabhat4">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port5.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port5.jpg" class="zoom" alt="Prabhat5">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port6.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port6.jpg" class="zoom" alt="Prabhat6">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port7.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port7.jpg" class="zoom" alt="Prabhat7">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port8.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port8.jpg" class="zoom" alt="Prabhat8">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port9.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port9.jpg" class="zoom" alt="Prabhat9">
-                                      </a>
-                                    </div>
-                                    
-                                    <div class="col-lg-3 col-md-4 col-4 p-0">
-                                      <a href="/images/port1.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                                        <img src="/images/port1.jpg" class="zoom" alt="Prabhat1">
-                                      </a>
-                                    </div>
-                                    
+                                    {{end}}
                                     <div class="mx-auto mt-5 justify-content-center">
-                                      <a href="https://www.prabhatha.com/gallery/home/" class="font-weight-bold display-5">View more</a>
+                                      <a href="{{.Site.BaseURL}}gallery/home/" class="font-weight-bold display-5">View more</a>
                                     </div>
                                   </div>
                                 </div>
@@ -349,21 +236,20 @@
                               <section id="costumes" class="ch parallax">
                                     <div class="parallax-overlay">
                                       <div class="container">
-                                        
+                                        {{range $index, $val := .Site.Taxonomies.tags.costumes}}
                                         <div class="row">
                                           <div class="col-md-10 col-lg-8 mx-auto text-center">
-                                            <h2 class="text-white">Prabhat Costume Designers</h2>
-                                            <p class="text-white">Founded in the year 1946, Prabhat Costume Designers is a company that, for the first time introduced professional costume designing venture in Karnataka. A pioneer that is synonymous to the word; Costumes is located in KR Road, Basavangudi and VV Puram.
- The pioneer costume designing company, Prabhat Costume Designers was established in the year 1946. Unceasing and professional service of Prabhat Costumes over the years has made the company synonymous to the word, ‘Costumes’ in Karnataka.</p>
-                                            <a href="https://www.prabhatha.com/costumes/home/" class="href-a">Read more</a>
+                                            <h2 class="text-white">{{$val.Page.Title}}</h2>
+                                            <p class="text-white">{{.Summary}}</p>
+                                            <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
                                           </div>
                                         </div>
-                                        
+                                        {{end}}
                                       </div>
                                     </div>
                                   </section>
 
-                                  
+                                  <!-- Contact Section -->
 <section class="bg-black" id="footer">
         <div class="container">
             <div class="row">
@@ -408,17 +294,25 @@
                             <h3 class="m-0 text-white">Join Prabhat</h3>
                             <hr class="my-3">
                             <h5 class="my-4 text-white">Join the Temple of Art.<br>Book to enroll in our courses.</h5>
-                            <a href="https://www.prabhatha.com/join-prabhat/register/" class="href-a">
+                            <a href="{{.Site.BaseURL}}join-prabhat/register/" class="href-a">
                                 <h3>Bharatanatyam Dance</h3>
                             </a>
                             
-                            <a href="https://www.prabhatha.com/join-prabhat/register/" class="href-a">
+                            <a href="{{.Site.BaseURL}}join-prabhat/register/" class="href-a">
                                 <h3>Kathak Dance</h3>
                             </a>
                             
-                            <a href="https://www.prabhatha.com/join-prabhat/register/" class="href-a">
+                            <a href="{{.Site.BaseURL}}join-prabhat/register/" class="href-a">
                                 <h3>Karnatic Music</h3>
-                                
+                                <!-- <div class="razorpay-embed-btn" data-url="https://rzp.io/l/6U1hMzy" data-text="Buy Now" data-color="#528FF0" data-size="large">
+                                    <script>
+                                      (function(){
+                                        var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+                                        if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+                                        s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+                                        rzp && rzp.init && rzp.init()}})();
+                                    </script>
+                                  </div> -->
     
                             </a>
                         </div>
@@ -434,14 +328,14 @@
                             <hr class="my-3">
                             <div class="text-black-50">
                                 <ul class="list-unstyled">
-                                    <li><a href="https://www.prabhatha.com/">Home</a></li>
-                                    <li class="my-1"><a href="https://www.prabhatha.com/about/about_prabhat/">About us</a></li>
-                                    <li><a href="https://www.prabhatha.com/repertoire/home/">Our Repertoire</a></li>
-                                    <li class="my-1"><a href="https://www.prabhatha.com/training/home/">Training</a></li>
+                                    <li><a href="{{.Site.BaseURL}}">Home</a></li>
+                                    <li class="my-1"><a href="{{.Site.BaseURL}}about/about_prabhat/">About us</a></li>
+                                    <li><a href="{{.Site.BaseURL}}repertoire/home/">Our Repertoire</a></li>
+                                    <li class="my-1"><a href="{{.Site.BaseURL}}training/home/">Training</a></li>
                                     <li><a href="https://www.sharatprabhath.com/">Harikatha</a></li>
-                                    <li class="my-1"><a href="https://www.prabhatha.com/costumes/home/">Costumes</a></li>
-                                    <li><a href="https://www.prabhatha.com/gallery/home/">Gallery & Media</a></li>
-                                    <li class="mt-1"><a href="https://www.prabhatha.com/join-prabhat/register/">Register a course</a></li>
+                                    <li class="my-1"><a href="{{.Site.BaseURL}}costumes/home/">Costumes</a></li>
+                                    <li><a href="{{.Site.BaseURL}}gallery/home/">Gallery & Media</a></li>
+                                    <li class="mt-1"><a href="{{.Site.BaseURL}}join-prabhat/register/">Register a course</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -501,11 +395,13 @@
                 <a href="https://www.facebook.com/PrabhathaDotCom" aria-label="facebook page of Prabhat" target="_blank" rel="noopener" class="mx-2">
                     <i class="fab fa-facebook-f fa-2x"></i>
                 </a>
-                
+                <!-- <a href="#" class="mx-2">
+                    <i class="fab fa-github fa-2x"></i>
+                </a> -->
             </div>
         </div>
     </section>
-    
+    <!-- Footer -->
     <footer class="bg-black small text-center text-white">
         <div class="container">
             <h6>Made with <i class="fas fa-heart"></i>&nbsp;by <a href="https://www.tensketch.com/" target="_blank" rel="noopener" aria-label="TenSketch link">TenSketch</a><br><br>Copyright &copy; Prabhat 2019</h6>
@@ -534,7 +430,7 @@ $(document).ready(function(){
                 $('#back-to-top').fadeOut();
             }
         });
-        
+        // scroll body to 0px on click
         $('#back-to-top').click(function () {
             $('#back-to-top').tooltip('hide');
             $('body,html').animate({
