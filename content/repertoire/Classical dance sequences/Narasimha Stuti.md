@@ -10,6 +10,7 @@ draft: false
 
 
 #### **Narasimha Stuti:**
+
 Bharatanatyam cult consists in its tradition devotional recitals, and Narasimha Stuti is one such composition of the father of Carnatic music, Purandara Dasaru. Here, saint poet speaks about the greatness of compassion the almighty displayed upon his ace enemy Hiranya Kashyapu.
 
 **Concept:** Raghavendra J Prabhat

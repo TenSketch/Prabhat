@@ -10,6 +10,7 @@ draft: false
 
 
 #### **Kapi Tillana:**
+
 A Tillana is a rhythm driven composition that is performed at the end of a recital. Kapi Tillana describes the beauty of Lord Nataraja and ecstasy one experiences in watching the Lord of Dance perform _‘Aananda Tandava._’
 
 **Concept:**

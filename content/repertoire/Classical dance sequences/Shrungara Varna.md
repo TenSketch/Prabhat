@@ -9,6 +9,7 @@ draft: false
 ---
 
 #### **Shrungara Varna:**
+
 A unique Bharatanatyam Varna in Kannada which is based on the Shrungara Rasa/quality - the quality of romance or love. Shrungara Varna is an unprecedented experiment, where the Lord of Love, Manmatha (Cupid) is glorified. Every trait of Manmatha and the life history of Manmatha is captured in the Varna.
 
 **Concept & Lyrics:** Raghavendra J Prabhat

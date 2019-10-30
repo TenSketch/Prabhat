@@ -9,6 +9,7 @@ draft: false
 ---
 
 #### **Namah Parvati Pathe:**
+
 A devotional recital on God of Gods, Veerupaksha / Shiva. This sequence describes the ornaments, compassion and the life story of Lord Shiva using vibrant dance moves of Bharatanatyam
 
 **Concept:** Raghavendra J Prabhat

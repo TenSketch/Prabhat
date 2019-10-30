@@ -1,5 +1,5 @@
 ---
-title: "Repertoire"
+title: "Repertoire - Prabhat Arts International"
 date: 2019-06-27T20:08:11+05:30
 image: "/images/reper8.jpg"
 tags: ["repertoire"]

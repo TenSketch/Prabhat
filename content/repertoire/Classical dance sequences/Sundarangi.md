@@ -9,6 +9,7 @@ draft: false
 ---
 
 #### **Sundarangi:**
+
 A Jaavali which depicts the predicament of the _Nayika_ pining for her beloved. Sundarangi beautifully expresses the intricacies of feminism. Sundarangi is a contemporary concept with a blend of the traditional dance form.
 
 **Concept:** Raghavendra J Prabhat
