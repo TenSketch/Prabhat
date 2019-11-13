@@ -66,6 +66,9 @@
     </section>
     <section id="pkt">
         <div class="container">
+                {{range $index, $val := .Site.Taxonomies.tags.pkt}}
+                <div class="youtube-player youtube" data-id="{{.Content}}"></div>
+                {{end}}
         </div>
     </section>
     {{partial "footer-single" .}}
