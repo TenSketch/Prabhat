@@ -2,6 +2,7 @@ baseURL = "https://www.prabhatha.com/"
 languageCode = "en"
 title = "Prabhat-The Temple of Art"
 theme = "Prabhat-hugo-theme"
+enableRobotsTXT = "true"
 
 [params]
     description = "Prabhat, The Temple of Art is an internationally renowned artistic institution from India. The organization has created stage history with a unique blend of tradition along with sophisticated stage techniques of the present technological era."
