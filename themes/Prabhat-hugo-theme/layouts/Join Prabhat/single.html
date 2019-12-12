@@ -11,40 +11,33 @@
                 <div class="row">
                     <div class="col-md-10 col-lg-8 mx-auto">
                         <form name="join_Prabhat" method="POST" data-netlify="true" data-netlify-recaptcha="true">
-                            <div class="form-group">
+                            <div class="form-group" action="{{.Site.BaseURL}}thank-you">
                                 <label>Name of the Parent</label>
-                                <input type="text" class="form-control" placeholder="Enter Parent's name"
-                                    name="Name of the Parent" aria-label="Name of the Parent" required>
+                                <input type="text" class="form-control" name="Name of the Parent" placeholder="Enter Parent's name" aria-label="Name of the Parent" required>
                             </div>
                             <div class="form-group">
                                 <label>Name of the Student</label>
-                                <input type="text" class="form-control" placeholder="Enter student's name"
-                                    name="Name of the Student" aria-label="Name of the Student" required>
+                                <input type="text" class="form-control" name="Name of the Student" placeholder="Enter student's name" aria-label="Name of the Student" required>
                             </div>
                             <div class="form-group">
-                                <label>Institution branch
-                                    area</label>
-                                <input type="text" class="form-control" placeholder="Enter Institution branch area"
-                                    name="Institution branch area" aria-label="Institution branch area" required>
+                                <label>Institution branch area</label>
+                                <input type="text" class="form-control" name="Institution branch area" placeholder="Enter Institution branch area" aria-label="Institution branch area" required>
                             </div>
                             <div class="form-group">
                                 <label>Contact #</label>
-                                <input type="tel" class="form-control" placeholder="Enter your contact no."
-                                    name="Contact #" aria-label="Contact number" required>
+                                <input type="tel" class="form-control" name="Contact #" placeholder="your 10 digit mobile no." minlength="10" maxlength="10" autocomplete="off" aria-label="Contact number" required>
                             </div>
                             <div class="form-group">
                                 <label>Email</label>
-                                <input type="email" class="form-control" name="Email id" aria-describedby="emailHelp"
-                                    placeholder="abc@mail.com" required>
+                                <input type="email" class="form-control" name="Email id" placeholder="abc@somemail.com" aria-label="e_mail_address" autocomplete="off" required>
                             </div>
                             <div class="form-group">
                                 <label>Profession</label>
-                                <input type="text" class="form-control" placeholder="Enter your Profession"
-                                    name="Profession" aria-label="Profession" required>
+                                <input type="text" class="form-control" name="Profession" placeholder="Enter your Profession" aria-label="Profession" required>
                             </div>
                             <div class="form-group">
                                 <label>Select course</label>
-                                <select name="course" class="form-control" required="">
+                                <select class="form-control" name="course" aria-label="select course" required="">
                                     <option value="Bharatanatyam Dance">Bharatanatyam Dance</option>
                                     <option value="Kathak Dance">Kathak Dance</option>
                                     <option value="Karnatic Music">Karnatic Music</option>
@@ -63,7 +56,8 @@
             </div>
         </div>
     </section>
-    {{partial "footer-join" .}}
+    {{partial "footer" .}}
+    {{partial "bt" .}}
     {{partial "scripts" .}}
 </body>
 

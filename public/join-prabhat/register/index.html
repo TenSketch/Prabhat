@@ -43,8 +43,6 @@
     <link rel="stylesheet" href="/fontawesome-free-5.9.0-web/css/all.min.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
     <link rel="stylesheet" href="/css/grayscale.css">
     <link rel="stylesheet" href="/fancybox-2.1.7/jquery.fancybox.min.css">
     
@@ -54,6 +52,14 @@
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'UA-153885482-1');
+    </script>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-687194522"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-687194522');
     </script>
 </head>
 
@@ -105,40 +111,33 @@
                 <div class="row">
                     <div class="col-md-10 col-lg-8 mx-auto">
                         <form name="join_Prabhat" method="POST" data-netlify="true" data-netlify-recaptcha="true">
-                            <div class="form-group">
+                            <div class="form-group" action="https://www.prabhatha.com/thank-you">
                                 <label>Name of the Parent</label>
-                                <input type="text" class="form-control" placeholder="Enter Parent's name"
-                                    name="Name of the Parent" aria-label="Name of the Parent" required>
+                                <input type="text" class="form-control" name="Name of the Parent" placeholder="Enter Parent's name" aria-label="Name of the Parent" required>
                             </div>
                             <div class="form-group">
                                 <label>Name of the Student</label>
-                                <input type="text" class="form-control" placeholder="Enter student's name"
-                                    name="Name of the Student" aria-label="Name of the Student" required>
+                                <input type="text" class="form-control" name="Name of the Student" placeholder="Enter student's name" aria-label="Name of the Student" required>
                             </div>
                             <div class="form-group">
-                                <label>Institution branch
-                                    area</label>
-                                <input type="text" class="form-control" placeholder="Enter Institution branch area"
-                                    name="Institution branch area" aria-label="Institution branch area" required>
+                                <label>Institution branch area</label>
+                                <input type="text" class="form-control" name="Institution branch area" placeholder="Enter Institution branch area" aria-label="Institution branch area" required>
                             </div>
                             <div class="form-group">
                                 <label>Contact #</label>
-                                <input type="tel" class="form-control" placeholder="Enter your contact no."
-                                    name="Contact #" aria-label="Contact number" required>
+                                <input type="tel" class="form-control" name="Contact #" placeholder="your 10 digit mobile no." minlength="10" maxlength="10" autocomplete="off" aria-label="Contact number" required>
                             </div>
                             <div class="form-group">
                                 <label>Email</label>
-                                <input type="email" class="form-control" name="Email id" aria-describedby="emailHelp"
-                                    placeholder="abc@mail.com" required>
+                                <input type="email" class="form-control" name="Email id" placeholder="abc@somemail.com" aria-label="e_mail_address" autocomplete="off" required>
                             </div>
                             <div class="form-group">
                                 <label>Profession</label>
-                                <input type="text" class="form-control" placeholder="Enter your Profession"
-                                    name="Profession" aria-label="Profession" required>
+                                <input type="text" class="form-control" name="Profession" placeholder="Enter your Profession" aria-label="Profession" required>
                             </div>
                             <div class="form-group">
                                 <label>Select course</label>
-                                <select name="course" class="form-control" required="">
+                                <select class="form-control" name="course" aria-label="select course" required="">
                                     <option value="Bharatanatyam Dance">Bharatanatyam Dance</option>
                                     <option value="Kathak Dance">Kathak Dance</option>
                                     <option value="Karnatic Music">Karnatic Music</option>
@@ -160,8 +159,62 @@
     
 <section class="bg-black" id="footer">
     <div class="container">
-       
-        <div class="row pt-5">
+        <div class="row">
+            <div class="col-md-6 mb-3 mb-md-0">
+                <div class="card1 py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-comment-dots text-primary mb-2"></i>
+                        <h3 class="m-0 text-white">Write to Prabhat</h3>
+                        <hr class="my-3">
+                        <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true"
+    action="https://www.prabhatha.com/thank-you">
+    <div class="form-group">
+        <label style="text-align:left" for="name">Name</label>
+        <input type="text" class="form-control" name="Name" placeholder="Enter your name" aria-label="Name"
+            required>
+    </div>
+    <div class="form-group">
+        <label for="contact">Contact #</label>
+        <input type="tel" class="form-control" name="Contact #"
+        placeholder="your 10 digit mobile no." aria-label="contact_no" minlength="10" maxlength="10"
+        autocomplete="off" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" name="Email id" placeholder="abc@somemail.com" aria-label="e_mail_address" autocomplete="off" required>
+    </div>
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" name="Message" placeholder="Enter your message" rows="3"
+            aria-label="message" spellcheck="false" required></textarea>
+    </div>
+    <div data-netlify-recaptcha="true" class="recaptcha"></div>
+    <input type="submit" class="btn btn-info1" value="Submit" aria-label="Submit button">
+</form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3 mb-md-0">
+                <div class="card1 py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-certificate text-primary mb-2"></i>
+                        <h3 class="m-0 text-white">Join Prabhat</h3>
+                        <hr class="my-3">
+                        <h5 class="my-4 text-white">Join the Temple of Art.<br>Book to enroll in our courses.</h5>
+                        <a href="https://www.prabhatha.com/join-prabhat/register/" class="href-a">
+                            <h3>Bharatanatyam Dance</h3>
+                        </a>
+                        <a href="https://www.prabhatha.com/join-prabhat/register/" class="href-a">
+                            <h3>Kathak Dance</h3>
+                        </a>
+                        <a href="https://www.prabhatha.com/join-prabhat/register/" class="href-a">
+                            <h3>Karnatic Music</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
             <div class="col-md-4 mb-3 mb-md-0">
                 <div class="card py-4 h-100">
                     <div class="card-body text-center">
@@ -177,7 +230,8 @@
                                 <li><a href="https://www.sharatprabhath.com/">Harikatha</a></li>
                                 <li class="my-1"><a href="https://www.prabhatha.com/costumes/home/">Costumes</a></li>
                                 <li><a href="https://www.prabhatha.com/gallery/home/">Gallery & Media</a></li>
-                                <li class="mt-1"><a href="https://www.prabhatha.com/join-prabhat/register/">Register a course</a></li>
+                                <li class="mt-1"><a href="https://www.prabhatha.com/join-prabhat/register/">Register a course</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -206,7 +260,8 @@
                         <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                         <h4 class="m-0">Address</h4>
                         <hr class="my-3">
-                        <div class="text-black mb-2">17, 5-A main, Obalappa Garden, KR road, Bangalore, KA - 560 070</div>
+                        <div class="text-black mb-2">17, 5-A main, Obalappa Garden, KR road, Bangalore, KA - 560 070
+                        </div>
                         <i class="fas fa-envelope text-primary mb-2"></i>
                         <h4 class="m-0">Email</h4>
                         <hr class="my-3">
@@ -214,9 +269,8 @@
                             <a href="mailto:info@prabhatha.com" target="_top">info@prabhatha.com</a>
                         </div>
                         <div class="text-black-50 mb-2">
-                                <a href="mailto:sharatrprabhath@gmail.com" target="_top">sharatrprabhath@gmail.com</a>
-                            </div>
-
+                            <a href="mailto:sharatrprabhath@gmail.com" target="_top">sharatrprabhath@gmail.com</a>
+                        </div>
                         <i class="fas fa-mobile-alt text-primary mb-2"></i>
                         <h4 class="m-0">Phone</h4>
                         <hr class="my-3">
@@ -224,29 +278,34 @@
                             <a href="tel:+919986881281">91-9986881281</a>
                         </div>
                         <div class="text-black-50">
-                                <a href="tel:+919886576659">91-9886576659</a>
-                            </div>
+                            <a href="tel:+919886576659">91-9886576659</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="social d-flex mt-5 justify-content-center">
-                <a href="https://www.youtube.com/channel/UCJ7X3mbP2srKzgibYhw9Hrg" target="_blank" rel="noopener" class="mx-2">
-                    <i class="fab fa-youtube fa-2x"></i>
-                </a>
-                <a href="https://www.facebook.com/PrabhathaDotCom" target="_blank" rel="noopener" class="mx-2">
-                    <i class="fab fa-facebook-f fa-2x"></i>
-                </a>
-                
-            </div>
+            <a href="https://www.youtube.com/channel/UCJ7X3mbP2srKzgibYhw9Hrg" aria-label="youtube channel of Prabhat"
+                target="_blank" rel="noopener" class="mx-2">
+                <i class="fab fa-youtube fa-2x"></i>
+            </a>
+            <a href="https://www.facebook.com/PrabhathaDotCom" aria-label="facebook page of Prabhat" target="_blank"
+                rel="noopener" class="mx-2">
+                <i class="fab fa-facebook-f fa-2x"></i>
+            </a>
+        </div>
     </div>
 </section>
 
 <footer class="bg-black small text-center text-white">
     <div class="container">
-        <h6>Made with <i class="fas fa-heart"></i>&nbsp;by <a href="https://www.tensketch.com/" target="_blank" rel="noopener" aria-label="TenSketch link">TenSketch</a><br><br>Copyright &copy; Prabhat 2019</h6>
+        <h6>Made with <i class="fas fa-heart"></i>&nbsp;by <a href="https://www.tensketch.com/" target="_blank"
+                rel="noopener" aria-label="TenSketch link">TenSketch</a><br><br>Copyright &copy; Prabhat 2019</h6>
     </div>
 </footer>
+    <a id="back-to-top" href="#" class="btn btn-primary btn-top back-to-top" role="button"
+    aria-label="Click to return on the top page" data-toggle="tooltip" data-placement="left"><i
+        class="fas fa-chevron-up fa-3x"></i></a>
     <script src="/js/jquery-3.3.1.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="/js/bootstrap.min.js" type="text/javascript"></script>

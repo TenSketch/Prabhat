@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.prabhatha.com/thank-you/</loc>
+    <lastmod>2019-12-12T08:33:07+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.prabhatha.com/events/dusk-of-an-era/</loc>
     <lastmod>2019-08-09T12:11:11+05:30</lastmod>
   </url>
@@ -687,7 +692,7 @@
   
   <url>
     <loc>https://www.prabhatha.com/</loc>
-    <lastmod>2019-08-09T12:11:11+05:30</lastmod>
+    <lastmod>2019-12-12T08:33:07+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -748,6 +753,12 @@
   <url>
     <loc>https://www.prabhatha.com/tags/tdp/</loc>
     <lastmod>2019-06-27T20:08:11+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/tags/thanks/</loc>
+    <lastmod>2019-12-12T08:33:07+05:30</lastmod>
     <priority>0</priority>
   </url>
   
