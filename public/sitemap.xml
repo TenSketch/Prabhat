@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.prabhatha.com/register/thank-you/</loc>
+    <lastmod>2019-12-12T08:33:07+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.prabhatha.com/thank-you/</loc>
     <lastmod>2019-12-12T08:33:07+05:30</lastmod>
   </url>
@@ -148,7 +153,7 @@
   </url>
   
   <url>
-    <loc>https://www.prabhatha.com/join-prabhat/register/</loc>
+    <loc>https://www.prabhatha.com/join-prabhat/register-form/</loc>
     <lastmod>2019-06-27T20:08:11+05:30</lastmod>
   </url>
   
@@ -703,6 +708,12 @@
   </url>
   
   <url>
+    <loc>https://www.prabhatha.com/register/</loc>
+    <lastmod>2019-12-12T08:33:07+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.prabhatha.com/tags/repertoire/</loc>
     <lastmod>2019-06-27T20:08:11+05:30</lastmod>
     <priority>0</priority>
@@ -757,7 +768,13 @@
   </url>
   
   <url>
-    <loc>https://www.prabhatha.com/tags/thanks/</loc>
+    <loc>https://www.prabhatha.com/tags/thanksc/</loc>
+    <lastmod>2019-12-12T08:33:07+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/tags/thanksr/</loc>
     <lastmod>2019-12-12T08:33:07+05:30</lastmod>
     <priority>0</priority>
   </url>
