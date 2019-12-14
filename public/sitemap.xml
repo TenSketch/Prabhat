@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.prabhatha.com/newspic-copy/</loc>
+    <lastmod>2019-12-14T16:28:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/newspic/</loc>
+    <lastmod>2019-12-14T16:28:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/news/</loc>
+    <lastmod>2019-12-14T16:07:45+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.prabhatha.com/register/thank-you/</loc>
     <lastmod>2019-12-12T08:33:07+05:30</lastmod>
   </url>
@@ -672,6 +687,12 @@
   </url>
   
   <url>
+    <loc>https://www.prabhatha.com/categories/hgal/</loc>
+    <lastmod>2019-06-20T13:25:57+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.prabhatha.com/join-prabhat/</loc>
     <lastmod>2019-06-27T20:08:11+05:30</lastmod>
     <priority>0</priority>
@@ -690,6 +711,18 @@
   </url>
   
   <url>
+    <loc>https://www.prabhatha.com/tags/news/</loc>
+    <lastmod>2019-12-14T16:07:45+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/categories/newspic/</loc>
+    <lastmod>2019-12-14T16:28:17+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.prabhatha.com/tags/pkt/</loc>
     <lastmod>2019-06-27T14:35:11+00:00</lastmod>
     <priority>0</priority>
@@ -697,7 +730,7 @@
   
   <url>
     <loc>https://www.prabhatha.com/</loc>
-    <lastmod>2019-12-12T08:33:07+05:30</lastmod>
+    <lastmod>2019-12-14T16:28:17+05:30</lastmod>
     <priority>0</priority>
   </url>
   

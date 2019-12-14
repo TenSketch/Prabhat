@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Newspic on Prabhat-The Temple of Art</title>
+    <link>https://www.prabhatha.com/categories/newspic/</link>
+    <description>Recent content in Newspic on Prabhat-The Temple of Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 14 Dec 2019 16:28:17 +0530</lastBuildDate>
+    
+	<atom:link href="https://www.prabhatha.com/categories/newspic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rajyothsava_award</title>
+      <link>https://www.prabhatha.com/newspic-copy/</link>
+      <pubDate>Sat, 14 Dec 2019 16:28:17 +0530</pubDate>
+      
+      <guid>https://www.prabhatha.com/newspic-copy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rajyothsava_award</title>
+      <link>https://www.prabhatha.com/newspic/</link>
+      <pubDate>Sat, 14 Dec 2019 16:28:17 +0530</pubDate>
+      
+      <guid>https://www.prabhatha.com/newspic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

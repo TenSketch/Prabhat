@@ -148,7 +148,7 @@
       <h2 class="text-lowercase mb-5">gallery</h2>
     </header>
     <div class="row p-0">
-      {{range $index, $val := .Site.Taxonomies.categories.gallery}}
+      {{range $index, $val := .Site.Taxonomies.categories.hgal}}
       <div class="col-lg-3 col-md-4 col-4 p-0">
         <a href="{{.Page.Params.image}}" class="fancybox" aria-label="Prabhat Gallery" rel="group">
           <img src="{{.Page.Params.image}}" class="zoom" alt="{{.Name}}">
@@ -159,6 +159,7 @@
         <a href="{{.Site.BaseURL}}gallery/home/" class="font-weight-bold display-5">View more</a>
       </div>
     </div>
+    <hr>
   </div>
 </section>
 {{end}}
@@ -179,4 +180,33 @@
     </div>
   </div>
 </section>
+{{end}}
+
+{{define "news"}}
+
+<section id="news" class="pb-5 mb-5">
+  <div class="container">
+      {{range $index, $val := .Site.Taxonomies.tags.news}}
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+          <h1 class="mb-3">{{$val.Page.Title}}</h1>
+          <h2 class="text-capitalize mb-5">{{.Summary}}</h2>
+          <!-- <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a> -->
+        </div>
+      </div>
+      {{end}}
+      <div class="row">
+          {{range $index, $val := .Site.Taxonomies.categories.newspic}}
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <a href="{{.Page.Params.image}}" class="fancybox" aria-label="{{.Name}}" rel="group">
+              <img src="{{.Page.Params.image}}" class="img-thumbnail-b" style="border-radius: 10px;" alt="{{.Name}}">
+            </a>
+          </div>
+          {{end}}
+         
+        </div>
+   
+  </div>
+</section>
+
 {{end}}

@@ -19,11 +19,9 @@
                 <div class="col-md-6 col-12">
                     <div class="card card-cost">
                         <div class="card-body">
-                            <h4 class="card-title  text-white">{{.Page.Title}}</h4>
+                            <h4 class="card-title text-white">{{.Page.Title}}</h4>
                         </div>
-                        <a href="{{.Page.Params.image}}" class="fancybox" aria-label="costumes-portfolio" rel="group">
-                                <img src="{{.Page.Params.image}}" class="img-thumbnail" style="height: 350px;" alt="{{.Name}}">
-                              </a>
+                        <img src="{{.Page.Params.image}}" class="img-thumbnail-t" alt="{{.Name}}">
                     </div>
                 </div>
                 {{end}}
