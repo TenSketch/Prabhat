@@ -18,7 +18,7 @@ html {
 p{
   text-align: justify!important
 }
-h2,h3,h4,h5{
+h2,h4,h5{
 text-transform: lowercase;
   margin-top: 1rem
 }
@@ -247,6 +247,7 @@ blockquote {
     color: #fff;
     padding: 1.25rem 2rem;
     border-bottom: 0.25rem solid transparent;
+    text-transform: lowercase;
   }
   #mainNav.navbar-shrink .nav-link:hover {
     color: #bca227;
