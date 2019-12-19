@@ -1,11 +1,10 @@
 ---
-title: About Prabhat
+title: About | Academy of Dance and Theatre Art | Prabhat - The Temple of Art
 image: /images/Shiva-Nataraj.png
 tags:
   - about
 description: >-
-  Prabhat, The Temple of Art is an internationally renowned artistic institution
-  from India.
+  An International standard institute, equipped with prepared stage props arena, costumes unit, make-up, dance, music and drama, yoga courses and recording studios.
 keywords: >-
   about prabhat, about company, prabhatha, Artistic Directors and
   Choreographers, Co-Directors, Music Composers and Collaborators, Overview-

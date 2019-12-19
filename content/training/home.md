@@ -1,15 +1,16 @@
 ---
-title: Prabhat training
+title: Music, Dance, Yoga, And Theatre Arts Training |  Prabhat - The Temple of Art
 image: /images/port19.jpg
 tags:
   - training
-description: Prabhat- training.
+description: Prabhat, The Temple of Art - Best training academy for Theatre Arts, Music, Dance and Yoga in Bangalore.
 keywords: >-
   SAMUDYATA - Srichakra Academy of Music - Dance - Yoga and Theatre Arts,
   Faculty, Prabhat Kala Tapovana.
 date: 2019-06-27T14:38:11.000Z
 draft: false
 ---
+
 # Training
 
 - - -
@@ -47,7 +48,7 @@ Interested in theatre!? Then, this is the place you should choose. We organize w
 > Interested in our activities? Subscribe to the institute (Button) -
 > They share their email and WhatsApp number
 
-## **Faculty & Training:**
+## **Faculty and Training:**
 
 ### **Dance faculty**
 

@@ -9,13 +9,14 @@ draft: false
 ---
 
 ---
+
 #### **7 Rays of 7 Hills:**
 
 The entire universe is filled with colours and every colour has an interpretation. 7 Rays of 7 Hills interprets the colourful rays as the rays of grace by the Lord of 7 hills, Srinivasa. 7 Rays of 7 Hills is an enchanting classical dance, which depicts that one can draw the 7 colourful rays (personifying the 7 chakras) of devotion towards the self just by soaking in the ecstasy of devotion.
 
 **Concept:** Raghavendra J Prabhat
 
-**Choreography:** Shakuntala R Prabhat & Sathya Narayan Raju
+**Choreography:** Shakuntala R Prabhat and Sathya Narayan Raju
 
 **Music:** Praveen D Rao;
 

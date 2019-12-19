@@ -8,18 +8,18 @@ keywords: "Thematic dance productions, Dance Drama / Ballets, Classical dance se
 draft: false
 ---
 
-#### **Kathaastra:** 
+#### **Kathaastra:**
 
 Kathastra, as the name suggests, is a unique blend of Harikatha, Kavya, World Music, 3D Visuals, and five forms of World Dance. A novel experiment that contemporised the eternal epic “Mahabharata” using unprecedented stage techniques. Kathaastra is an unrivalled Story Dance Musical which has been adapted from one of the most celebrated and worshipped Kannada Literatures, Karnata Bharatha Katha Manjari, created by Roopaka Samrajya Chakravarti, Kumara Vyasa.
 
 **Glimpse:** Trailer
 
-**Concept &** **Choreography:** Bharat R Prabhat & Sharat R Prabhat
+**Concept and** **Choreography:** Bharat R Prabhat and Sharat R Prabhat
 
-**Music Composers**: Sharat R Prabhat & Rohit Bhat
+**Music Composers**: Sharat R Prabhat and Rohit Bhat
 
 **Music Arrangement:** Sattvik Chakravarthy
 
-**Duration:** 45 mins & 60 mins
+**Duration:** 45 mins and 60 mins
 
 ---

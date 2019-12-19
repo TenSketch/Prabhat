@@ -12,7 +12,7 @@ draft: false
 
 As the name suggests, Sri Krishnah Kamalanatho is the only Sanskrit varna adapted to classical dance form of Bharatanatyam. The Varna has been adapted from Sri Krishnashtora Shathanama Stotra. The Varna depicts the entire life history of Lord Krushna as per the Stotra.
 
-**Concept & Compilation:** Raghavendra J Prabhat
+**Concept and Compilation:** Raghavendra J Prabhat
 
 **Choreography:** Guru Narmada
 

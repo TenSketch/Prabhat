@@ -16,7 +16,7 @@ India is known for the culture and heritage she totes in her. The sculpturous ma
 
 **Concept:** Raghavendra J Prabhat
 
-**Choreography:** Shakuntala R Prabhat & Sathya Narayan Raju
+**Choreography:** Shakuntala R Prabhat and Sathya Narayan Raju
 
 **Music:** Praveen D Rao
 

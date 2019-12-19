@@ -14,7 +14,7 @@ Tamasoma Jyotirgamaya is a newfangled ballet which literally means - ‘From 	Da
 
 **Concept:** Raghavendra J Prabhat
 
-**Choreography:** Shakuntala R Prabhat & Sathya Narayan Raju
+**Choreography:** Shakuntala R Prabhat and Sathya Narayan Raju
 
 **Music:** Praveen D Rao
 

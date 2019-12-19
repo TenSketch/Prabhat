@@ -16,7 +16,7 @@ Famous folklore of Karnataka, Punyakoti - which is even to the present day sung 
 
 **Concept:** Raghavendra J Prabhat
 
-**Choreography:** Shakuntala R Prabhat & Sathya Narayan Raju
+**Choreography:** Shakuntala R Prabhat and Sathya Narayan Raju
 
 **Music:** Praveen D Rao
 

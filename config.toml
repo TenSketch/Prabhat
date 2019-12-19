@@ -1,10 +1,10 @@
 baseURL = "https://www.prabhatha.com/"
 languageCode = "en"
-title = "Prabhat-The Temple of Art"
+title = "Prabhat - The Temple of Art | Academy of Dance and Theatre Art | Blend of Tradition and Elegance"
 theme = "Prabhat-hugo-theme"
 enableRobotsTXT = "true"
 
 [params]
-    description = "Prabhat, The Temple of Art is an internationally renowned artistic institution from India. The organization has created stage history with a unique blend of tradition along with sophisticated stage techniques of the present technological era."
+    description = "Prabhat, The Temple of Art is a renowned artistic institution from India, uniquely blending tradition with sophistication of the present technological era."
     keywords = "arts, dance, music, theatre, plays, dramas, classicaldancesequence arts studios, a dance studio in Bengaluru, classical dance, theatre performance, stage props arena, costumes unit, make-up, training classes, Abhinaya, dance, music, drama, yoga courses, recording studios"
     author = "Balachandiran - TenSketch"

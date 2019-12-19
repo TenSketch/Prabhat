@@ -8,13 +8,13 @@ keywords: "Thematic dance productions, Dance Drama / Ballets, Classical dance se
 draft: false
 ---
 
-#### **Shrinivasa Kalyana:** 
+#### **Shrinivasa Kalyana:**
 
 This novel presentation “Sreenivasa Kalyana” integrates the conceptual and the symbolic aspects of the “intellect” and the mind. The first half unfolds with the universal concept of the macro unifying with the micro. The audience can envisage the process of ultimate realization through the unparalleled story of Lord Srinivasa.
 
 **Concept:** Raghavendra J Prabhat
 
-**Choreography:** Shakuntala R Prabhat & Sathya Narayan Raju
+**Choreography:** Shakuntala R Prabhat and Sathya Narayan Raju
 
 **Music:** Praveen D Rao
 

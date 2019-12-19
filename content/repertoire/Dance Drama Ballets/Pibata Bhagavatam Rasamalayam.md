@@ -14,7 +14,7 @@ Among all the _Puranas, Bhagavata Purana_ is considered as “Maha Purana.” Pi
 
 **Concept:** Raghavendra J Prabhat
 
-**Choreography:** Udupi Lakshmi Narayanaacharya & Shakuntala R Prabhat
+**Choreography:** Udupi Lakshmi Narayanaacharya and Shakuntala R Prabhat
 
 **Music:** Tirumale Srinivas
 

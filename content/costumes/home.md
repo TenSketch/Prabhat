@@ -1,8 +1,8 @@
 ---
-title: "Prabhat Costume Designers"
+title: "Prabhat Costume Designers | Academy of Dance and Theatre Art | Prabhat - The Temple of Art"
 date: 2019-06-21T14:58:21+05:30
 tags: ["costumes"]
-description: "Prabhat- costume designers."
+description: "Prabhat Costume Designers has for the first time, introduced professional costume designing venture in Karnataka. Located at KR Road, Basavangudi and VV Puram."
 keywords: "costume designers, costumes"
 draft: false
 ---

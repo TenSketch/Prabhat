@@ -21,6 +21,6 @@ A Tillana is a rhythm driven composition that is performed at the end of a recit
 
 **Duration:** 8 mins
 
-**Dancers:** Solo & Group
+**Dancers:** Solo and Group
 
 ---

@@ -12,7 +12,7 @@ draft: false
 
 A varna in the classical dance form of Bharatanatyam is usually single rasa/essence/quality oriented. Navarasa Varna is a unique experiment that portrays 9 qualities/rasas of Lord Sri Krushna with specific episodes in Kannada. Navarasa Krushna Varna is an unprecedented classical experiment over the years.
 
-**Concept & Lyrics:** Raghavendra J Prabhat
+**Concept and Lyrics:** Raghavendra J Prabhat
 
 **Choreography:** Shakuntala R Prabhat
 
