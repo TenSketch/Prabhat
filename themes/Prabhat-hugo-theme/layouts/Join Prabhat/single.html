@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-{{partial "head" .}}
+{{partial "head-join" .}}
 <body>
     {{partial "singlenav" .}}
     <section class="join parallax">
@@ -9,8 +9,7 @@
                 <h1 class="text-center mb-5">Join Prabhat form</h1>
                 <div class="row">
                     <div class="col-md-10 col-lg-8 mx-auto">
-                        <form name="join_Prabhat" method="POST" data-netlify="true" data-netlify-recaptcha="true"
-                            action="/register/thank-you/">
+                        <form name="join_Prabhat" method="POST" data-netlify="true" action="/register/thank-you/">
                             <div class="form-group">
                                 <label>Name of the Parent</label>
                                 <input type="text" class="form-control" name="Name_of_the_Parent"
@@ -56,7 +55,7 @@
                                 <textarea class="form-control" name="Message" placeholder="Enter your message" rows="3"
                                     aria-label="message" spellcheck="false" required></textarea>
                             </div>
-                            <div data-netlify-recaptcha="true" class="mb-3"></div>
+                            <div class="g-recaptcha" data-sitekey="6LeLiLAUAAAAAFDTYsCggjTNNaGB4ETiakxsb9v6"></div>
                             <input type="submit" class="btn btn-info1" value="Submit" aria-label="Submit button">
                         </form>
                     </div>
