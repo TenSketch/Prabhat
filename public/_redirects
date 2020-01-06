@@ -1,0 +1,11 @@
+# Redirect default Netlify subdomain to primary domain
+https://prabhath.netlify.com/* https://www.prabhatha.com/:splat 301!
+
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://prabhathartsinternational.in/* https://www.prabhatha.com/:splat 301!
+https://prabhatartsinternational.in/* https://www.prabhatha.com/:splat 301!
+https://prabhatartsinternational.com/* https://www.prabhatha.com/:splat 301!
+https://prabhathartsinternational.com/* https://www.prabhatha.com/:splat 301!
+
