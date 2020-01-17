@@ -970,18 +970,18 @@ label{
     
   }
 }
-@media (max-width: 767px) and (min-width:576px) {
+/* @media (max-width: 767px) and (min-width:576px) {
   .recaptcha{
     margin: 0rem 0rem 1rem 5rem
   }
  
-}
+} */
 
 
 @media (max-width: 425px) {
-  .recaptcha{
+  /* .recaptcha{
     margin: 0rem 0rem 1rem 1.6rem!important
-  }
+  } */
   .href-pdf:hover{
     padding: 0rem!important;
     margin: 0rem!important;
@@ -990,11 +990,11 @@ label{
     
   
 }
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
   .recaptcha{
     margin: 0rem 0rem 1rem 0rem!important
   }
-}
+} */
 
 .href-pdf{
   color: #000;
