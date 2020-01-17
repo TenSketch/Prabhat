@@ -129,7 +129,6 @@
 <section class="events py-5">
     <div class="container">
         
-        
         <h1 class="text-center mb-5">Upcoming events</h1>
         <div class="row">
             <div class="col-md-8 mx-auto">
@@ -277,13 +276,25 @@
 </section>
 
     
-<section id="gallery" class="py-5">
+<section id="gallery" class="pt-5">
     
     <div class="container-fluid">
         <header class="text-center mb-4">
             <h2 class="text-lowercase mb-5">gallery</h2>
         </header>
         <div class="row p-0">
+            
+            <div class="col-lg-3 col-md-4 col-4 p-0">
+                <a href="/images/Rajyothsava_award1.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
+                    <img src="/images/Rajyothsava_award1.jpg" class="zoom" alt="Rajyothsava_award1">
+                </a>
+            </div>
+            
+            <div class="col-lg-3 col-md-4 col-4 p-0">
+                <a href="/images/Rajyothsava_award.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
+                    <img src="/images/Rajyothsava_award.jpg" class="zoom" alt="Rajyothsava_award">
+                </a>
+            </div>
             
             <div class="col-lg-3 col-md-4 col-4 p-0">
                 <a href="/images/port2.jpg" class="fancybox" aria-label="Prabhat Gallery" rel="group">
@@ -342,22 +353,104 @@
 </section>
 
     
-<section id="news" class="pb-5">
-    <div class="container">
-        
-        <h2 class="text-center mb-5 mt-0 pt-0">Latest News</h2>
-        <div class="row">
-            <div class="col-md-7 mx-auto">
-                <h3 id="rajyothsava-award">Rajyothsava Award:</h3>
-<p> On 1st November 2019 at Ravindra Kalakshetra, Bangalore, Prabhat Arts International won the second highest state honor - &ldquo;The Rajyothsava award&rdquo; for its contribution in the field of Art and Culture!</p>
-<p><img src="/images/Rajyothsava_award.jpg" alt="Ravindra Kalakshetra" title="Ravindra Kalakshetra">
-<img src="/images/Rajyothsava_award1.jpg" alt="Ravindra Kalakshetra1" title="Ravindra Kalakshetra1"></p>
 
-                
+<section id="news">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <style>
+        #news{
+            padding-top: 10rem;
+        }
+        .swiper-container {
+            width: 100%;
+            padding: 0rem 0rem 15rem;
+        }
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            max-width: 700px;
+            height: 600px
+        }
+        .caption {
+             
+            margin-top: 38rem;
+            font-size: larger;
+            padding: 0rem 1rem;
+        }
+        .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+            bottom: 50px;
+        }
+        @media(max-width:576px){
+            .swiper-container {
+            
+            padding: 0rem 0rem 15rem;
+        }
+        .swiper-slide {
+          
+            max-width: 100%;
+          
+        }
+        .caption {
+             
+            
+            font-size: medium;
+            
+        }
+        .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+            bottom: 15px;
+        }
+        }
+    </style>
+    <div class="swiper-container">
+        <h1 class="text-center mb-5">Latest News</h1>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(/images/Sharath.jpg)">
+                <div class="caption text-center d-flex flex-column justify-content-center">
+                    <h3>Uday Shankar Award</h3>
+                    <p>Sharat has been bestowed the prestigious "Uday Shankar" award for excellence in choreography and
+                        production making from AttenDance!
+                    </p>
+                </div>
             </div>
+            <div class="swiper-slide" style="background-image:url(/images/Rajyothsava_award.jpg)">
+                <div class="caption text-center d-flex flex-column justify-content-center">
+                    <h3>Rajyothsava Award</h3>
+                    <p>On 1st November 2019 at Ravindra Kalakshetra, Bangalore, Prabhat Arts International won the
+                        second highest state honor - “The Rajyothsava award” for its contribution in the field of Art
+                        and Culture!</p>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(/images/Rajyothsava_award1.jpg)">
+                <div class="caption text-center d-flex flex-column justify-content-center">
+                    <h3>Rajyothsava Award</h3>
+                </div>
+            </div>
+            
+            
         </div>
         
+        <div class="swiper-pagination"></div>
     </div>
+    
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
 </section>
 
     

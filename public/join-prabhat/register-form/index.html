@@ -109,7 +109,8 @@
                 <h1 class="text-center mb-5">Join Prabhat form</h1>
                 <div class="row">
                     <div class="col-md-10 col-lg-8 mx-auto">
-                        <form action="https://formspree.io/xwkvgjyn" method="POST" >
+                        <form name="join" method="POST" data-netlify="true" data-netlify-recaptcha="true"
+                        action="/register/thank-you">
                             <div class="form-group">
                                 <label>Name of the Parent</label>
                                 <input type="text" class="form-control" name="Name_of_the_Parent"
@@ -155,6 +156,7 @@
                                 <textarea class="form-control" name="Message" placeholder="Enter your message" rows="3"
                                     aria-label="message" spellcheck="false" required></textarea>
                             </div>
+                            <div data-netlify-recaptcha="true" class="recaptcha"></div>
                             <input type="submit" class="btn btn-info1" value="Submit" aria-label="Submit button">
                         </form>
                     </div>
@@ -163,64 +165,9 @@
         </div>
     </section>
     
-<section class="bg-black" id="footer">
+<section class="bg-black pt-5" id="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 mb-3 mb-md-0">
-                <div class="card1 py-4 h-100">
-                    <div class="card-body text-center">
-                        <i class="fas fa-comment-dots text-primary mb-2"></i>
-                        <h3 class="m-0 text-white">Write to Prabhat</h3>
-                        <hr class="my-3">
-                        <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true"
-    action="/thank-you">
-    <div class="form-group">
-        <label style="text-align:left" for="name">Name</label>
-        <input type="text" class="form-control" name="Name" placeholder="Enter your name" aria-label="Name"
-            required>
-    </div>
-    <div class="form-group">
-        <label for="contact">Contact #</label>
-        <input type="tel" class="form-control" name="Contact #"
-        placeholder="your 10 digit mobile no." aria-label="contact_no" minlength="10" maxlength="10"
-        autocomplete="off" required>
-    </div>
-    <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" class="form-control" name="Email id" placeholder="abc@somemail.com" aria-label="e_mail_address" autocomplete="off" required>
-    </div>
-    <div class="form-group">
-        <label for="message">Message</label>
-        <textarea class="form-control" name="Message" placeholder="Enter your message" rows="3"
-            aria-label="message" spellcheck="false" required></textarea>
-    </div>
-    <div data-netlify-recaptcha="true" class="recaptcha"></div>
-    <input type="submit" class="btn btn-info1" value="Submit" aria-label="Submit button">
-</form>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-3 mb-md-0">
-                <div class="card1 py-4 h-100">
-                    <div class="card-body text-center">
-                        <i class="fas fa-certificate text-primary mb-2"></i>
-                        <h3 class="m-0 text-white">Join Prabhat</h3>
-                        <hr class="my-3">
-                        <h5 class="my-4 text-white">Join the Temple of Art.<br>Book to enroll in our courses.</h5>
-                        <a href="https://www.prabhatha.com/join-prabhat/register-form/" class="href-a">
-                            <h3>Bharatanatyam Dance</h3>
-                        </a>
-                        <a href="https://www.prabhatha.com/join-prabhat/register-form/" class="href-a">
-                            <h3>Kathak Dance</h3>
-                        </a>
-                        <a href="https://www.prabhatha.com/join-prabhat/register-form/" class="href-a">
-                            <h3>Karnatic Music</h3>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-5">
             <div class="col-md-4 mb-3 mb-md-0">
                 <div class="card py-4 h-100">
                     <div class="card-body text-center">
@@ -236,8 +183,7 @@
                                 <li><a href="https://www.sharatprabhath.com/">Harikatha</a></li>
                                 <li class="my-1"><a href="https://www.prabhatha.com/costumes/home/">Costumes</a></li>
                                 <li><a href="https://www.prabhatha.com/gallery/home/">Gallery & Media</a></li>
-                                <li class="mt-1"><a href="https://www.prabhatha.com/join-prabhat/register-form/">Register a
-                                        course</a>
+                                <li class="mt-1"><a href="https://www.prabhatha.com/join-prabhat/register-form/">Register a course</a>
                                 </li>
                             </ul>
                         </div>
@@ -305,15 +251,15 @@
 </section>
 
 <footer class="bg-black small text-center text-white">
-    <div class="container">
-        <h5>&copy;&nbsp;
-            <script type="text/JavaScript">
-                    document.write(new Date().getFullYear());
-                    </script>&nbsp;Prabhat</h5>
-        <h6>Made with <i class="fas fa-heart"></i>&nbsp;by <a href="https://www.tensketch.com/" target="_blank"
-                rel="noopener" aria-label="TenSketch link">TenSketch</a></h6>
-    </div>
-</footer>
+        <div class="container">
+            <h5>&copy;&nbsp;
+                <script type="text/JavaScript">
+                        document.write(new Date().getFullYear());
+                        </script>&nbsp;Prabhat</h5>
+            <h6>Made with <i class="fas fa-heart"></i>&nbsp;by <a href="https://www.tensketch.com/" target="_blank"
+                    rel="noopener" aria-label="TenSketch link">TenSketch</a></h6>
+        </div>
+    </footer>
     <a id="back-to-top" href="#" class="btn btn-primary btn-top back-to-top" role="button"
     aria-label="Click to return on the top page" data-toggle="tooltip" data-placement="left"><i
         class="fas fa-chevron-up fa-3x"></i></a>

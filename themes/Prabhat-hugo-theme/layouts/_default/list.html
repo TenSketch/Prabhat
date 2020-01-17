@@ -16,11 +16,11 @@
         </div>
     </div>
 </header>
-{{end}} {{define "events"}}
+{{end}}
+{{define "events"}}
 <!-- Header -->
 <section class="events py-5">
     <div class="container">
-        
         {{range $index, $val := .Site.Taxonomies.tags.events}}
         <h1 class="text-center mb-5">{{.Title}}</h1>
         <div class="row">
@@ -32,7 +32,8 @@
             {{end}}
         </div>
 </section>
-{{end}} {{define "about"}}
+{{end}}
+{{define "about"}}
 <!-- About Section -->
 <section id="about" class="about-section text-center">
     <div class="parallax-overlay">
@@ -131,7 +132,7 @@
         </div>
 </section>
 {{end}} {{define "gallery"}}
-<section id="gallery" class="py-5">
+<section id="gallery" class="pt-5">
     <!-- gallery-new-fancybox-->
     <div class="container-fluid">
         <header class="text-center mb-4">
@@ -169,18 +170,106 @@
         </div>
     </div>
 </section>
-{{end}} {{define "news"}}
-<section id="news" class="pb-5">
-    <div class="container">
-        {{range $index, $val := .Site.Taxonomies.tags.news}}
-        <h2 class="text-center mb-5 mt-0 pt-0">{{.Title}}</h2>
-        <div class="row">
-            <div class="col-md-7 mx-auto">
-                {{.Content}}
-                <!-- <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a> -->
+{{end}} 
+
+{{define "news"}}
+<!-- Swiper 3d coverflow-->
+<section id="news">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <style>
+        #news{
+            padding-top: 10rem;
+        }
+        .swiper-container {
+            width: 100%;
+            padding: 0rem 0rem 15rem;
+        }
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            max-width: 700px;
+            height: 600px
+        }
+        .caption {
+            /* background-color: rgba(68, 68, 68, 0.5); */
+            margin-top: 38rem;
+            font-size: larger;
+            padding: 0rem 1rem;
+        }
+        .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+            bottom: 50px;
+        }
+        @media(max-width:576px){
+            .swiper-container {
+            
+            padding: 0rem 0rem 15rem;
+        }
+        .swiper-slide {
+          
+            max-width: 100%;
+          
+        }
+        .caption {
+            /* background-color: rgba(68, 68, 68, 0.5); */
+            
+            font-size: medium;
+            
+        }
+        .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+            bottom: 15px;
+        }
+        }
+    </style>
+    <div class="swiper-container">
+        <h1 class="text-center mb-5">Latest News</h1>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(/images/Sharath.jpg)">
+                <div class="caption text-center d-flex flex-column justify-content-center">
+                    <h3>Uday Shankar Award</h3>
+                    <p>Sharat has been bestowed the prestigious "Uday Shankar" award for excellence in choreography and
+                        production making from AttenDance!
+                    </p>
+                </div>
             </div>
+            <div class="swiper-slide" style="background-image:url(/images/Rajyothsava_award.jpg)">
+                <div class="caption text-center d-flex flex-column justify-content-center">
+                    <h3>Rajyothsava Award</h3>
+                    <p>On 1st November 2019 at Ravindra Kalakshetra, Bangalore, Prabhat Arts International won the
+                        second highest state honor - “The Rajyothsava award” for its contribution in the field of Art
+                        and Culture!</p>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(/images/Rajyothsava_award1.jpg)">
+                <div class="caption text-center d-flex flex-column justify-content-center">
+                    <h3>Rajyothsava Award</h3>
+                </div>
+            </div>
+            
+            
         </div>
-        {{end}}
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
     </div>
+    <!-- Initialize Swiper -->
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
 </section>
 {{end}}
