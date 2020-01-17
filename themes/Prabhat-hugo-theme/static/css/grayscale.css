@@ -938,9 +938,9 @@ label{
 }
 
 @media (min-width: 991px) {
-  .recaptcha{
+  /* .recaptcha{
     margin: 0rem 0rem 1rem 6rem
-  }
+  } */
   .href-pdf:hover{
     color: #fff;
     padding: 2rem;
