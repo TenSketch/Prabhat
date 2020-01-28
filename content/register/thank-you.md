@@ -1,6 +1,6 @@
 ---
 title: "Thank You registering with us"
-image: "/images/logo2.png"
+image: "/images/logo.png"
 date: 2019-12-12T08:33:07+05:30
 tags: ["thanksr"]
 description: >-

@@ -10,15 +10,14 @@ keywords: >-
   Choreographers, Co-Directors, Music Composers and Collaborators, Overview-
   Prabhat, prabhatha.com.
 youtube: 0diKzgDCgIo
-
 date: 2019-06-21T09:28:21.000Z
 draft: false
 ---
 
-
+## About us
 
 > Prabhat, The Temple of Art is an internationally renowned artistic institution from India. The organization has created stage history with a unique blend of tradition along with sophisticated stage techniques of the present technological era.
-
+<!--more-->
 The ability to communicate effectively by employing innovative and creative choreography along with audio-visual craftsmanship has made this group distinctive. “Prabhat” (which incidentally means artists as lively as the dancing rays of dawn) – was one of the first organizations that has overcome the language barrier and presented themes in classical dance forms using contemporary techniques. The company’s Dance Dramas are entirely original, slipping free of the conventional and the commonplace, coming up with new insight, a new idea, a new approach with every production.
 
 The Group consists of 100+ artists, playback singers, yoga experts, animators and technicians. Another important feature of Prabhat is its superb presentation of almost all the classical forms of dance. Traditional and appropriate costumes in all their gorgeousness, exhaustively researched and thoroughly well-rehearsed lend an air of authenticity to the systems suitably made use in their dance dramas.

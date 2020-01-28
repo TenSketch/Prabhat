@@ -12,7 +12,7 @@
             <p class="text-white">{{.Content}} </p>
         </div>
         {{end}}
-        <div class="container art-h">
+        <div class="container">
             <h2 class="text-center my-5 pt-3">Artistic Directors</h2>
             {{range $index, $val := .Site.Taxonomies.tags.about1}}
             <div class="row">
@@ -30,7 +30,7 @@
         </div>
     </section>
     <section class="overview parallax">
-        <div class="parallax-overlay py-5">
+        <div class="overlay py-5">
             <div class="container">
                 {{range where .Site.Pages "Type" "=" "Overview"}}
                 <div class="row px-5 mx-5">

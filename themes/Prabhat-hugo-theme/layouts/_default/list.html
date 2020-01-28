@@ -1,5 +1,4 @@
 {{define "video"}}
-<!-- The video -->
 <header class="v-header">
     <div class="overlay"></div>
     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -18,34 +17,27 @@
 </header>
 {{end}}
 {{define "events"}}
-<!-- Header -->
 <section class="events py-5">
     <div class="container">
         {{range $index, $val := .Site.Taxonomies.tags.events}}
         <h1 class="text-center mb-5">{{.Title}}</h1>
         <div class="row">
             <div class="col-md-8 mx-auto">
-                <img src="{{.Page.Params.image}}" class="img-fluid" alt="{{.Name}}">
-                {{.Content}}
+                <img src="{{.Page.Params.image}}" class="img-fluid" alt="{{.Name}}"> {{.Content}}
                 <a href="{{.Description}}"><button class="btn btn1" type="button">Book Now</button></a>
             </div>
             {{end}}
         </div>
 </section>
-{{end}}
-{{define "about"}}
-<!-- About Section -->
-<section id="about" class="about-section text-center">
-    <div class="parallax-overlay">
+{{end}} {{define "about"}}
+<section id="about" class="parallax">
+    <div class="overlay">
         <div class="container">
             {{range $index, $val := .Site.Taxonomies.tags.about}}
             <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white my-4">About us</h2>
-                    <div class="text-white">Prabhat Arts International, The Temple of Art is an internationally renowned
-                        artistic institution from India. The organization has created stage history with a unique blend
-                        of tradition along with sophisticated stage techniques of
-                        the present technological era.</div>
+                <div class="col-lg-8 mx-auto text-white">
+                    
+                    {{.Summary}}
                     <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
                 </div>
             </div>
@@ -53,17 +45,17 @@
         </div>
     </div>
 </section>
-{{end}} {{define "repertoire"}}
-<!-- repertoire Section -->
-<section id="repertoire" class="projects-section">
+{{end}} 
+{{define "repertoire"}}
+<section id="repertoire">
     <div class="container">
         {{range $index, $val := .Site.Taxonomies.tags.repertoire}}
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-            <div class="col-xl-8 col-lg-7" style="position: relative;">
+            <div class="col-xl-8 col-lg-7">
                 <img class="img-fluid mb-3 mb-lg-0" src="{{.Page.Params.Image}}" alt="{{.Name}}">
-                <div class="bottom-right">
+                <!-- <div class="bottom-right">
                     <a href="{{.Permalink}}" class="btn btn-know">Know More</a>
-                </div>
+                </div> -->
             </div>
             <div class="col-xl-4 col-lg-5">
                 <div class="featured-text text-center text-lg-left">
@@ -82,21 +74,18 @@
 <section id="training" class="projects-section">
     <div class="container">
         {{range $index, $val := .Site.Taxonomies.tags.training}}
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="row no-gutters mb-5 mb-lg-0">
             <div class="col-lg-6">
-                <div class="d-flex h-100">
+                <div class="d-flex">
                     <img class="img-fluid" src="{{.Page.Params.Image}}" alt="{{.Name}}">
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="bg-black text-center h-100 project">
+                <div class="bg-black h-100">
                     <div class="d-flex">
-                        <div class="project-text w-100 my-auto text-center text-lg-left">
-                            <h4 class="text-white">Training</h4>
-                            <p class="mb-0 text-white">
-                                SAMUDYATA - Srichakra Academy of Music, Dance, Yoga, and Theatre Arts<br> Faculty.
-                                <br> Prabhat Kala Tapovana.<br>
-                            </p>
+                        <div class="project-text my-auto text-white text-center text-lg-left">
+
+                            {{.Summary}}
                             <hr class="d-none d-lg-block mb-0 ml-0">
                             <br>
                             <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
@@ -106,24 +95,20 @@
             </div>
         </div>
         {{end}} {{range $index, $val := .Site.Taxonomies.tags.harikatha}}
-        <div id="harikatha" class="row justify-content-center no-gutters">
+        <div id="harikatha" class="row no-gutters">
             <div class="col-lg-6">
-                <div class="d-flex h-100">
+                <div class="d-flex">
                     <img class="img-fluid" src="{{.Page.Params.Image}}" alt="{{.Name}}">
                 </div>
             </div>
             <div class="col-lg-6 order-lg-first">
-                <div class="bg-black project">
-                    <div class="d-flex h-100">
-                        <div class="project-text w-100 my-auto text-center text-lg-right">
-                            <h4 class="text-white">{{$val.Page.Title}}</h4>
-                            <p class="mb-0 text-white">Karnataka’s <span class="font-italic">Haridaasa</span>’s cult
-                                arouses varied questions in one’s mind. The literary works of great saint poets of
-                                Karnataka answer questions relating to spiritual experiences, knowledge of Tantra,
-                                Vedic wisdom, Societal Culture, Music, Dance, theatre and the like.</p>
+                <div class="bg-black h-100">
+                    <div class="d-flex">
+                        <div class="project-text my-auto text-white text-center text-lg-right">
+                            {{.Content}}
                             <hr class="d-none d-lg-block mb-0 mr-0">
                             <br>
-                            <a href="https://www.sharatprabhath.com/" class="href-a">Read more</a>
+                            <a href="https://www.sharatprabhath.com/" target="_blank" rel="noopener" title="Sharat's wbsite" aria-label="Sharat's wbsite" class="href-a">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -131,36 +116,38 @@
             {{end}}
         </div>
 </section>
-{{end}} {{define "gallery"}}
-<section id="gallery" class="pt-5">
+{{end}} {{define "portfolio"}}
+<section id="portfolio" class="pt-5">
     <!-- gallery-new-fancybox-->
     <div class="container-fluid">
-        <header class="text-center mb-4">
-            <h2 class="text-lowercase mb-5">gallery</h2>
-        </header>
-        <div class="row p-0">
-            {{range $index, $val := .Site.Taxonomies.categories.hgal}}
+
+        <h2 class="text-center text-lowercase mb-5">gallery</h2>
+
+        <div class="row">
+            {{partial "portfolio" .}} {{range $index, $val := .Site.Taxonomies.categories.hgal}}
             <div class="col-lg-3 col-md-4 col-4 p-0">
-                <a href="{{.Page.Params.image}}" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-                    <img src="{{.Page.Params.image}}" class="zoom" alt="{{.Name}}">
+                <a data-fancybox="gallery" href="{{.Page.Params.image}}" aria-label="Prabhat Gallery" title="view photo">
+                    <img src="{{.Page.Params.image}}" alt="{{.Name}}">
                 </a>
             </div>
             {{end}}
-            <div class="mx-auto mt-5 justify-content-center">
-                <a href="{{.Site.BaseURL}}gallery/home/" class="font-weight-bold display-5">View more</a>
+
+        </div>
+        <div class="row">
+            <div class="mx-auto mt-3">
+                <a href="{{.Site.BaseURL}}gallery/home/" class="display-5">View more</a>
             </div>
         </div>
-        <hr>
     </div>
 </section>
 {{end}} {{define "costumes"}}
 <!-- Signup Section -->
 <section id="costumes" class="ch parallax">
-    <div class="parallax-overlay">
+    <div class="overlay">
         <div class="container">
             {{range $index, $val := .Site.Taxonomies.tags.costumes}}
             <div class="row">
-                <div class="col-md-10 col-lg-8 mx-auto text-center">
+                <div class="col-md-8 mx-auto text-center">
                     <h2 class="text-white">Costumes designers</h2>
                     <p class="text-white">{{.Summary}}</p>
                     <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
@@ -170,20 +157,20 @@
         </div>
     </div>
 </section>
-{{end}} 
-
-{{define "news"}}
+{{end}} {{define "news"}}
 <!-- Swiper 3d coverflow-->
 <section id="news">
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <style>
-        #news{
+        #news {
             padding-top: 10rem;
         }
+        
         .swiper-container {
             width: 100%;
             padding: 0rem 0rem 15rem;
         }
+        
         .swiper-slide {
             background-position: center;
             background-size: cover;
@@ -191,34 +178,36 @@
             max-width: 700px;
             height: 600px
         }
+        
         .caption {
             /* background-color: rgba(68, 68, 68, 0.5); */
             margin-top: 38rem;
             font-size: larger;
             padding: 0rem 1rem;
         }
-        .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+        
+        .swiper-container-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
             bottom: 50px;
         }
-        @media(max-width:576px){
+        
+        @media(max-width:576px) {
             .swiper-container {
-            
-            padding: 0rem 0rem 15rem;
-        }
-        .swiper-slide {
-          
-            max-width: 100%;
-          
-        }
-        .caption {
-            /* background-color: rgba(68, 68, 68, 0.5); */
-            
-            font-size: medium;
-            
-        }
-        .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
-            bottom: 15px;
-        }
+                padding: 0rem 0rem 15rem;
+            }
+            .swiper-slide {
+                max-width: 100%;
+            }
+            .caption {
+                /* background-color: rgba(68, 68, 68, 0.5); */
+                font-size: medium;
+            }
+            .swiper-container-horizontal>.swiper-pagination-bullets,
+            .swiper-pagination-custom,
+            .swiper-pagination-fraction {
+                bottom: 15px;
+            }
         }
     </style>
     <div class="swiper-container">
@@ -227,17 +216,14 @@
             <div class="swiper-slide" style="background-image:url(/images/Sharath.jpg)">
                 <div class="caption text-center d-flex flex-column justify-content-center">
                     <h3>Uday Shankar Award</h3>
-                    <p>Sharat has been bestowed the prestigious "Uday Shankar" award for excellence in choreography and
-                        production making from AttenDance!
+                    <p>Sharat has been bestowed the prestigious "Uday Shankar" award for excellence in choreography and production making from AttenDance!
                     </p>
                 </div>
             </div>
             <div class="swiper-slide" style="background-image:url(/images/Rajyothsava_award.jpg)">
                 <div class="caption text-center d-flex flex-column justify-content-center">
                     <h3>Rajyothsava Award</h3>
-                    <p>On 1st November 2019 at Ravindra Kalakshetra, Bangalore, Prabhat Arts International won the
-                        second highest state honor - “The Rajyothsava award” for its contribution in the field of Art
-                        and Culture!</p>
+                    <p>On 1st November 2019 at Ravindra Kalakshetra, Bangalore, Prabhat Arts International won the second highest state honor - “The Rajyothsava award” for its contribution in the field of Art and Culture!</p>
                 </div>
             </div>
             <div class="swiper-slide" style="background-image:url(/images/Rajyothsava_award1.jpg)">
@@ -245,8 +231,8 @@
                     <h3>Rajyothsava Award</h3>
                 </div>
             </div>
-            
-            
+
+
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>

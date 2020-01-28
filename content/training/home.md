@@ -11,15 +11,12 @@ date: 2019-06-27T14:38:11.000Z
 draft: false
 ---
 
-# Training
-
-- - -
+#### Training
 
 * SAMUDYATA - Srichakra Academy of Music, Dance, Yoga, and Theatre Arts
 * Faculty.
 * Prabhat Kala Tapovana.
-
-- - -
+<!--more-->
 
 ## **SAMUDYATA (Srichakra Academy of Music, Dance, Yoga, and Theatre Arts)**
 

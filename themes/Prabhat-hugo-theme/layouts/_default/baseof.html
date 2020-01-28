@@ -1,27 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    {{ partial "head" . }}
+{{ partial "head" . }}
+
 <body>
     {{ partial "navbar" . }}
-    {{ block "video" . }}
-    {{ end }}
-    {{ block "events" . }}
-    {{ end }}
-    {{ block "about" . }}
-    {{ end }}
-    {{ block "repertoire" . }}
-    {{ end }}
-    {{ block "training" . }}
-    {{ end }}
-    {{ block "costumes" . }}
-    {{ end }}
-    {{ block "gallery" . }}
-    {{ end }}
-    {{ block "news" . }}
-    {{ end }}
+    {{ block "video" . }}{{ end }}
+    {{ block "about" . }}{{ end }}
+    {{ block "repertoire" . }}{{ end }}
+    {{ block "training" . }}{{ end }}
+    {{ block "costumes" . }}{{ end }}
+    {{ block "portfolio" . }}{{ end }}
+    {{ block "news" . }}{{ end }}
     {{ partial "footer" . }}
     {{partial "bt" .}}
     {{ partial "scripts" . }}
-    {{ partial "fancybox" . }}
+    {{ partial "fancyjs" . }}
 </body>
+
 </html>

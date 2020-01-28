@@ -3,17 +3,11 @@
 {{partial "head" .}}
 
 <body class="bg-black">
-    {{partial "singlenav" .}}
-    {{partial "page-nav-head" .}}
-    {{range $index, $val := .Site.Taxonomies.tags.sidet}}
-    {{partial "page-nav" .}}
-    {{end}}
-  {{partial "page-nav-tail" .}}
-  
-    <section id="sam" class="py-5 my-5 art-h">
+    {{partial "singlenav" .}} {{partial "page-nav-head" .}} {{range $index, $val := .Site.Taxonomies.tags.sidet}} {{partial "page-nav" .}} {{end}} {{partial "page-nav-tail" .}}
+
+    <section id="sam" class="py-5 my-5">
         <div class="container">
-            <h3 class="text-center text-white my-5 pt-5">SAMUDYATA - Srichakra Academy of Music, Dance,
-                Yoga, and Theatre Arts</h3>
+            <h3 class="text-center text-white my-5 pt-5">SAMUDYATA - Srichakra Academy of Music, Dance, Yoga, and Theatre Arts</h3>
             <div class="row">
                 {{range $index, $val := .Site.Taxonomies.categories.samudyata}}
                 <div class="col-md-6 col-12">
@@ -30,7 +24,7 @@
         </div>
     </section>
     <section id="df" class="parallax">
-        <div class="parallax-overlay">
+        <div class="overlay">
             <div class="container">
                 <h3 class="text-center my-5 pt-3">Dance Faculty</h3>
                 {{range $index, $val := .Site.Taxonomies.tags.df}}
@@ -47,7 +41,7 @@
         </div>
     </section>
     <section id="mf" class="parallax">
-        <div class="parallax-overlay">
+        <div class="overlay">
             <div class="container">
                 <h3 class="text-center my-5 pt-3">Music Faculty</h3>
                 {{range $index, $val := .Site.Taxonomies.tags.mf}}
@@ -65,15 +59,12 @@
     </section>
     <section id="pkt">
         <div class="container">
-                {{range $index, $val := .Site.Taxonomies.tags.pkt}}
-                <div class="youtube-player youtube" data-id="{{.Content}}"></div>
-                {{end}}
+            {{range $index, $val := .Site.Taxonomies.tags.pkt}}
+            <div class="youtube-player youtube" data-id="{{.Content}}"></div>
+            {{end}}
         </div>
     </section>
-    {{partial "footer" .}}
-    {{partial "bts" .}}
-    {{partial "scripts" .}}
-    {{partial "youtube" .}}
+    {{partial "footer" .}} {{partial "bts" .}} {{partial "scripts" .}} {{partial "youtube" .}}
 </body>
 
 </html>
