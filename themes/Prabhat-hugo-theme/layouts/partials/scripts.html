@@ -1,11 +1,22 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="/js/style.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
 <script>
-    $('#link').hover(function(){
-        $('#title').text($('#link').attr('title'));
-    });
-    </script>
+  // navbar change bg and shrink on scroll and animated on scroll
+  $(window).scroll(function () {
+    if ($(document).scrollTop() > 100) {
+      $('.navbar').addClass('affix animated fadeInDown');
+    } else {
+      $('.navbar').removeClass('affix animated fadeInDown');
+    }
+  });
+  //hide navbar after click
+  $(".navbar-nav li a:not('.dropdown-toggle')").on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script>
+  $('#link').hover(function () {
+    $('#title').text($('#link').attr('title'));
+  });
+</script>

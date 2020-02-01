@@ -16,7 +16,7 @@ draft: false
 
 ## About us
 
-> Prabhat, The Temple of Art is an internationally renowned artistic institution from India. The organization has created stage history with a unique blend of tradition along with sophisticated stage techniques of the present technological era.
+Prabhat, The Temple of Art is an internationally renowned artistic institution from India. The organization has created stage history with a unique blend of tradition along with sophisticated stage techniques of the present technological era.
 <!--more-->
 The ability to communicate effectively by employing innovative and creative choreography along with audio-visual craftsmanship has made this group distinctive. “Prabhat” (which incidentally means artists as lively as the dancing rays of dawn) – was one of the first organizations that has overcome the language barrier and presented themes in classical dance forms using contemporary techniques. The company’s Dance Dramas are entirely original, slipping free of the conventional and the commonplace, coming up with new insight, a new idea, a new approach with every production.
 

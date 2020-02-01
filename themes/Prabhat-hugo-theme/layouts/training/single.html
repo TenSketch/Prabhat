@@ -3,8 +3,6 @@
 {{partial "head" .}}
 
 <body class="bg-black">
-    {{partial "singlenav" .}} {{partial "page-nav-head" .}} {{range $index, $val := .Site.Taxonomies.tags.sidet}} {{partial "page-nav" .}} {{end}} {{partial "page-nav-tail" .}}
-
     <section id="sam" class="py-5 my-5">
         <div class="container">
             <h3 class="text-center text-white my-5 pt-5">SAMUDYATA - Srichakra Academy of Music, Dance, Yoga, and Theatre Arts</h3>
@@ -64,7 +62,7 @@
             {{end}}
         </div>
     </section>
-    {{partial "footer" .}} {{partial "bts" .}} {{partial "scripts" .}} {{partial "youtube" .}}
+    {{partial "footer" .}}  {{partial "scripts" .}} {{partial "youtube" .}}
 </body>
 
 </html>

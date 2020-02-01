@@ -4,13 +4,7 @@
 
 <body class="bg-black">
   {{partial "singlenav" .}}
-  
- {{partial "page-nav-head" .}}
-    {{range $index, $val := .Site.Taxonomies.tags.sidebar}}
-    {{partial "page-nav" .}}
-    {{end}}
-  {{partial "page-nav-tail" .}}
-  <section id="about" class="ch parallax">
+   <section id="about" class="ch parallax">
     <div class="overlay">
       <div class="container">
           <h2 class="text-center py-4">Prabhat Costume Designers</h2>
@@ -43,7 +37,7 @@
     </div>
   </section>
   {{partial "footer" .}}
-  {{partial "bts" .}}
+  
   {{partial "scripts" .}}
 </body>
 

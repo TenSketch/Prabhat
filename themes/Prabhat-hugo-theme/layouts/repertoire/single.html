@@ -2,67 +2,49 @@
 <html lang="en">
 {{partial "head" .}}
 
-<body class="bg-black">
-    {{partial "singlenav" .}}
-    {{partial "page-nav-head" .}}
-    {{range $index, $val := .Site.Taxonomies.tags.side}}
-    {{partial "page-nav" .}}
-    {{end}}
-  {{partial "page-nav-tail" .}}
-   
-    <section id="tdp" class="reper parallax">
-        <div class="overlay">
-            <div class="container">
-                <h3 class="text-center font-weight-bold my-5 pt-3">Thematic Dance Productions</h3>
-                {{range $index, $val := .Site.Taxonomies.tags.tdp}}
-                <div class="row my-4">
-                    <div class="col-md-8 col-lg-8">
-                        <p class="text-white">{{.Content}}</p>
-                    </div>
-                    <div class="col-md-4 col-lg-4">
-                        <img src="{{.Page.Params.Image}}" class="img-fluid my-2" alt="{{.Name}}">
-                    </div>
+<body>
+    {{partial "singlenav"}}
+    <section class="reper-bg">
+        <div class="overlay pt-12">
+            <div class="container h-100">
+                <div class="row h-100 justify-content-center align-items-center">
+
                 </div>
+                {{range $index, $val := .Site.Taxonomies.tags.repertoire}}
+                <h2 class="text-center text-white">{{.Title}}</h2>
                 {{end}}
             </div>
         </div>
+
     </section>
-    <section id="ddb" class="dance parallax">
-        <div class="overlay">
-            <div class="container">
-                <h3 class="text-center font-weight-bold my-5 pt-3">Dance Drama and Ballets</h3>
-                {{range $index, $val := .Site.Taxonomies.tags.ddb}}
-                <div class="row my-4">
-                    <div class="col-md-4 col-lg-4">
-                        <img src="{{.Page.Params.Image}}" class="img-fluid my-2" alt="{{.Name}}">
-                    </div>
-                    <div class="col-md-8 col-lg-8">
-                        <p class="text-white">{{.Content}}</p>
-                    </div>
+
+
+
+    <section id="reper">
+
+
+        <div class="container h-100">
+            
+
+            {{range $index, $val := .Site.Taxonomies.tags.reper}}
+            
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="col-md-6 mx-auto">
+                    <p class="text-white">{{.Content}}</p>
                 </div>
-                {{end}}
-            </div>
-        </div>
-    </section>
-    <section id="cds" class="cds parallax">
-        <div class="overlay">
-            <div class="container">
-                <h3 class="text-center font-weight-bold my-5 pt-3">Classical dance sequences</h3>
-                {{range $index, $val := .Site.Taxonomies.tags.cds}}
-                <div class="row my-4">
-                    <div class="col-md-8 col-lg-8">
-                        <p class="text-white">{{.Content}}</p>
-                    </div>
-                    <div class="col-md-4 col-lg-4">
-                        <img src="{{.Page.Params.Image}}" class="img-fluid my-2" alt="{{.Name}}">
-                    </div>
+                <div class="col-md-4">
+                    <img src="{{.Page.Params.Image}}" class="img-fluid" alt="{{.Name}}">
                 </div>
-                {{end}}
             </div>
+            {{end}}
         </div>
+
+
+
     </section>
+
     {{partial "footer" .}}
-    {{partial "bts" .}}
+
     {{partial "scripts" .}}
     {{partial "youtube" .}}
 </body>

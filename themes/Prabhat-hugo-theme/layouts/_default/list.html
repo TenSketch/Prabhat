@@ -17,6 +17,18 @@
 </header>
 {{end}}
 {{define "events"}}
+<style>.btn1 {
+    padding: 1rem !important;
+    background: #bca227;
+    width: 100%;
+  }
+  
+  .btn1:hover {
+    background: rgb(24, 24, 24);
+    box-shadow: 1px 1px 3px 1px #d8b400f3 !important;
+    color: #fff !important;
+    transition: 0.5s all;
+  }</style>
 <section class="events py-5">
     <div class="container">
         {{range $index, $val := .Site.Taxonomies.tags.events}}
@@ -36,7 +48,7 @@
             {{range $index, $val := .Site.Taxonomies.tags.about}}
             <div class="row">
                 <div class="col-lg-8 mx-auto text-white">
-                    
+
                     {{.Summary}}
                     <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
                 </div>
@@ -45,7 +57,7 @@
         </div>
     </div>
 </section>
-{{end}} 
+{{end}}
 {{define "repertoire"}}
 <section id="repertoire">
     <div class="container">
@@ -53,16 +65,14 @@
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
             <div class="col-xl-8 col-lg-7">
                 <img class="img-fluid mb-3 mb-lg-0" src="{{.Page.Params.Image}}" alt="{{.Name}}">
-                <!-- <div class="bottom-right">
-                    <a href="{{.Permalink}}" class="btn btn-know">Know More</a>
-                </div> -->
+                
             </div>
             <div class="col-xl-4 col-lg-5">
-                <div class="featured-text text-center text-lg-left">
-                    <div class="text-black mb-0">
-                        <h4 class="text-lowercase">Repertoire</h4>
-                        {{.Content}}
-                    </div>
+                <div class="featured-text text-center text-lg-left mb-0">
+
+                    <h4>repertoire</h4>
+                    {{.Content}}
+
                     <a href="{{.Permalink}}" style="text-decoration: underline">Read More</a>
                 </div>
             </div>
@@ -70,8 +80,9 @@
         {{end}}
     </div>
 </section>
-{{end}} {{define "training"}}
-<section id="training" class="projects-section">
+{{end}}
+{{define "training"}}
+<section id="training">
     <div class="container">
         {{range $index, $val := .Site.Taxonomies.tags.training}}
         <div class="row no-gutters mb-5 mb-lg-0">
@@ -84,10 +95,11 @@
                 <div class="bg-black h-100">
                     <div class="d-flex">
                         <div class="project-text my-auto text-white text-center text-lg-left">
+                            <h4>training</h4>
 
                             {{.Summary}}
                             <hr class="d-none d-lg-block mb-0 ml-0">
-                            <br>
+
                             <a href="{{$val.Page.Permalink}}" class="href-a">Read more</a>
                         </div>
                     </div>
@@ -108,7 +120,8 @@
                             {{.Content}}
                             <hr class="d-none d-lg-block mb-0 mr-0">
                             <br>
-                            <a href="https://www.sharatprabhath.com/" target="_blank" rel="noopener" title="Sharat's wbsite" aria-label="Sharat's wbsite" class="href-a">Read more</a>
+                            <a href="https://www.sharatprabhath.com/" target="_blank" rel="noopener"
+                                title="Sharat's wbsite" aria-label="Sharat's wbsite" class="href-a">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -116,32 +129,8 @@
             {{end}}
         </div>
 </section>
-{{end}} {{define "portfolio"}}
-<section id="portfolio" class="pt-5">
-    <!-- gallery-new-fancybox-->
-    <div class="container-fluid">
-
-        <h2 class="text-center text-lowercase mb-5">gallery</h2>
-
-        <div class="row">
-            {{partial "portfolio" .}} {{range $index, $val := .Site.Taxonomies.categories.hgal}}
-            <div class="col-lg-3 col-md-4 col-4 p-0">
-                <a data-fancybox="gallery" href="{{.Page.Params.image}}" aria-label="Prabhat Gallery" title="view photo">
-                    <img src="{{.Page.Params.image}}" alt="{{.Name}}">
-                </a>
-            </div>
-            {{end}}
-
-        </div>
-        <div class="row">
-            <div class="mx-auto mt-3">
-                <a href="{{.Site.BaseURL}}gallery/home/" class="display-5">View more</a>
-            </div>
-        </div>
-    </div>
-</section>
-{{end}} {{define "costumes"}}
-<!-- Signup Section -->
+{{end}}
+{{define "costumes"}}
 <section id="costumes" class="ch parallax">
     <div class="overlay">
         <div class="container">
@@ -157,105 +146,137 @@
         </div>
     </div>
 </section>
-{{end}} {{define "news"}}
+{{end}}
+{{define "portfolio"}}
+<section id="portfolio" class="pt-5">
+    <div class="container">
+
+        <h2 class="text-center text-lowercase mb-5">gallery</h2>
+
+        <div class="row">
+            {{range $index, $val := .Site.Taxonomies.categories.hgal}}
+            <div class="col-lg-3 col-md-4 col-4 mb-4">
+                <a data-fancybox="gallery" href="{{.Page.Params.image}}" aria-label="Prabhat Gallery"
+                    title="view photo">
+                    <img src="{{.Page.Params.image}}" alt="{{.Name}}">
+                </a>
+            </div>
+            {{end}}
+
+        </div>
+        <div class="row">
+            <div class="mx-auto mt-3">
+                <a href="{{.Site.BaseURL}}gallery/home/" class="display-5">View more</a>
+            </div>
+        </div>
+    </div>
+</section>
+{{end}}
+{{define "news"}}
 <!-- Swiper 3d coverflow-->
-<section id="news">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
-    <style>
-        #news {
-            padding-top: 10rem;
-        }
-        
-        .swiper-container {
-            width: 100%;
-            padding: 0rem 0rem 15rem;
-        }
-        
-        .swiper-slide {
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            max-width: 700px;
-            height: 600px
-        }
-        
-        .caption {
-            /* background-color: rgba(68, 68, 68, 0.5); */
-            margin-top: 38rem;
-            font-size: larger;
-            padding: 0rem 1rem;
-        }
-        
-        .swiper-container-horizontal>.swiper-pagination-bullets,
-        .swiper-pagination-custom,
-        .swiper-pagination-fraction {
-            bottom: 50px;
-        }
-        
-        @media(max-width:576px) {
+    <section id="news">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+        <style>
+            #news {
+                padding-top: 10rem;
+            }
+
             .swiper-container {
+                width: 100%;
                 padding: 0rem 0rem 15rem;
             }
+
             .swiper-slide {
-                max-width: 100%;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                max-width: 700px;
+                height: 600px
             }
+
             .caption {
                 /* background-color: rgba(68, 68, 68, 0.5); */
-                font-size: medium;
+                margin-top: 38rem;
+                font-size: larger;
+                padding: 0rem 1rem;
             }
+
             .swiper-container-horizontal>.swiper-pagination-bullets,
             .swiper-pagination-custom,
             .swiper-pagination-fraction {
-                bottom: 15px;
+                bottom: 50px;
             }
-        }
-    </style>
-    <div class="swiper-container">
-        <h1 class="text-center mb-5">Latest News</h1>
-        <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-image:url(/images/Sharath.jpg)">
-                <div class="caption text-center d-flex flex-column justify-content-center">
-                    <h3>Uday Shankar Award</h3>
-                    <p>Sharat has been bestowed the prestigious "Uday Shankar" award for excellence in choreography and production making from AttenDance!
-                    </p>
+
+            @media(max-width:576px) {
+                .swiper-container {
+                    padding: 0rem 0rem 15rem;
+                }
+
+                .swiper-slide {
+                    max-width: 100%;
+                }
+
+                .caption {
+                    /* background-color: rgba(68, 68, 68, 0.5); */
+                    font-size: medium;
+                }
+
+                .swiper-container-horizontal>.swiper-pagination-bullets,
+                .swiper-pagination-custom,
+                .swiper-pagination-fraction {
+                    bottom: 15px;
+                }
+            }
+        </style>
+        <div class="swiper-container">
+            <h1 class="text-center mb-5">latest news</h1>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(/images/Sharath.jpg)">
+                    <div class="caption text-center d-flex flex-column justify-content-center">
+                        <h3>Uday Shankar Award</h3>
+                        <p>Sharat has been bestowed the prestigious "Uday Shankar" award for excellence in choreography and
+                            production making from AttenDance!
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="swiper-slide" style="background-image:url(/images/Rajyothsava_award.jpg)">
-                <div class="caption text-center d-flex flex-column justify-content-center">
-                    <h3>Rajyothsava Award</h3>
-                    <p>On 1st November 2019 at Ravindra Kalakshetra, Bangalore, Prabhat Arts International won the second highest state honor - “The Rajyothsava award” for its contribution in the field of Art and Culture!</p>
+                <div class="swiper-slide" style="background-image:url(/images/Rajyothsava_award.jpg)">
+                    <div class="caption text-center d-flex flex-column justify-content-center">
+                        <h3>Rajyothsava Award</h3>
+                        <p>On 1st November 2019 at Ravindra Kalakshetra, Bangalore, Prabhat Arts International won the
+                            second highest state honor - “The Rajyothsava award” for its contribution in the field of Art
+                            and Culture!</p>
+                    </div>
                 </div>
-            </div>
-            <div class="swiper-slide" style="background-image:url(/images/Rajyothsava_award1.jpg)">
-                <div class="caption text-center d-flex flex-column justify-content-center">
-                    <h3>Rajyothsava Award</h3>
+                <div class="swiper-slide" style="background-image:url(/images/Rajyothsava_award1.jpg)">
+                    <div class="caption text-center d-flex flex-column justify-content-center">
+                        <h3>Rajyothsava Award</h3>
+                    </div>
                 </div>
-            </div>
 
 
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
         </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-    </div>
-    <!-- Initialize Swiper -->
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-    <script>
-        var swiper = new Swiper('.swiper-container', {
-            effect: 'coverflow',
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: 'auto',
-            coverflowEffect: {
-                rotate: 50,
-                stretch: 0,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            pagination: {
-                el: '.swiper-pagination',
-            },
-        });
-    </script>
-</section>
+        <!-- Initialize Swiper -->
+        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                coverflowEffect: {
+                    rotate: 50,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+            });
+        </script>
+    </section>
 {{end}}

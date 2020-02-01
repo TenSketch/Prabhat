@@ -14,8 +14,9 @@
     <link rel="icon" type="image/png" href="/images/favicon1.png">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="/css/style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
     
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153885482-1"></script>
@@ -40,7 +41,7 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-black" id="singlenav">
   <div class="container-fluid">
     <a class="navbar-brand" href="https://www.prabhatha.com/">
-      <img src="/images/logo.png" class="img-fluid1" alt="Prabhat logo">
+      <img src="/images/logo.png" class="img-fluid1"  style="height: 120px;" alt="Prabhat logo">
     </a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
       data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -76,46 +77,14 @@
   </div>
 </nav>
 
-  
- <nav class="navbar navbar-expand-md bg-primary navbar-dark fixed-bottom">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
-          style="color: #000">
-          Page-Menu&nbsp;<i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav ml-auto mx-auto-1" style="color: #000">
-              
-    
-    
-    
-        <li class="nav-item mr-4">
-            <a class="nav-link" href="#about">about</a>
-        </li>
-   
-
-    
-    
-    
-        <li class="nav-item mr-4">
-            <a class="nav-link" href="#portfolio">portfolio</a>
-        </li>
-   
-
-    
-  </ul>
-</div>
-</nav>
-  <section id="about" class="ch parallax">
+   <section id="about" class="ch parallax">
     <div class="overlay">
       <div class="container">
           <h2 class="text-center py-4">Prabhat Costume Designers</h2>
         
         <div class="row">
           <div class="col-md-10 col-lg-8 mx-auto text-center">
-            <p class="text-white"><blockquote>
-<p>Founded in the year 1946, Prabhat Costume Designers is a company that, for the first time introduced professional costume designing venture in Karnataka. A pioneer that is synonymous to the word; Costumes is located in KR Road, Basavangudi and VV Puram.</p>
-</blockquote>
+            <p class="text-white"><p>Founded in the year 1946, Prabhat Costume Designers is a company that, for the first time introduced professional costume designing venture in Karnataka. A pioneer that is synonymous to the word; Costumes is located in KR Road, Basavangudi and VV Puram.</p>
 <hr>
 <p>The pioneer costume designing company, Prabhat Costume Designers was established in the year 1946. Unceasing and professional service of Prabhat Costumes over the years has made the company synonymous to the word, ‘Costumes’ in Karnataka.</p>
 <p>Prabhat Costumes offers a wide range of costumes from Mythology to Contemporary, from Cinema to theatre, from Animals to Birds and the like. Additionally, Prabhat also offers Make-up services for all sorts of characters irrespective of age and gender.</p>
@@ -417,20 +386,29 @@
                 rel="noopener" aria-label="TenSketch link">TenSketch</a></h6>
     </div>
 </footer>
-  <a id="back-to-top" href="#" class="btn btn-primary btn-top back-to-top bt-bottom" role="button"
-    title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><i
-        class="fas fa-chevron-up fa-3x"></i></a>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="/js/style.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
 <script>
-    $('#link').hover(function(){
-        $('#title').text($('#link').attr('title'));
-    });
-    </script>
+  
+  $(window).scroll(function () {
+    if ($(document).scrollTop() > 100) {
+      $('.navbar').addClass('affix animated fadeInDown');
+    } else {
+      $('.navbar').removeClass('affix animated fadeInDown');
+    }
+  });
+  
+  $(".navbar-nav li a:not('.dropdown-toggle')").on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script>
+  $('#link').hover(function () {
+    $('#title').text($('#link').attr('title'));
+  });
+</script>
 </body>
 
 </html>

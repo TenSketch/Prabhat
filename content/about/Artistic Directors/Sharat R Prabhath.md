@@ -15,7 +15,7 @@ date: 2019-06-21T06:28:21.000Z
 draft: false
 ---
 
-### **Sharat R Prabhath:**
+### **Sharat R Prabhath
 
 ---
 Sharat has had the fortune of being very closely associated with Indian arts and culture from a very young age. He began his training in Carnatic classical music under the able guidance of Dr Hamsini Nagendra. He now continues to learn under Karnataka Kalashree – Tirumale Srinivas.
@@ -24,7 +24,7 @@ Sharat is also undergoing training in the classical dance style of Kathak for ma
 
 ## Awards & Recognition
 ---
-**Sharat has been bestowed with the following awards:**
+**Sharat has been bestowed with the following awards
 
 - The prestigious **Uday Shankar** award for excellence in choreography and production making from AttenDance.
 - **Haridaasacharya title** for continuing the legacy of Harikatha.
