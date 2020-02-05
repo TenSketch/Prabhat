@@ -3,33 +3,26 @@
 {{partial "head" .}}
 
 <body>
-    {{partial "singlenav"}}
-    <section class="reper-bg">
-        <div class="overlay pt-12">
-            <div class="container h-100">
-                <div class="row h-100 justify-content-center align-items-center">
-
+    {{partial "singlenav" .}}
+    <section class="reper-bg parallax">
+        <div class="overlay-lt">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto text-center text-white">
+                    {{range $index, $val := .Site.Taxonomies.tags.repertoire}}
+                    <h2 id="sh2">{{.Title}}</h2>
+                    {{end}}
                 </div>
-                {{range $index, $val := .Site.Taxonomies.tags.repertoire}}
-                <h2 class="text-center text-white">{{.Title}}</h2>
-                {{end}}
+            </div>
             </div>
         </div>
-
     </section>
-
-
-
     <section id="reper">
-
-
         <div class="container h-100">
-            
-
             {{range $index, $val := .Site.Taxonomies.tags.reper}}
-            
+            <h2 class="text-center text-underline my-3">{{.Title}}</h2>
             <div class="row h-100 justify-content-center align-items-center">
-                <div class="col-md-6 mx-auto">
+                <div class="col-md-7 mx-auto">
                     <p class="text-white">{{.Content}}</p>
                 </div>
                 <div class="col-md-4">
@@ -38,13 +31,8 @@
             </div>
             {{end}}
         </div>
-
-
-
     </section>
-
     {{partial "footer" .}}
-
     {{partial "scripts" .}}
     {{partial "youtube" .}}
 </body>

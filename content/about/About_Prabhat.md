@@ -26,4 +26,9 @@ Prabhat has widely travelled the World and presented cultural programs for prest
 
 Today, Prabhat is an institution of International standard and its achievements in the theatre world have been quite outstanding. “Prabhat” is literary “The Temple of Art” where hundreds of young men and women throng for training in theatre arts. There is a fully equipped stage props arena, costumes unit, make-up, training classes, Abhinaya, dance, music, drama, yoga courses, and recording studios.
 
-Since 1930, Prabhat is constantly contributing to the field of art and all the auxiliary wings of the same. Prabhat is renowned as the pioneers in creating marvels on stage with unprecedented stage techniques, concept, music, dance, lights, costumes and the like.
+Since 1930, Prabhat is constantly contributing to the field of art and all the auxiliary wings of the same. Prabhat is renowned as the pioneers in creating marvels on stage with unprecedented stage techniques, concept, music, dance, lights, costumes and the like. he organization has been involved in serving and contributing to society through its offerings. Prabhat is known for,
+
+- [Prabhat Auditoriums](https://www.prabhathauditoriums.com)
+- [Prabhat Sound Studio](http://www.prabhathstudios.com/)
+- [Prabhat Lighting and Sound System](http://www.prabhathstage.com/)
+- [Prabhath Event Managers](http://artoholic.co.in/)

@@ -68,7 +68,12 @@
   </url>
   
   <url>
-    <loc>https://www.prabhatha.com/news/news/</loc>
+    <loc>https://www.prabhatha.com/news/news-5/</loc>
+    <lastmod>2019-11-01T16:07:45+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/news/news-4/</loc>
     <lastmod>2019-11-01T16:07:45+05:30</lastmod>
   </url>
   
@@ -79,6 +84,21 @@
   
   <url>
     <loc>https://www.prabhatha.com/tags/news/</loc>
+    <lastmod>2019-11-01T16:07:45+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/news/news-1/</loc>
+    <lastmod>2019-11-01T16:07:45+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/news/news-2/</loc>
+    <lastmod>2019-11-01T16:07:45+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/news/news-3/</loc>
     <lastmod>2019-11-01T16:07:45+05:30</lastmod>
   </url>
   
@@ -173,27 +193,97 @@
   </url>
   
   <url>
-    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/indu-nee-karedu/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
+    <loc>https://www.prabhatha.com/training/faculty/dance-faculty/chaithra-ananth/</loc>
+    <lastmod>2019-06-27T14:40:11+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.prabhatha.com/repertoire/dance-drama-ballets/kathaastra/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
+    <loc>https://www.prabhatha.com/tags/fac/</loc>
+    <lastmod>2019-06-27T14:40:11+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.prabhatha.com/tags/df/</loc>
-    <lastmod>2019-06-27T14:38:11+00:00</lastmod>
+    <loc>https://www.prabhatha.com/training/</loc>
+    <lastmod>2019-06-27T14:40:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/tags/reper/</loc>
+    <lastmod>2019-06-27T20:09:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/</loc>
+    <lastmod>2019-06-27T20:09:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/thematic-dance-productions/7-rays-of-7-hills/</loc>
+    <lastmod>2019-06-27T20:09:12+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://www.prabhatha.com/repertoire/thematic-dance-productions/fantasy-of-flute/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
+    <lastmod>2019-06-27T20:09:11+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://www.prabhatha.com/repertoire/thematic-dance-productions/guru-vandana/</loc>
+    <lastmod>2019-06-27T20:09:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/thematic-dance-productions/purushasuktha/</loc>
+    <lastmod>2019-06-27T20:09:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/thematic-dance-productions/shilpa-kala-vybhava-the-sculpturous-marvel-/</loc>
+    <lastmod>2019-06-27T20:09:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/training/faculty/dance-faculty/kruthika-tyagarajan/</loc>
+    <lastmod>2019-06-27T14:39:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/training/faculty/dance-faculty/sheetal-umbrey/</loc>
+    <lastmod>2019-06-27T14:39:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/dance-drama-ballets/kathaastra/</loc>
+    <lastmod>2019-06-27T20:08:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/dance-drama-ballets/mohini-bhasmasura/</loc>
+    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/dance-drama-ballets/pibata-bhagavatam-rasamalayam/</loc>
+    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/dance-drama-ballets/prahladam-vande-jagath-gurum/</loc>
+    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/dance-drama-ballets/punyakoti/</loc>
+    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/dance-drama-ballets/shrinivasa-kalyana/</loc>
+    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/dance-drama-ballets/tamasoma-jyotirgamaya/</loc>
     <lastmod>2019-06-27T20:08:11+05:30</lastmod>
   </url>
   
@@ -208,32 +298,12 @@
   </url>
   
   <url>
+    <loc>https://www.prabhatha.com/tags/join/</loc>
+    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.prabhatha.com/join-prabhat/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/kapi-tillana/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/krishnashtotra-varna/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/training/faculty/dance-faculty/kruthika-tyagarajan/</loc>
-    <lastmod>2019-06-27T14:38:11+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/tags/mf/</loc>
-    <lastmod>2019-06-27T14:38:11+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/dance-drama-ballets/mohini-bhasmasura/</loc>
     <lastmod>2019-06-27T20:08:11+05:30</lastmod>
   </url>
   
@@ -243,67 +313,17 @@
   </url>
   
   <url>
-    <loc>https://www.prabhatha.com/training/home/</loc>
-    <lastmod>2019-06-27T14:38:11+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/namah-parvati-pathe/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/namo-tulasi/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/narasimha-stuti/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/navarasa-varna/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/dance-drama-ballets/pibata-bhagavatam-rasamalayam/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.prabhatha.com/training/faculty/music-faculty/rohit-bhat/</loc>
     <lastmod>2019-06-27T14:38:11+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.prabhatha.com/repertoire/dance-drama-ballets/prahladam-vande-jagath-gurum/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/dance-drama-ballets/punyakoti/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/thematic-dance-productions/purushasuktha/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/pushpanjali-malahari-mand-and-amrutavarshini/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
+    <loc>https://www.prabhatha.com/training/home/</loc>
+    <lastmod>2019-06-27T14:38:11+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.prabhatha.com/join-prabhat/register-form/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/tags/reper/</loc>
     <lastmod>2019-06-27T20:08:11+05:30</lastmod>
   </url>
   
@@ -318,48 +338,8 @@
   </url>
   
   <url>
-    <loc>https://www.prabhatha.com/repertoire/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.prabhatha.com/categories/samudyata/</loc>
     <lastmod>2019-06-27T14:38:11+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/saptaswara-saraswati/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/thematic-dance-productions/shilpa-kala-vybhava-the-sculpturous-marvel-/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/dance-drama-ballets/shrinivasa-kalyana/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/shrungara-varna/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/sundarangi/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/dance-drama-ballets/tamasoma-jyotirgamaya/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/repertoire/thematic-dance-productions/7-rays-of-7-hills/</loc>
-    <lastmod>2019-06-27T20:08:11+05:30</lastmod>
   </url>
   
   <url>
@@ -368,23 +348,63 @@
   </url>
   
   <url>
-    <loc>https://www.prabhatha.com/training/</loc>
-    <lastmod>2019-06-27T14:38:11+00:00</lastmod>
+    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/indu-nee-karedu/</loc>
+    <lastmod>2019-06-27T20:07:12+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://www.prabhatha.com/training/faculty/dance-faculty/chaithra-ananth/</loc>
-    <lastmod>2019-06-27T14:37:11+00:00</lastmod>
+    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/kapi-tillana/</loc>
+    <lastmod>2019-06-27T20:07:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/krishnashtotra-varna/</loc>
+    <lastmod>2019-06-27T20:07:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/namah-parvati-pathe/</loc>
+    <lastmod>2019-06-27T20:07:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/namo-tulasi/</loc>
+    <lastmod>2019-06-27T20:07:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/narasimha-stuti/</loc>
+    <lastmod>2019-06-27T20:07:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/navarasa-varna/</loc>
+    <lastmod>2019-06-27T20:07:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/pushpanjali-malahari-mand-and-amrutavarshini/</loc>
+    <lastmod>2019-06-27T20:07:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/saptaswara-saraswati/</loc>
+    <lastmod>2019-06-27T20:07:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/shrungara-varna/</loc>
+    <lastmod>2019-06-27T20:07:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.prabhatha.com/repertoire/classical-dance-sequences/sundarangi/</loc>
+    <lastmod>2019-06-27T20:07:11+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://www.prabhatha.com/training/samudyata/dance/</loc>
     <lastmod>2019-06-27T14:37:11+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/training/faculty/dance-faculty/sheetal-umbrey/</loc>
-    <lastmod>2019-06-27T14:36:11+00:00</lastmod>
   </url>
   
   <url>
@@ -435,11 +455,6 @@
   <url>
     <loc>https://www.prabhatha.com/tags/costumes/</loc>
     <lastmod>2019-06-21T14:58:21+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.prabhatha.com/about/overview/</loc>
-    <lastmod>2019-06-21T09:28:21+00:00</lastmod>
   </url>
   
   <url>

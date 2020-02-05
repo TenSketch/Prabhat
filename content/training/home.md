@@ -16,36 +16,19 @@ draft: false
 * Prabhat Kala Tapovana.
 <!--more-->
 
-## **SAMUDYATA (Srichakra Academy of Music, Dance, Yoga, and Theatre Arts)**
+## SAMUDYATA (Srichakra Academy of Music, Dance, Yoga, and Theatre Arts)
 
-### **Music
-
-![](/images/uploads/music.jpg#thumbnail)
-
-### **Dance
-
-![](/images/uploads/train9.jpg#thumbnail)
-
-### **Yoga
-
-![](/images/uploads/yoga.jpg#thumbnail)
-
-### **Indian Contemporary and Kalari Payittu
+### Indian Contemporary and Kalari Payittu
 
 We offer training in Indian Contemporary and the indigenous Martial Art form - Kalari Payittu from experts, who have been practicing the forms for more than 15 years.  
 
-> ~~Register to the institute (Button) - Clicking which, our number and email are displayed.~~
-
-### **Theatre
+### Theatre
 
 Interested in theatre!? Then, this is the place you should choose. We organize workshops of theatre from experienced artists and people with a high quotient of creativity!
 
-> Interested in our activities? Subscribe to the institute (Button) -
-> They share their email and WhatsApp number
+## Faculty and Training
 
-## **Faculty and Training
-
-### **Dance faculty**
+### Dance faculty
 
 ### Kruthika Tyagarajan
 

@@ -2,46 +2,46 @@
 <html lang="en">
 {{partial "head" .}}
 
-<body class="bg-black">
+<body>
   {{partial "singlenav" .}}
-  <div class="micro"></div>
-  <section class="pt-5">
-    <div class="container-fluid">
-      <header class="text-center mb-4">
-        <h2 class="text-white mb-5">Gallery</h2>
-      </header>
-      <div class="row p-0">
+  <section class="gallery-bg parallax">
+    <div class="overlay-lt">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto text-center text-white">
+            <h2 id="sh2">explore our rich portfolio and media clippings</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{partial "fancybox" .}}
+  <section id="portfolio" class="pt-5">
+    <div class="container">
+      <h2 class="my-4 text-center">Gallery</h2>
+      <div class="row">
         {{range $index, $val := .Site.Taxonomies.categories.gallery}}
-        <div class="col-lg-3 col-md-4 col-4">
-          <a href="{{.Page.Params.image}}" class="fancybox" aria-label="Prabhat Gallery" rel="group">
-            <img src="{{.Page.Params.image}}" class="zoom" alt="{{.Name}}">
+        <div class="col-lg-3 col-md-4 col-4 mb-4">
+          <a data-fancybox="gallery" href="{{.Page.Params.image}}" aria-label="Prabhat Gallery">
+            <img src="{{.Page.Params.image}}" alt="{{.Name}}">
           </a>
         </div>
         {{end}}
       </div>
-    </div>
-  </section>
-  <section class="py-5">
-    <div class="container-fluid">
-      <header class="text-center mb-4">
-        <h2 class="mb-5 text-white">Media</h2>
-      </header>
+      <h2 class="my-4 text-center">Media</h2>
       <div class="row">
         {{range $index, $val := .Site.Taxonomies.categories.media}}
-        <div class="col-lg-3 col-md-4 col-4">
-          <a href="{{.Page.Params.image}}" class="fancybox" aria-label="Prabhat media" rel="group">
-            <img src="{{.Page.Params.image}}" class="zoom" style="border: 1px solid; margin: .5rem" alt="{{.Name}}">
+        <div class="col-lg-3 col-md-4 col-4 mb-4">
+          <a data-fancybox="gallery" href="{{.Page.Params.image}}" aria-label="Prabhat media pics">
+            <img src="{{.Page.Params.image}}" alt="{{.Name}}">
           </a>
         </div>
         {{end}}
       </div>
     </div>
   </section>
-  <hr>
   {{partial "footer" .}}
-  
   {{partial "scripts" .}}
-  {{partial "youtube" .}}
 </body>
 
 </html>

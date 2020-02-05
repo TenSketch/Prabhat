@@ -1,6 +1,6 @@
 ---
 title: "Classical dance sequences"
-date: 2019-06-27T20:08:11+05:30
+date: 2019-06-27T20:07:12+05:30
 image: "/images/train12.jpg"
 tags: ["reper"]
 description: "Prabhat- Repertoire-Kathaastra"
@@ -14,12 +14,8 @@ draft: false
 
 The classical style of Bharatanatyam involves various genres of composition which add to the form’s completeness.  Indu Nee Karedu is a Jaavali where the dancer displays her love for the partner in his absence.
 
-**Concept Raghavendra J Prabhat
-
-**Choreography Shakuntala R Prabhat
-
-**Music Tirumale Srinivas
-
-**Duration 8 mins
-
-**Dancers Solo
+- **Concept:** Raghavendra J Prabhat
+- **Choreography:** Shakuntala R Prabhat
+- **Music:** Tirumale Srinivas
+- **Duration:** 8 mins
+- **Dancers:** Solo

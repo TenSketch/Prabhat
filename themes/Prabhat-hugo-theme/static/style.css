@@ -8,19 +8,15 @@ body {
 html {
   scroll-behavior: smooth;
 }
-.navbar {
-  transition: padding 0.2s ease;
-  z-index: 999;
-}
 .navbar-nav .nav-link {
   display: inline-block;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
-  font-size: 1.2rem;
-  text-align: right;
+  font-size: 1rem;
   padding-right: 1rem;
 }
+
 .dropdown:hover > .dropdown-menu {
   display: block;
 }
@@ -32,7 +28,7 @@ html {
   color: rgb(22, 22, 22);
 }
 .affix {
-  transition: padding 0.2s linear;
+  transition: 0.5s ease;
   background-color: #000;
 }
 .navbar-toggler {
@@ -42,6 +38,11 @@ html {
 @media (max-width: 576px) {
   .navbar-collapse {
     background-color: #000;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-nav {
+    text-align: right;
   }
 }
 p {
@@ -64,72 +65,20 @@ a:hover {
 .bg-black {
   background-color: #000 !important;
 }
+.text-black {
+  color: #000;
+}
 .bg-primary {
   background-color: #bca227 !important;
 }
 .text-primary {
   color: #bca227 !important;
 }
-/* video */
-.v-header {
-  position: relative;
-  background-color: black;
-  height: 100vh;
-  min-height: 25rem;
-  width: 100%;
-  overflow: hidden;
-}
-.v-header video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  transform: translateX(-50%) translateY(-50%);
-}
-.v-header .container {
-  position: relative;
-  z-index: 2;
-}
-.v-header .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.5;
-  z-index: 1;
-}
-.masthead h1 {
-  font-size: 4rem;
-  line-height: 6rem;
-  letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgb(178, 148, 7), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-}
-@media (min-width: 768px) {
-  .masthead h1 {
-    font-size: 5rem;
-    line-height: 5rem;
-  }
-}
-@media (min-width: 992px) {
-  .masthead h1 {
-    font-size: 8rem;
-    line-height: 12rem;
-    letter-spacing: 0.8rem;
-  }
-}
+
 .btn {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
+  padding: 0.8rem 1rem;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -166,9 +115,8 @@ a:hover {
     margin-bottom: 1.3rem;
   }
 }
-#about {
-  background-image: url("/images/train30.jpg");
-  text-align: center !important;
+#about{
+  background-image: url(/images/train30.jpg);
 }
 #about p {
   text-align: center !important;
@@ -177,6 +125,9 @@ a:hover {
   color: rgb(255, 208, 147);
   font-size: 1.2rem;
   text-decoration: none;
+}
+.pt-8{
+  padding-top: 8rem;
 }
 #repertoire {
   padding: 5rem 0;
@@ -207,51 +158,47 @@ a:hover {
 #costumes p {
   text-align: center !important;
 }
-#portfolio img {
-  height: 200px;
-  object-fit: cover;
-  width: 100%;
+#news{
+  padding: 8rem 0rem 3rem;
+}
+#fac h5{
+  text-transform: capitalize;
+  margin-bottom: 1rem;
 }
 
-#portfolio img:hover {
-  box-shadow: 0px 0px 10px 3px #000;
-  transition: all 0.3s ease-in-out;
-}
 
-@media (max-width: 576px) {
-  #portfolio img {
-      height: 100px;
-  }
-}
-/* training single page*/
-.img-thumbnail-t {
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  border-radius: 0;
-  width: 100%;
-  box-shadow: 0px 0px 10px 2px #fff;
-  height: 350px;
-}
-.overview {
-  color: #fff;
-}
-.overview a {
-  color: rgb(255, 208, 147);
-  font-size: 1.2rem;
-  text-decoration: underline;
-}
 .parallax ul,
 #training ul {
   list-style: none;
   padding-left: 0;
 }
+.costumes-bg {
+  background: url("/images/Cinema.jpg");
+}
 .reper-bg {
-  background: center / cover no-repeat url("/images/reper9.jpg");
+  background-image: url("/images/reper9.jpg");
 }
-.pt-12 {
-  padding: 12rem 0rem;
+#reper h2, #reper h3{
+  text-transform: capitalize;
 }
+
+.training-bg{
+  background: url("/images/train34.jpg");
+}
+
+.gallery-bg{
+  background: url("/images/train34.jpg")
+}
+.overlay-lt{
+  background: rgba(0, 0, 0, 0.493);
+ height: 100vh;
+}
+hr {
+  
+  border: 1px solid #bca227;
+  
+}
+
 blockquote {
   border-left: 2px solid #bca227;
   padding-left: 1rem;
@@ -281,18 +228,13 @@ blockquote {
     margin-right: 1.5rem !important;
   }
 }
-.join {
+.join-bg {
   background-image: url("/images/join.jpg");
 }
 .ch {
   background-image: url("/images/costume-home.jpg");
 }
-.card-title {
-  color: rgb(77, 72, 72);
-}
-.overview {
-  background-image: url(/images/reper9.jpg);
-}
+
 .parallax {
   background-attachment: fixed;
   background-position: center;
@@ -303,29 +245,18 @@ blockquote {
   background: #0a0a0aa8;
   padding: 10rem 0rem;
 }
-hr {
-  height: 1px;
-  border-top: 1px solid rgb(175, 145, 6);
+#sh2{
+  position: relative;
+  top: 32rem
 }
-label {
-  color: #fff;
-}
+
 @media (min-width: 991px) {
   .href-pdf:hover {
     color: #fff;
-    padding: 2rem;
-    margin: 1rem;
-    box-shadow: 0px 0px 10px 3px #000;
-    transition: 0.3s;
+    transition: 0.5s ease;
   }
 }
-@media (max-width: 425px) {
-  .href-pdf:hover {
-    padding: 0rem !important;
-    margin: 0rem !important;
-    box-shadow: none !important;
-  }
-}
+
 .href-pdf {
   color: #000;
   text-decoration: none;
@@ -357,11 +288,7 @@ label {
   height: auto;
   margin: 1rem 0rem;
 }
-.events p h1,
-h2,
-h3,
-h5,
-h6 {
+.events p{
   text-align: center !important;
   margin-bottom: 1.5rem;
 }
@@ -421,10 +348,7 @@ h6 {
 .card {
   border: 1px solid #bca227;
 }
-.card-title {
-  text-align: center;
-  color: #fff;
-}
+
 .card-cost {
   background-color: transparent;
   border: none;
@@ -445,10 +369,35 @@ h6 {
   box-shadow: 0 0 0 0.2rem #bca32775;
 }
 footer {
-  padding: 5rem 0;
+  padding: 8rem 0 3rem;
+  background-color: #000;
+  text-align: center;
 }
 footer a {
-  color: rgb(255, 208, 147);
+  color: #bca227;
   font-size: 1rem;
   text-decoration: none;
+}
+footer a:hover {
+  color: #fff
+}
+.form-control {
+  border: 1px solid #bca227;
+}
+.form-control:focus {
+  color: #212121;
+  border-color: #bca227;
+  box-shadow: 0 0 0.8rem 0.1rem #5a4d0b
+}
+.bottom-footer{
+  background-color: #fff;
+  height: 20vh;
+  color: #000;
+}
+.bottom-footer a{
+  color: #000;
+  transition: 0.5s;
+}  
+.bottom-footer a:hover{
+  color: #5a4d0b
 }

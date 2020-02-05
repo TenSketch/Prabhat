@@ -9,8 +9,6 @@ draft: false
 
 Founded in the year 1946, Prabhat Costume Designers is a company that, for the first time introduced professional costume designing venture in Karnataka. A pioneer that is synonymous to the word; Costumes is located in KR Road, Basavangudi and VV Puram.
 
----
-
 The pioneer costume designing company, Prabhat Costume Designers was established in the year 1946. Unceasing and professional service of Prabhat Costumes over the years has made the company synonymous to the word, ‘Costumes’ in Karnataka.
 
 Prabhat Costumes offers a wide range of costumes from Mythology to Contemporary, from Cinema to theatre, from Animals to Birds and the like. Additionally, Prabhat also offers Make-up services for all sorts of characters irrespective of age and gender.

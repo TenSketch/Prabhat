@@ -34,15 +34,8 @@
     <meta property="og:image" content="{{.Site.BaseURL}}{{ .Site.Params.og_image | relURL }}" />
     <meta property="og:image:secure_url" content="{{ .Site.Params.og_image | absURL }}" />
     {{ end }}
-    <!-- favicons -->
     <link rel="icon" type="image/png" href="/images/favicon.png">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/fontawesome-free-5.9.0-web/css/all.min.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
-    <link rel="stylesheet" href="/css/grayscale.css">
-    <link rel="stylesheet" href="/fancybox-2.1.7/jquery.fancybox.min.css">
+    {{partial "css"}}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153885482-1"></script>
     <script>
