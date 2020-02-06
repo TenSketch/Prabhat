@@ -2,7 +2,7 @@
 <html lang="en">
 {{partial "head" .}}
 
-<body>
+<body class="bg-black">
   {{partial "singlenav" .}}
   <section class="gallery-bg parallax">
     <div class="overlay-lt">
@@ -15,10 +15,10 @@
       </div>
     </div>
   </section>
-  {{partial "fancybox" .}}
+  {{partial "fancyboxcss" .}}
   <section id="portfolio" class="pt-5">
     <div class="container">
-      <h2 class="my-4 text-center">Gallery</h2>
+      <h2 class="my-4 text-center text-white">Gallery</h2>
       <div class="row">
         {{range $index, $val := .Site.Taxonomies.categories.gallery}}
         <div class="col-lg-3 col-md-4 col-4 mb-4">
@@ -28,7 +28,7 @@
         </div>
         {{end}}
       </div>
-      <h2 class="my-4 text-center">Media</h2>
+      <h2 class="my-4 text-center text-white">Media</h2>
       <div class="row">
         {{range $index, $val := .Site.Taxonomies.categories.media}}
         <div class="col-lg-3 col-md-4 col-4 mb-4">
@@ -42,6 +42,7 @@
   </section>
   {{partial "footer" .}}
   {{partial "scripts" .}}
+  {{partial "fancyboxjs" .}}
 </body>
 
 </html>

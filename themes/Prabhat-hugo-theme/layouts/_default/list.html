@@ -63,12 +63,20 @@
         <source src="/videos/Kathaastra.mp4" type="video/mp4">
     </video>
     <div class="container masthead h-100">
-        <div class="d-flex h-100 text-center align-items-center">
-            <div class="w-100 text-white pt-v">
-                <h1 class="mx-auto my-0">prabhat</h1>
-                <h2 class="text-white mx-auto mt-2 mb-5">The Temple of Art</h2>
-                <a href="#about" class="btn btn-success mbv-3">Enter the temple</a>
-                <a href="{{.Site.BaseURL}}join-prabhat/register-form/" class="btn btn-primary ml-5">Join Prabhat</a>
+        <div class="row d-flex h-100 text-center align-items-center">
+            <div class="col-md-8 mx-auto w-100 text-white">
+                <h1>prabhat</h1>
+                <h2 class="mt-2 mb-5">The Temple of Art</h2>
+                <ul class="list-unstyled d-flex justify-content-center">
+                    <li class="mr-2">
+                        <a href="#about" class="btn btn-success">Enter the temple</a>
+                    </li>
+                    <li>
+                        <a href="{{.Site.BaseURL}}join-prabhat/register-form/" class="btn btn-primary">Join Prabhat</a>
+                    </li>
+                </ul>
+                
+                
             </div>
         </div>
     </div>
@@ -203,13 +211,13 @@
 </section>
 {{end}}
 {{define "portfolio"}}
-{{partial "fancybox" .}}
+{{partial "fancyboxcss" .}}
 <section id="portfolio" class="pt-8">
     <div class="container">
         <h2 class="text-center text-lowercase mb-5">gallery</h2>
         <div class="row">
             {{range $index, $val := .Site.Taxonomies.categories.hgal}}
-            <div class="col-lg-3 col-md-4 col-4 mb-4">
+            <div class="col-lg-3 col-md-4 col-4 p-2">
                 <a data-fancybox="gallery" href="{{.Page.Params.image}}" aria-label="Prabhat Gallery"
                     title="view photo">
                     <img src="{{.Page.Params.image}}" alt="{{.Name}}">
