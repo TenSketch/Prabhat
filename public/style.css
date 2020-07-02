@@ -16,7 +16,6 @@ html {
   font-size: 1rem;
   padding-right: 1rem;
 }
-
 .dropdown:hover > .dropdown-menu {
   display: block;
 }
@@ -44,8 +43,8 @@ html {
   .navbar-nav {
     text-align: right;
   }
-  #sh2{
-    top: 24rem!important;
+  #sh2 {
+    top: 24rem !important;
   }
 }
 p {
@@ -77,7 +76,6 @@ a:hover {
 .text-primary {
   color: #bca227 !important;
 }
-
 .btn {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -100,8 +98,7 @@ a:hover {
 .btn-primary:active {
   background-color: #467370 !important;
 }
-
-#about{
+#about {
   background-image: url(/images/train30.jpg);
 }
 #about p {
@@ -112,7 +109,7 @@ a:hover {
   font-size: 1.2rem;
   text-decoration: none;
 }
-.pt-8{
+.pt-8 {
   padding-top: 8rem;
 }
 #repertoire {
@@ -121,7 +118,7 @@ a:hover {
 #repertoire .featured-text {
   padding: 2rem;
 }
-.featured-text ul{
+.featured-text ul {
   list-style: none;
   padding-left: 0rem;
 }
@@ -148,15 +145,13 @@ a:hover {
 #costumes p {
   text-align: center !important;
 }
-#news{
+#news {
   padding: 8rem 0rem 3rem;
 }
-#fac h5{
+#fac h5 {
   text-transform: capitalize;
   margin-bottom: 1rem;
 }
-
-
 .parallax ul,
 #training ul {
   list-style: none;
@@ -168,27 +163,23 @@ a:hover {
 .reper-bg {
   background-image: url("/images/reper9.jpg");
 }
-#reper h2, #reper h3{
+#reper h2,
+#reper h3 {
   text-transform: capitalize;
 }
-
-.training-bg{
+.training-bg {
   background: url("/images/train34.jpg");
 }
-
-.gallery-bg{
-  background: url("/images/train34.jpg")
+.gallery-bg {
+  background: url("/images/train34.jpg");
 }
-.overlay-lt{
+.overlay-lt {
   background: rgba(0, 0, 0, 0.493);
- height: 100vh;
+  height: 100vh;
 }
 hr {
-  
   border: 1px solid #bca227;
-  
 }
-
 blockquote {
   border-left: 2px solid #bca227;
   padding-left: 1rem;
@@ -209,8 +200,8 @@ blockquote {
   #news .card {
     margin: 1rem;
   }
-  #sh2{
-    top: 22rem!important;
+  #sh2 {
+    top: 22rem !important;
   }
 }
 /* Medium devices (tablets, 768px and up)*/
@@ -230,7 +221,6 @@ blockquote {
 .ch {
   background-image: url("/images/costume-home.jpg");
 }
-
 .parallax {
   background-attachment: fixed;
   background-position: center;
@@ -241,18 +231,16 @@ blockquote {
   background: #0a0a0aa8;
   padding: 10rem 0rem;
 }
-#sh2{
+#sh2 {
   position: relative;
-  top: 32rem
+  top: 32rem;
 }
-
 @media (min-width: 991px) {
   .href-pdf:hover {
     color: #fff;
     transition: 0.5s ease;
   }
 }
-
 .href-pdf {
   color: #000;
   text-decoration: none;
@@ -260,7 +248,6 @@ blockquote {
 .display-5 {
   font-size: 1.3rem;
 }
-
 #text {
   z-index: 100;
   position: absolute;
@@ -279,19 +266,17 @@ blockquote {
   background-color: #bca227;
   color: #000;
 }
-#news .card a{
- color: #000;
- text-decoration: underline;
+#news .card a {
+  color: #000;
+  text-decoration: underline;
 }
-#news .card a:hover{
-  color: #fff; 
- }
-.events p{
+#news .card a:hover {
+  color: #fff;
+}
+.events p {
   text-align: center !important;
   margin-bottom: 1.5rem;
 }
-
-
 .card-cost {
   background-color: transparent;
   border: none;
@@ -323,7 +308,7 @@ footer a {
   text-decoration: none;
 }
 footer a:hover {
-  color: #fff
+  color: #fff;
 }
 .form-control {
   border: 1px solid #bca227;
@@ -331,17 +316,17 @@ footer a:hover {
 .form-control:focus {
   color: #212121;
   border-color: #bca227;
-  box-shadow: 0 0 0.8rem 0.1rem #5a4d0b
+  box-shadow: 0 0 0.8rem 0.1rem #5a4d0b;
 }
-.bottom-footer{
+.bottom-footer {
   background-color: #fff;
   height: 20vh;
   color: #000;
 }
-.bottom-footer a{
+.bottom-footer a {
   color: #000;
   transition: 0.5s;
-}  
-.bottom-footer a:hover{
-  color: #5a4d0b
+}
+.bottom-footer a:hover {
+  color: #5a4d0b;
 }

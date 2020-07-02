@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 {{ partial "head" . }}
-
 <body>
     {{ partial "navbar" . }}
     {{ block "video" . }}{{ end }}
@@ -10,11 +9,10 @@
     {{ block "training" . }}{{ end }}
     {{ block "costumes" . }}{{ end }}
     {{ block "portfolio" . }}{{ end }}
+    {{ block "videogal" . }}{{ end }}
     {{ block "card-news" . }}{{ end }}
     {{ partial "footer" . }}
     {{ partial "scripts" . }}
     {{partial "fancyboxjs" .}}
-
 </body>
-
 </html>

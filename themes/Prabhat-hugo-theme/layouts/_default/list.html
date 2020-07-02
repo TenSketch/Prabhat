@@ -60,7 +60,7 @@
 <header class="v-header">
     <div class="overlay"></div>
     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="/videos/Kathaastra.mp4" type="video/mp4">
+        <source src="/videos/prabhat-intro-video-trailer-of-18-days.mp4" type="video/mp4">
     </video>
     <div class="container masthead h-100">
         <div class="row d-flex h-100 text-center align-items-center">
@@ -75,8 +75,6 @@
                         <a href="{{.Site.BaseURL}}join-prabhat/register-form/" class="btn btn-primary">Join Prabhat</a>
                     </li>
                 </ul>
-                
-                
             </div>
         </div>
     </div>
@@ -168,7 +166,7 @@
                 </div>
             </div>
         </div>
-        {{end}} 
+        {{end}}
         {{range $index, $val := .Site.Taxonomies.tags.harikatha}}
         <div id="harikatha" class="row no-gutters">
             <div class="col-lg-6">
@@ -229,6 +227,20 @@
             <div class="mx-auto mt-3">
                 <a href="{{.Site.BaseURL}}gallery/home/" class="display-5">View more</a>
             </div>
+        </div>
+    </div>
+</section>
+{{end}}
+{{define "videogal"}}
+<section class="mt-5">
+    <div class="container">
+        <h1 class="text-center mb-3">Video Gallery</h1>
+        <div class="row">
+            {{range $index, $val := .Site.Taxonomies.categories.vgal}}
+            <div class="col-lg-8 mx-auto">
+                <div class="youtube-player youtube" data-id="{{.Title}}"></div>
+            </div>
+            {{end}}
         </div>
     </div>
 </section>

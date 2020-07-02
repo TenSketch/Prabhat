@@ -46,7 +46,6 @@
         gtag('config', 'AW-687194522');
     </script>
 </head>
-
 <body>
     <nav class="navbar navbar-dark fixed-top navbar-expand-lg">
   <div class="container-fluid">
@@ -149,7 +148,7 @@
 <header class="v-header">
     <div class="overlay"></div>
     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="/videos/Kathaastra.mp4" type="video/mp4">
+        <source src="/videos/prabhat-intro-video-trailer-of-18-days.mp4" type="video/mp4">
     </video>
     <div class="container masthead h-100">
         <div class="row d-flex h-100 text-center align-items-center">
@@ -164,8 +163,6 @@
                         <a href="https://www.prabhatha.com/join-prabhat/register-form/" class="btn btn-primary">Join Prabhat</a>
                     </li>
                 </ul>
-                
-                
             </div>
         </div>
     </div>
@@ -240,7 +237,7 @@
                 </div>
             </div>
         </div>
-         
+        
         
         <div id="harikatha" class="row no-gutters">
             <div class="col-lg-6">
@@ -301,8 +298,59 @@ The pioneer costume designing company, Prabhat Costume Designers was established
             height: 100px;
         }
     }
+     
+    .youtube-player {
+        position: relative;
+        padding-bottom: 56.23%;
+         
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background: #000;
+        margin: 5px;
+    }
+    .youtube-player iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        background: transparent;
+    }
+    .youtube-player img {
+        bottom: 0;
+        display: block;
+        left: 0;
+        margin: auto;
+        max-width: 100%;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: none;
+        height: auto;
+        cursor: pointer;
+        -webkit-transition: 0.4s all;
+        -moz-transition: 0.4s all;
+        transition: 0.4s all;
+    }
+    .youtube-player img:hover {
+        filter: brightness(75%);
+        -webkit-filter: brightness(75%);
+    }
+    .youtube-player .play {
+        height: 72px;
+        width: 72px;
+        left: 50%;
+        top: 50%;
+        margin-left: -36px;
+        margin-top: -36px;
+        position: absolute;
+        background: url("//i.imgur.com/TxzC70f.png") no-repeat;
+        cursor: pointer;
+    }
 </style>
-
 <section id="portfolio" class="pt-8">
     <div class="container">
         <h2 class="text-center text-lowercase mb-5">gallery</h2>
@@ -369,6 +417,20 @@ The pioneer costume designing company, Prabhat Costume Designers was established
             <div class="mx-auto mt-3">
                 <a href="https://www.prabhatha.com/gallery/home/" class="display-5">View more</a>
             </div>
+        </div>
+    </div>
+</section>
+
+    
+<section class="mt-5">
+    <div class="container">
+        <h1 class="text-center mb-3">Video Gallery</h1>
+        <div class="row">
+            
+            <div class="col-lg-8 mx-auto">
+                <div class="youtube-player youtube" data-id="tmdF5Sqi2IE"></div>
+            </div>
+            
         </div>
     </div>
 </section>
@@ -561,12 +623,37 @@ The pioneer costume designing company, Prabhat Costume Designers was established
 </script>
 
 <script>
+  document.addEventListener("DOMContentLoaded",
+    function () {
+      var div, n,
+        v = document.getElementsByClassName("youtube-player");
+      for (n = 0; n < v.length; n++) {
+        div = document.createElement("div");
+        div.setAttribute("data-id", v[n].dataset.id);
+        div.innerHTML = labnolThumb(v[n].dataset.id);
+        div.onclick = labnolIframe;
+        v[n].appendChild(div);
+      }
+    });
+  function labnolThumb(id) {
+    var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+      play = '<div class="play"></div>';
+    return thumb.replace("ID", id) + play;
+  }
+  function labnolIframe() {
+    var iframe = document.createElement("iframe");
+    var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+    iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+    iframe.setAttribute("frameborder", "0");
+    iframe.setAttribute("allowfullscreen", "1");
+    this.parentNode.replaceChild(iframe, this);
+  }
+</script>
+<script>
   $('#link').hover(function () {
     $('#title').text($('#link').attr('title'));
   });
 </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-
 </body>
-
 </html>
