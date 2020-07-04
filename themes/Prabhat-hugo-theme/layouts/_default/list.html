@@ -9,16 +9,25 @@
         width: 100%;
         overflow: hidden;
     }
-    .v-header video {
+    #videobg {
         position: absolute;
         top: 50%;
         left: 50%;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
         z-index: 0;
+        max-width: 100%;
         transform: translateX(-50%) translateY(-50%);
+    }
+    @media(min-aspect-ratio:16/9){
+        #videobg {
+            width: 100%;
+            height: auto;
+        }
+    }
+    @media(max-aspect-ratio:16/9){
+        #videobg {
+            width: auto;
+            height: 100%;
+        }
     }
     .v-header .container {
         position: relative;
@@ -59,7 +68,7 @@
 </style>
 <header class="v-header">
     <div class="overlay"></div>
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <video id="videobg" playsinline autoplay muted loop>
         <source src="/videos/prabhat-intro-video-trailer-of-18-days.mp4" type="video/mp4">
     </video>
     <div class="container masthead h-100">
@@ -133,7 +142,7 @@
             </div>
             <div class="col-xl-4 col-lg-5">
                 <div class="featured-text text-center text-lg-left mb-0">
-                    <h4>repertoire</h4>
+                    <h4>Performance / Repertoire</h4>
                     {{.Content}}
                     <a href="{{.Permalink}}" style="text-decoration: underline">Read More</a>
                 </div>
@@ -237,7 +246,7 @@
         <h1 class="text-center mb-3">Video Gallery</h1>
         <div class="row">
             {{range $index, $val := .Site.Taxonomies.categories.vgal}}
-            <div class="col-lg-8 mx-auto">
+            <div class="col-lg-4 col-md-2">
                 <div class="youtube-player youtube" data-id="{{.Title}}"></div>
             </div>
             {{end}}
