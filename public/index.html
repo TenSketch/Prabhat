@@ -48,6 +48,25 @@
     </script>
 </head>
 <body>
+    
+<script>
+    window.fbAsyncInit = function () {
+        FB.init({
+            xfbml: true,
+            version: 'v7.0'
+        });
+    };
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div class="fb-customerchat" attribution=setup_tool page_id="2443021135930515">
+</div>
     <nav class="navbar navbar-dark fixed-top navbar-expand-lg">
   <div class="container-fluid">
     <a class="navbar-brand" href="https://www.prabhatha.com/">
@@ -535,7 +554,7 @@ The pioneer costume designing company, Prabhat Costume Designers was established
                 <ul class="list-unstyled">
                     <li><a href="https://www.padapa.in/">PADAPA</a></li>
                     <li class="my-1"><a href="https://www.sharatprabhath.com/">Sharat R Prabhath</a></li>
-                    <li><a href="https://www.prabhathauditoriums.com">Prabhat Auditoriums</a></li>
+                    
                     <li class="my-1"><a href="http://www.prabhathstudios.com/">Prabhat Sound Studio</a></li>
                     <li><a href="http://www.prabhathstage.com/">Prabhat Lighting and Sound System</a></li>
                     <li class="my-1"><a href="http://artoholic.co.in/">Artoholic</a></li>
