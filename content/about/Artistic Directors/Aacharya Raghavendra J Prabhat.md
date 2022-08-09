@@ -1,7 +1,7 @@
 ---
 title: Aacharya Raghavendra J Prabhat
-image: /images/Raghavendra1.jpg
-pdf: /pdf/Aacharya_Raghavendra_J_Prabhat.pdf
+image: /images/Raghavendra.jpg
+pdf: /pdf/Aacharya_Raghavendra_J_Prabhat-2.pdf
 tags: ["about1"]
 description: >-
   Prabhat, The Temple of Art is an internationally renowned artistic institution
