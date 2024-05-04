@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>thanksc on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</title>
+    <title>Thanksc on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</title>
     <link>https://www.prabhatha.com/tags/thanksc/</link>
-    <description>Recent content in thanksc on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Thanksc on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Dec 2019 08:33:07 +0530</lastBuildDate><atom:link href="https://www.prabhatha.com/tags/thanksc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Dec 2019 08:33:07 +0530</lastBuildDate>
+    <atom:link href="https://www.prabhatha.com/tags/thanksc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thank you for contacting us</title>
       <link>https://www.prabhatha.com/thank-you/</link>
       <pubDate>Thu, 12 Dec 2019 08:33:07 +0530</pubDate>
-      
       <guid>https://www.prabhatha.com/thank-you/</guid>
       <description>Thank you for contacting us. We&amp;rsquo;ll get back to you soon</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>training on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</title>
+    <title>Training on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</title>
     <link>https://www.prabhatha.com/tags/training/</link>
-    <description>Recent content in training on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Training on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Jun 2019 14:38:11 +0000</lastBuildDate><atom:link href="https://www.prabhatha.com/tags/training/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jun 2019 14:38:11 +0000</lastBuildDate>
+    <atom:link href="https://www.prabhatha.com/tags/training/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Music, Dance, Yoga, And Theatre Arts Training |  Prabhat - The Temple of Art</title>
       <link>https://www.prabhatha.com/training/home/</link>
       <pubDate>Thu, 27 Jun 2019 14:38:11 +0000</pubDate>
-      
       <guid>https://www.prabhatha.com/training/home/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;SAMUDYATA - Srichakra Academy of Music, Dance, Yoga, and Theatre Arts&lt;/li&gt;
-&lt;li&gt;Faculty.&lt;/li&gt;
-&lt;li&gt;Prabhat Kala Tapovana.&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;SAMUDYATA - Srichakra Academy of Music, Dance, Yoga, and Theatre Arts&lt;/li&gt;&#xA;&lt;li&gt;Faculty.&lt;/li&gt;&#xA;&lt;li&gt;Prabhat Kala Tapovana.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

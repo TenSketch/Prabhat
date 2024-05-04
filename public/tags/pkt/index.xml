@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>pkt on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</title>
+    <title>Pkt on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</title>
     <link>https://www.prabhatha.com/tags/pkt/</link>
-    <description>Recent content in pkt on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Pkt on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Jun 2019 14:35:11 +0000</lastBuildDate><atom:link href="https://www.prabhatha.com/tags/pkt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jun 2019 14:35:11 +0000</lastBuildDate>
+    <atom:link href="https://www.prabhatha.com/tags/pkt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prabhat Kala Tapovana</title>
       <link>https://www.prabhatha.com/training/prabhat-kala-tapovana/</link>
       <pubDate>Thu, 27 Jun 2019 14:35:11 +0000</pubDate>
-      
       <guid>https://www.prabhatha.com/training/prabhat-kala-tapovana/</guid>
       <description>nG696ZrCsI4</description>
     </item>
-    
   </channel>
 </rss>

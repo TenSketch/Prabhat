@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>harikatha on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</title>
+    <title>Harikatha on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</title>
     <link>https://www.prabhatha.com/tags/harikatha/</link>
-    <description>Recent content in harikatha on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Harikatha on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Jun 2019 20:08:11 +0530</lastBuildDate><atom:link href="https://www.prabhatha.com/tags/harikatha/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jun 2019 20:08:11 +0530</lastBuildDate>
+    <atom:link href="https://www.prabhatha.com/tags/harikatha/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Harikatha</title>
       <link>https://www.prabhatha.com/harikatha/</link>
       <pubDate>Thu, 27 Jun 2019 20:08:11 +0530</pubDate>
-      
       <guid>https://www.prabhatha.com/harikatha/</guid>
-      <description>&lt;h4 id=&#34;harikatha&#34;&gt;Harikatha&lt;/h4&gt;
-&lt;p&gt;Karnataka’s &lt;strong&gt;Haridaasa’s&lt;/strong&gt; cult arouses varied questions in one’s mind. The literary works of great saint poets of Karnataka answer questions relating to spiritual experiences, knowledge of Tantra, Vedic wisdom, Societal Culture, Music, Dance, theatre and the like.&lt;/p&gt;</description>
+      <description>&lt;h4 id=&#34;harikatha&#34;&gt;Harikatha&lt;/h4&gt;&#xA;&lt;p&gt;Karnataka’s &lt;strong&gt;Haridaasa’s&lt;/strong&gt; cult arouses varied questions in one’s mind. The literary works of great saint poets of Karnataka answer questions relating to spiritual experiences, knowledge of Tantra, Vedic wisdom, Societal Culture, Music, Dance, theatre and the like.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

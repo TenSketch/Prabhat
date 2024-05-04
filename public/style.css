@@ -330,3 +330,6 @@ footer a:hover {
 .bottom-footer a:hover {
   color: #5a4d0b;
 }
+.mt-custom{
+  margin-top: 10rem!important;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+{{partial "head" .}}
+
+<body class="bg-black">
+    {{partial "singlenav" .}}
+    <section class="my-5 py-5 mt-custom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto text-white">
+                    {{range $index, $val := .Site.Taxonomies.tags.ngo}}
+                    <h1>{{.Title}}</h1>
+                    {{ .Content }}
+                    {{end}}
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="training-bg parallax">
+        <div class="overlay-lt">
+        </div>
+    </section> -->
+   
+    {{partial "footer" .}} {{partial "scripts" .}} {{partial "youtube" .}}
+</body>
+
+</html>
