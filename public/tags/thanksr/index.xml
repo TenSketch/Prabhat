@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thanksr on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</title>
-    <link>https://www.prabhatha.com/tags/thanksr/</link>
+    <link>http://localhost:1313/tags/thanksr/</link>
     <description>Recent content in Thanksr on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 12 Dec 2019 08:33:07 +0530</lastBuildDate>
-    <atom:link href="https://www.prabhatha.com/tags/thanksr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/thanksr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thank You registering with us</title>
-      <link>https://www.prabhatha.com/register/thank-you/</link>
+      <link>http://localhost:1313/register/thank-you/</link>
       <pubDate>Thu, 12 Dec 2019 08:33:07 +0530</pubDate>
-      <guid>https://www.prabhatha.com/register/thank-you/</guid>
+      <guid>http://localhost:1313/register/thank-you/</guid>
       <description>Thank you for registering with us. We will get back to you soon!</description>
     </item>
   </channel>

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Samudyata on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</title>
-    <link>https://www.prabhatha.com/categories/samudyata/</link>
+    <link>http://localhost:1313/categories/samudyata/</link>
     <description>Recent content in Samudyata on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 27 Jun 2019 14:38:11 +0000</lastBuildDate>
-    <atom:link href="https://www.prabhatha.com/categories/samudyata/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/samudyata/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Music</title>
-      <link>https://www.prabhatha.com/training/samudyata/music/</link>
+      <link>http://localhost:1313/training/samudyata/music/</link>
       <pubDate>Thu, 27 Jun 2019 14:38:11 +0000</pubDate>
-      <guid>https://www.prabhatha.com/training/samudyata/music/</guid>
+      <guid>http://localhost:1313/training/samudyata/music/</guid>
       <description>Karnatic vocal</description>
     </item>
     <item>
       <title>Dance</title>
-      <link>https://www.prabhatha.com/training/samudyata/dance/</link>
+      <link>http://localhost:1313/training/samudyata/dance/</link>
       <pubDate>Thu, 27 Jun 2019 14:37:11 +0000</pubDate>
-      <guid>https://www.prabhatha.com/training/samudyata/dance/</guid>
+      <guid>http://localhost:1313/training/samudyata/dance/</guid>
       <description>Bharatanatyam and Kathak</description>
     </item>
     <item>
       <title>Yoga</title>
-      <link>https://www.prabhatha.com/training/samudyata/yoga/</link>
+      <link>http://localhost:1313/training/samudyata/yoga/</link>
       <pubDate>Thu, 27 Jun 2019 14:36:11 +0000</pubDate>
-      <guid>https://www.prabhatha.com/training/samudyata/yoga/</guid>
+      <guid>http://localhost:1313/training/samudyata/yoga/</guid>
       <description></description>
     </item>
     <item>
       <title>Dance production crafting</title>
-      <link>https://www.prabhatha.com/training/samudyata/dance-production-crafting/</link>
+      <link>http://localhost:1313/training/samudyata/dance-production-crafting/</link>
       <pubDate>Thu, 27 Jun 2019 14:34:11 +0000</pubDate>
-      <guid>https://www.prabhatha.com/training/samudyata/dance-production-crafting/</guid>
+      <guid>http://localhost:1313/training/samudyata/dance-production-crafting/</guid>
       <description></description>
     </item>
   </channel>

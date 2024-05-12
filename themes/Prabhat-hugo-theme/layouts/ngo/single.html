@@ -16,12 +16,32 @@
             </div>
         </div>
     </section>
+    {{partial "fancyboxcss" .}}
+    <section id="portfolio" class="pt-5">
+        <div class="container">
+            <h2 class="my-4 text-center text-white">Prabhistana Gallery</h2>
+            <div class="row">
+                {{range $index, $val := .Site.Taxonomies.categories.prabhistanagal}}
+                <div class="col-lg-3 col-md-4 col-4 mb-4">
+                    <a data-fancybox="gallery" href="{{.Page.Params.image}}" aria-label="Prabhistana Gallery">
+                        <img src="{{.Page.Params.image}}" alt="{{.Name}}">
+                    </a>
+                </div>
+                {{end}}
+            </div>
+            
+        </div>
+    </section>
+
     <!-- <section class="training-bg parallax">
         <div class="overlay-lt">
         </div>
     </section> -->
-   
-    {{partial "footer" .}} {{partial "scripts" .}} {{partial "youtube" .}}
+
+    {{partial "footer" .}} 
+    {{partial "scripts" .}}
+    {{partial "fancyboxjs" .}}
+    {{partial "youtube" .}}
 </body>
 
 </html>
