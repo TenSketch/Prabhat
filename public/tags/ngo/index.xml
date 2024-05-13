@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ngo on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</title>
-    <link>https://www.prabhatha.com/tags/ngo/</link>
+    <link>http://localhost:1313/tags/ngo/</link>
     <description>Recent content in Ngo on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 03 May 2024 09:28:21 +0000</lastBuildDate>
-    <atom:link href="https://www.prabhatha.com/tags/ngo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ngo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prabhat Pratishtana</title>
-      <link>https://www.prabhatha.com/ngo/prabhat_pratishtana/</link>
+      <link>http://localhost:1313/ngo/prabhat_pratishtana/</link>
       <pubDate>Fri, 03 May 2024 09:28:21 +0000</pubDate>
-      <guid>https://www.prabhatha.com/ngo/prabhat_pratishtana/</guid>
-      <description>Prabhat Pratishtana has flourished over the past decades, encompassing various artistic ventures. Founded by Acharya Raghavendra J Prabhat and Shakuntala R Prabhat, Prabhat Pratishtana has become synonymous with excellence in the arts, leaving a lasting impression on art lovers and connoisseurs alike. The institution&amp;rsquo;s vision is to propagate the glory of Indian arts, preserving and passing on cultural heritage across generations. Their mission includes engaging in meaningful art that serves as a medium of cultural and spiritual upliftment.</description>
+      <guid>http://localhost:1313/ngo/prabhat_pratishtana/</guid>
+      <description>About us Prabhat Pratishtana has flourished over the past decades, encompassing various artistic ventures. Founded by Acharya Raghavendra J Prabhat and Shakuntala R Prabhat, Prabhat Pratishtana has become synonymous with excellence in the arts, leaving a lasting impression on art lovers and connoisseurs alike. The institution&amp;rsquo;s vision is to propagate the glory of Indian arts, preserving and passing on cultural heritage across generations. Their mission includes engaging in meaningful art that serves as a medium of cultural and spiritual upliftment.</description>
     </item>
   </channel>
 </rss>

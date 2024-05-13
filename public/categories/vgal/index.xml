@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vgal on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</title>
-    <link>https://www.prabhatha.com/categories/vgal/</link>
+    <link>http://localhost:1313/categories/vgal/</link>
     <description>Recent content in Vgal on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 17 Jan 2020 20:14:07 +0530</lastBuildDate>
-    <atom:link href="https://www.prabhatha.com/categories/vgal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/vgal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ch45WY6oiYo</title>
-      <link>https://www.prabhatha.com/gallery/video1-copy-2/</link>
+      <link>http://localhost:1313/gallery/video1-copy-2/</link>
       <pubDate>Fri, 17 Jan 2020 20:14:07 +0530</pubDate>
-      <guid>https://www.prabhatha.com/gallery/video1-copy-2/</guid>
+      <guid>http://localhost:1313/gallery/video1-copy-2/</guid>
       <description></description>
     </item>
     <item>
       <title>om5FoCHt4-c</title>
-      <link>https://www.prabhatha.com/gallery/video1-copy/</link>
+      <link>http://localhost:1313/gallery/video1-copy/</link>
       <pubDate>Fri, 17 Jan 2020 20:14:07 +0530</pubDate>
-      <guid>https://www.prabhatha.com/gallery/video1-copy/</guid>
+      <guid>http://localhost:1313/gallery/video1-copy/</guid>
       <description></description>
     </item>
     <item>
       <title>tmdF5Sqi2IE</title>
-      <link>https://www.prabhatha.com/gallery/video1/</link>
+      <link>http://localhost:1313/gallery/video1/</link>
       <pubDate>Fri, 17 Jan 2020 20:14:07 +0530</pubDate>
-      <guid>https://www.prabhatha.com/gallery/video1/</guid>
+      <guid>http://localhost:1313/gallery/video1/</guid>
       <description></description>
     </item>
   </channel>

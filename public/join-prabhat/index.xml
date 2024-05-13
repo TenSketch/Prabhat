@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Join Prabhats on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</title>
-    <link>https://www.prabhatha.com/join-prabhat/</link>
+    <link>http://localhost:1313/join-prabhat/</link>
     <description>Recent content in Join Prabhats on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 27 Jun 2019 20:08:11 +0530</lastBuildDate>
-    <atom:link href="https://www.prabhatha.com/join-prabhat/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/join-prabhat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Register form - Join Prabhat | Prabhat - The Temple of Art</title>
-      <link>https://www.prabhatha.com/join-prabhat/register-form/</link>
+      <link>http://localhost:1313/join-prabhat/register-form/</link>
       <pubDate>Thu, 27 Jun 2019 20:08:11 +0530</pubDate>
-      <guid>https://www.prabhatha.com/join-prabhat/register-form/</guid>
+      <guid>http://localhost:1313/join-prabhat/register-form/</guid>
       <description>SAMUDYATA (Srichakra Academy of Music, Dance, Yoga, and Theatre Arts) Bharatanatyam Dance Kathak Dance Karnatic Music yoga classes Indian Contemporary and Kalari Payittu We offer training in Indian Contemporary and the indigenous Martial Art form - Kalari Payittu from experts, who have been practicing the forms for more than 15 years.&#xA;Theatre Interested in theatre!? Then, this is the place you should choose. We organize workshops of theatre from experienced artists and people with a high quotient of creativity!</description>
     </item>
   </channel>
