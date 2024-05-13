@@ -13,10 +13,12 @@ date: 2024-05-03T09:28:21.000Z
 draft: false
 ---
 
+<!-- section 1  -->
+{{< aboutPrabhistana >}}
 
 ## About us
 
-Prabhat Pratishtana has flourished over the past decades, encompassing various artistic ventures. Founded by Acharya Raghavendra J Prabhat and Shakuntala R Prabhat, Prabhat Pratishtana has become synonymous with excellence in the arts, leaving a lasting impression on art lovers and connoisseurs alike. The institution's vision is to propagate the glory of Indian arts, preserving and passing on cultural heritage across generations. Their mission includes engaging in meaningful art that serves as a medium of cultural and spiritual upliftment.
+&emsp;Prabhat Pratishtana has flourished over the past decades, encompassing various artistic ventures. Founded by Acharya Raghavendra J Prabhat and Shakuntala R Prabhat, Prabhat Pratishtana has become synonymous with excellence in the arts, leaving a lasting impression on art lovers and connoisseurs alike. The institution's vision is to propagate the glory of Indian arts, preserving and passing on cultural heritage across generations. Their mission includes engaging in meaningful art that serves as a medium of cultural and spiritual upliftment.
 
 Prabhat Pratishtana (Trust), a bastion of cultural preservation and artistic proliferation deeply rooted in the ethos of Indian tradition.
 
@@ -32,16 +34,12 @@ At the heart of our endeavors lies a steadfast vision - to propagate the resplen
 
 Driven by this noble vision, the trust's mission encompasses the creation of art that transcends mere aesthetics, serving as a medium of cultural and spiritual upliftment, enriching lives and illuminating souls.
 
-<!-- ## Strengths -->
+{{< /aboutPrabhistana >}}
+
+<!-- section 2  -->
+{{< strengthsPrabhistana >}}
+
 ## Why Prabhat Pratishtana?
-
-The institution's strengths include:
-
-- Expertise in multiple art forms
-- Fusion of tradition and creativity
-- In-house artistic and technical excellence
-- Extensive network within the arts community
-- Unbroken chain of four generations in the art space
 
 1. **Masterful Versatility:** Delve into a realm where expertise knows no bounds, as we seamlessly traverse multiple art forms with finesse and mastery.
 2. **Tradition Reimagined:** Witness the magic as tradition intertwines with boundless creativity, creating a fusion that transcends time and captivates hearts.
@@ -49,6 +47,11 @@ The institution's strengths include:
 4. **Boundless Connections:** Join a vibrant community where our extensive network within the arts community opens doors to endless opportunities for collaboration, growth, and mutual inspiration.
 5. **Legacy of Artistry:** Immerse yourself in the rich tapestry of heritage as we proudly uphold an unbroken chain of four generations steeped in the art space, ensuring a legacy of unmatched depth and resonance starting from the father of Karnatic music - Poet Purandara Dasa.
 6. **Gurukula:** Nestled in the heart of Bangalore, amidst the vibrant neighborhoods of Basavangudi and Jayanagar 6th block, lies the serene abode - Prabhat Kala Tapovana. Spanning across 8000 square feet of verdant landscape, this sacred gurukula stands as a sanctuary of learning, surrounded by lush greenery and trees nurtured by the hands of its dedicated students. Here, amidst the tranquil embrace of nature, students from diverse socio-economic backgrounds converge to immerse themselves in the timeless disciplines of Bharatanatyam, Kathak, Music, Yoga, Sanskrit, and the ancient shastras. Prabhat Kala Tapovana serves as a haven where the pursuit of knowledge transcends barriers, fostering a spirit of inclusivity and unity in the pursuit of artistic excellence.
+
+{{< /strengthsPrabhistana >}}
+
+<!-- section 3  -->
+{{< keymembersPrabhistana >}}
 
 ## Key Members
 
@@ -59,45 +62,11 @@ Prabhat Pratishtana boasts key members who excel in various artistic disciplines
 - Sharat R Prabhath: Harikatha exponent, Kathak artiste, and music composer.
 - Bharat R Prabhath: Kathak artiste and technical director.
 
-<!-- ## Celebrated Artistic Works
+{{< /keymembersPrabhistana >}}
 
-Prabhat Pratishtana has produced numerous acclaimed productions, including:
+<!-- section 4  -->
+{{< activitiesPrabhistana >}}
 
-- "18 Days – Dusk of an era"
-- "Kathaastra – Dawn of an epic"
-- "Apaharana – Two tales to tell" -->
-
-<!-- 
-### Year 1 - 2023
-
-- Performance for G20 Summit Energy Transition Working Group
-- Kathaastra presentation for Vijaya Karnataka publication’s Kannada Habba
-- Performance at Lakkundi Utsava hosted by Government of Karnataka
-- Double bill concert featuring Harikathe and Apaharana
-- Performance for Indian Air Force unit celebration
-- Performance at Karnataka Rajyotsava celebration in Gadag
-- Nada habba premiere at Yuva Patha
-- Performance for Sports association of Youth
-- Awards conferred to Sharat R Prabhath and Raghavendra J Prabhat
-- Various performances across Karnataka and beyond
-
-### Year 2 - 2022
-
-- Shivaratri celebration with Kathaastra
-- Performances at various events and venues in Bengaluru
-- Premieres of "Apaharana" and "Srinivasa Kalyana"
-- Performance at Art of Living ashram centre for Deepavali
-- Tour with "18 Days" mega production in Delhi and Goa
-- Performances at Serendipity Arts Festival and Central Vista, Delhi
-
-### Year 3 - 2021
-
-- COVID-related welfare initiatives
-- Performances at Neemrana Fort resort and Udupi
-- Launch of an auditorium in Koramangala
-- Various performances for Vijayadashami and other events
-
-For detailed information on performances and achievements, please refer to the enclosed brochure. -->
 ## Our Activities
 
 School Outreach programs - Where students from different schools are invited to our Gurukula and workshops about Indian culture, tradition, and spirituality are shared with the students. #IAmJawan - An initiative of energising the soldier in all of us. With this initiative, the trust selected places in Bangalore cleaned and painted them in partnership with Youth For Parivartan. Additionally, planted more than 100 saplings across many schools and places of Bangalore.
@@ -124,6 +93,13 @@ School Outreach programs - Where students from different schools are invited to 
 - Launch of an auditorium in Koramangala
 - Various performances for Vijayadashami and other events
 
+{{< /activitiesPrabhistana >}}
+
+<!-- section 5  -->
+{{< goalPrabhistana >}}
+
 ## Our Goal
 
 The Trust envision a revolutionary endeavor that transcends conventional boundaries - our trust endeavors to realize the creation of a holistic artistic haven, a beacon of inspiration and innovation. Our grand ambition is to establish an unparalleled one-stop artistic center, a sanctuary where creativity knows no bounds. Picture an awe-inspiring art complex adorned with an amphitheater resonating with the melodies of culture, accompanied by ample parking facilities catering to over 40 cars and 100 two-wheelers, ensuring seamless accessibility for all enthusiasts. Within its embrace, three grand soundproofed halls shall stand as bastions of artistic excellence, nurturing and refining talents in the realms of dance and theater. But that's just the beginning. Our vision extends further to encompass a state-of-the-art auditorium boasting a capacity of 300, equipped with a cutting-edge recording studio to immortalize the symphonies of creativity. Complementing these facilities, a well-appointed library, accommodations, and culinary amenities shall cater to the needs of resident artists, fostering an environment conducive to continuous exploration and growth. Moreover, envisage a harmonious union of physical and spiritual well-being, as our center shall house a gym, yoga studio, and dining facilities, nurturing not just artistic prowess but holistic wellness. Beyond mere infrastructure, our trust aspires to forge partnerships with esteemed universities, offering comprehensive courses in Bharatanatyam, Kathak, Yoga, Music, Sanskrit, and myriad other spiritual sciences, thus shaping the next generation of cultural custodians and visionaries.
+
+{{< /goalPrabhistana >}}

@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</title>
-    <link>http://localhost:1313/news/</link>
+    <link>https://www.prabhatha.com/news/</link>
     <description>Recent content in News on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 01 Nov 2019 16:07:45 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.prabhatha.com/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A classical jamboree</title>
-      <link>http://localhost:1313/news/news-5/</link>
+      <link>https://www.prabhatha.com/news/news-5/</link>
       <pubDate>Fri, 01 Nov 2019 16:07:45 +0530</pubDate>
-      <guid>http://localhost:1313/news/news-5/</guid>
+      <guid>https://www.prabhatha.com/news/news-5/</guid>
       <description>Read More</description>
     </item>
     <item>
       <title>Drishti Art Centre&#39;s Bharata Nritya Vaibhava</title>
-      <link>http://localhost:1313/news/news-4/</link>
+      <link>https://www.prabhatha.com/news/news-4/</link>
       <pubDate>Fri, 01 Nov 2019 16:07:45 +0530</pubDate>
-      <guid>http://localhost:1313/news/news-4/</guid>
+      <guid>https://www.prabhatha.com/news/news-4/</guid>
       <description>Read More</description>
     </item>
     <item>
       <title>Rajyothsava Award</title>
-      <link>http://localhost:1313/news/news-1/</link>
+      <link>https://www.prabhatha.com/news/news-1/</link>
       <pubDate>Fri, 01 Nov 2019 16:07:45 +0530</pubDate>
-      <guid>http://localhost:1313/news/news-1/</guid>
+      <guid>https://www.prabhatha.com/news/news-1/</guid>
       <description>On 1st November 2019 at Ravindra Kalakshetra, Bangalore, Prabhat Arts International won the second highest state honor - &amp;ldquo;The Rajyothsava award&amp;rdquo; for its contribution in the field of Art and Culture!</description>
     </item>
     <item>
       <title>Rajyothsava Award</title>
-      <link>http://localhost:1313/news/news-2/</link>
+      <link>https://www.prabhatha.com/news/news-2/</link>
       <pubDate>Fri, 01 Nov 2019 16:07:45 +0530</pubDate>
-      <guid>http://localhost:1313/news/news-2/</guid>
+      <guid>https://www.prabhatha.com/news/news-2/</guid>
       <description></description>
     </item>
     <item>
       <title>Uday Shankar Award</title>
-      <link>http://localhost:1313/news/news-3-copy/</link>
+      <link>https://www.prabhatha.com/news/news-3-copy/</link>
       <pubDate>Fri, 01 Nov 2019 16:07:45 +0530</pubDate>
-      <guid>http://localhost:1313/news/news-3-copy/</guid>
+      <guid>https://www.prabhatha.com/news/news-3-copy/</guid>
       <description>Bharat and Sharat has been bestowed the prestigious &amp;ldquo;Uday Shankar&amp;rdquo; award for excellence in choreography and production making from AttenDance!</description>
     </item>
   </channel>
