@@ -47,13 +47,13 @@ html {
     top: 24rem !important;
   }
 }
-p {
+/* p {
   text-align: justify !important;
-}
+} */
 h2,
 h4,
 h5 {
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   margin-top: 1rem;
 }
 a {
@@ -320,16 +320,64 @@ footer a:hover {
 }
 .bottom-footer {
   background-color: #fff;
-  height: 20vh;
+  /* height: 20vh; */
   color: #000;
+  padding-block: 1rem;
 }
 .bottom-footer a {
   color: #000;
   transition: 0.5s;
 }
+.bottom-footer p{
+  margin-bottom: 0;
+}
 .bottom-footer a:hover {
   color: #5a4d0b;
 }
 .mt-custom{
-  margin-top: 10rem!important;
+  margin-top: 15rem!important;
+}
+
+/* Prabhistana */
+/* body {
+  background-color: #bca227;
+  color: #000000;
+  padding-top: 50px;
+} */
+.section {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.section-title {
+  color: #bca227;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.section-content {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+img.trustee{
+ @media(min-width:786px){
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  &:hover{
+      box-shadow: 0px 0px 10px 3px #000;
+      transition: all 0.3s ease-in-out;
+  }
+ }
+}
+.list-item {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.icon {
+  font-size: 24px;
+  margin-right: 10px;
 }
