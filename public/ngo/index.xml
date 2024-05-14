@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ngoes on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</title>
-    <link>https://www.prabhatha.com/ngo/</link>
+    <link>http://localhost:1313/ngo/</link>
     <description>Recent content in Ngoes on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 03 May 2024 09:28:21 +0000</lastBuildDate>
-    <atom:link href="https://www.prabhatha.com/ngo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ngo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prabhat Pratishtana</title>
-      <link>https://www.prabhatha.com/ngo/prabhat_pratishtana-copy/</link>
+      <link>http://localhost:1313/ngo/prabhat_pratishtana-copy/</link>
       <pubDate>Fri, 03 May 2024 09:28:21 +0000</pubDate>
-      <guid>https://www.prabhatha.com/ngo/prabhat_pratishtana-copy/</guid>
+      <guid>http://localhost:1313/ngo/prabhat_pratishtana-copy/</guid>
       <description>About us Prabhat Pratishtana has flourished over the past decades, encompassing various artistic ventures. Founded by Acharya Raghavendra J Prabhat and Shakuntala R Prabhat, Prabhat Pratishtana has become synonymous with excellence in the arts, leaving a lasting impression on art lovers and connoisseurs alike. The institution&amp;rsquo;s vision is to propagate the glory of Indian arts, preserving and passing on cultural heritage across generations. Their mission includes engaging in meaningful art that serves as a medium of cultural and spiritual upliftment.</description>
     </item>
     <item>
       <title>Prabhat Pratishtana</title>
-      <link>https://www.prabhatha.com/ngo/prabhat_pratishtana/</link>
+      <link>http://localhost:1313/ngo/prabhat_pratishtana/</link>
       <pubDate>Fri, 03 May 2024 09:28:21 +0000</pubDate>
-      <guid>https://www.prabhatha.com/ngo/prabhat_pratishtana/</guid>
+      <guid>http://localhost:1313/ngo/prabhat_pratishtana/</guid>
       <description>## About us &amp;emsp;Prabhat Pratishtana has flourished over the past decades, encompassing various artistic ventures. Founded by Acharya Raghavendra J Prabhat and Shakuntala R Prabhat, Prabhat Pratishtana has become synonymous with excellence in the arts, leaving a lasting impression on art lovers and connoisseurs alike. The institution&#39;s vision is to propagate the glory of Indian arts, preserving and passing on cultural heritage across generations. Their mission includes engaging in meaningful art that serves as a medium of cultural and spiritual upliftment.</description>
     </item>
     <item>
       <title>Acharya Raghavendra J Prabhat</title>
-      <link>https://www.prabhatha.com/ngo/raghavendra/</link>
+      <link>http://localhost:1313/ngo/raghavendra/</link>
       <pubDate>Thu, 20 Jun 2019 13:25:57 +0530</pubDate>
-      <guid>https://www.prabhatha.com/ngo/raghavendra/</guid>
+      <guid>http://localhost:1313/ngo/raghavendra/</guid>
       <description>Intellectual orator, writer, director, and cultural ambassador</description>
     </item>
     <item>
       <title>Prabhistana image 5</title>
-      <link>https://www.prabhatha.com/ngo/prabhistana-img-5/</link>
+      <link>http://localhost:1313/ngo/prabhistana-img-5/</link>
       <pubDate>Thu, 20 Jun 2019 13:25:57 +0530</pubDate>
-      <guid>https://www.prabhatha.com/ngo/prabhistana-img-5/</guid>
+      <guid>http://localhost:1313/ngo/prabhistana-img-5/</guid>
       <description></description>
     </item>
     <item>
       <title>Shakuntala R Prabhath</title>
-      <link>https://www.prabhatha.com/ngo/shakuntala/</link>
+      <link>http://localhost:1313/ngo/shakuntala/</link>
       <pubDate>Thu, 20 Jun 2019 13:25:56 +0530</pubDate>
-      <guid>https://www.prabhatha.com/ngo/shakuntala/</guid>
+      <guid>http://localhost:1313/ngo/shakuntala/</guid>
       <description>Bharatanatyam Guru and choreographer.</description>
     </item>
     <item>
       <title>Sharat R Prabhath</title>
-      <link>https://www.prabhatha.com/ngo/sharat/</link>
+      <link>http://localhost:1313/ngo/sharat/</link>
       <pubDate>Thu, 20 Jun 2019 13:25:55 +0530</pubDate>
-      <guid>https://www.prabhatha.com/ngo/sharat/</guid>
+      <guid>http://localhost:1313/ngo/sharat/</guid>
       <description>Harikatha exponent, Kathak artiste, and music composer.</description>
     </item>
     <item>
       <title>Bharat R Prabhath</title>
-      <link>https://www.prabhatha.com/ngo/bharat/</link>
+      <link>http://localhost:1313/ngo/bharat/</link>
       <pubDate>Thu, 20 Jun 2019 13:25:54 +0530</pubDate>
-      <guid>https://www.prabhatha.com/ngo/bharat/</guid>
+      <guid>http://localhost:1313/ngo/bharat/</guid>
       <description>Kathak artiste and technical director.</description>
     </item>
   </channel>

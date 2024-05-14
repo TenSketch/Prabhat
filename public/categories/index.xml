@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</title>
-    <link>https://www.prabhatha.com/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 17 Jan 2020 20:14:07 +0530</lastBuildDate>
-    <atom:link href="https://www.prabhatha.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gallery</title>
-      <link>https://www.prabhatha.com/categories/gallery/</link>
+      <link>http://localhost:1313/categories/gallery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.prabhatha.com/categories/gallery/</guid>
+      <guid>http://localhost:1313/categories/gallery/</guid>
       <description></description>
     </item>
     <item>
       <title>Hgal</title>
-      <link>https://www.prabhatha.com/categories/hgal/</link>
+      <link>http://localhost:1313/categories/hgal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.prabhatha.com/categories/hgal/</guid>
+      <guid>http://localhost:1313/categories/hgal/</guid>
       <description></description>
     </item>
     <item>
       <title>Vgal</title>
-      <link>https://www.prabhatha.com/categories/vgal/</link>
+      <link>http://localhost:1313/categories/vgal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.prabhatha.com/categories/vgal/</guid>
+      <guid>http://localhost:1313/categories/vgal/</guid>
       <description></description>
     </item>
     <item>
       <title>Grid</title>
-      <link>https://www.prabhatha.com/categories/grid/</link>
+      <link>http://localhost:1313/categories/grid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.prabhatha.com/categories/grid/</guid>
+      <guid>http://localhost:1313/categories/grid/</guid>
       <description></description>
     </item>
     <item>
       <title>Samudyata</title>
-      <link>https://www.prabhatha.com/categories/samudyata/</link>
+      <link>http://localhost:1313/categories/samudyata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.prabhatha.com/categories/samudyata/</guid>
+      <guid>http://localhost:1313/categories/samudyata/</guid>
       <description></description>
     </item>
     <item>
       <title>Media</title>
-      <link>https://www.prabhatha.com/categories/media/</link>
+      <link>http://localhost:1313/categories/media/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.prabhatha.com/categories/media/</guid>
+      <guid>http://localhost:1313/categories/media/</guid>
       <description></description>
     </item>
     <item>
       <title>Prabhistanagal</title>
-      <link>https://www.prabhatha.com/categories/prabhistanagal/</link>
+      <link>http://localhost:1313/categories/prabhistanagal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.prabhatha.com/categories/prabhistanagal/</guid>
+      <guid>http://localhost:1313/categories/prabhistanagal/</guid>
       <description></description>
     </item>
     <item>
       <title>Trustee</title>
-      <link>https://www.prabhatha.com/categories/trustee/</link>
+      <link>http://localhost:1313/categories/trustee/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.prabhatha.com/categories/trustee/</guid>
+      <guid>http://localhost:1313/categories/trustee/</guid>
       <description></description>
     </item>
   </channel>

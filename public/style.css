@@ -1,12 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 body {
   -webkit-font-smoothing: antialiased;
-  margin: 0;
+  /* margin: 0; */
   overflow-x: hidden;
   font-family: "Nunito", sans-serif;
 }
 html {
   scroll-behavior: smooth;
+}
+
+.logo{
+  width: 100px;
+  /* height: 100px; */
+  margin: 0 auto;
 }
 .navbar-nav .nav-link {
   display: inline-block;
@@ -334,8 +345,8 @@ footer a:hover {
 .bottom-footer a:hover {
   color: #5a4d0b;
 }
-.mt-custom{
-  margin-top: 15rem!important;
+.pt-custom{
+  padding-top: 15rem!important;
 }
 
 /* Prabhistana */
@@ -380,4 +391,32 @@ img.trustee{
 .icon {
   font-size: 24px;
   margin-right: 10px;
+}
+
+/* video */
+.video-container {
+  position: relative;
+  width: 100%;
+  min-height: 80vh;
+  /* overflow: hidden; */
+}
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #000;
+  z-index: 1;
 }

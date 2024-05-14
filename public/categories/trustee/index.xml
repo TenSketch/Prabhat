@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Trustee on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</title>
-    <link>https://www.prabhatha.com/categories/trustee/</link>
+    <link>http://localhost:1313/categories/trustee/</link>
     <description>Recent content in Trustee on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 20 Jun 2019 13:25:57 +0530</lastBuildDate>
-    <atom:link href="https://www.prabhatha.com/categories/trustee/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/trustee/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Acharya Raghavendra J Prabhat</title>
-      <link>https://www.prabhatha.com/ngo/raghavendra/</link>
+      <link>http://localhost:1313/ngo/raghavendra/</link>
       <pubDate>Thu, 20 Jun 2019 13:25:57 +0530</pubDate>
-      <guid>https://www.prabhatha.com/ngo/raghavendra/</guid>
+      <guid>http://localhost:1313/ngo/raghavendra/</guid>
       <description>Intellectual orator, writer, director, and cultural ambassador</description>
     </item>
     <item>
       <title>Shakuntala R Prabhath</title>
-      <link>https://www.prabhatha.com/ngo/shakuntala/</link>
+      <link>http://localhost:1313/ngo/shakuntala/</link>
       <pubDate>Thu, 20 Jun 2019 13:25:56 +0530</pubDate>
-      <guid>https://www.prabhatha.com/ngo/shakuntala/</guid>
+      <guid>http://localhost:1313/ngo/shakuntala/</guid>
       <description>Bharatanatyam Guru and choreographer.</description>
     </item>
     <item>
       <title>Sharat R Prabhath</title>
-      <link>https://www.prabhatha.com/ngo/sharat/</link>
+      <link>http://localhost:1313/ngo/sharat/</link>
       <pubDate>Thu, 20 Jun 2019 13:25:55 +0530</pubDate>
-      <guid>https://www.prabhatha.com/ngo/sharat/</guid>
+      <guid>http://localhost:1313/ngo/sharat/</guid>
       <description>Harikatha exponent, Kathak artiste, and music composer.</description>
     </item>
     <item>
       <title>Bharat R Prabhath</title>
-      <link>https://www.prabhatha.com/ngo/bharat/</link>
+      <link>http://localhost:1313/ngo/bharat/</link>
       <pubDate>Thu, 20 Jun 2019 13:25:54 +0530</pubDate>
-      <guid>https://www.prabhatha.com/ngo/bharat/</guid>
+      <guid>http://localhost:1313/ngo/bharat/</guid>
       <description>Kathak artiste and technical director.</description>
     </item>
   </channel>
