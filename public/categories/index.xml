@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Prabhat Arts International - The Temple of Art | Academy of Dance &amp; Theatre Art</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Jan 2020 20:14:07 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 04 Mar 2025 08:45:39 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Media</title>
+      <link>http://localhost:1313/categories/media/</link>
+      <pubDate>Tue, 04 Mar 2025 08:45:39 +0530</pubDate>
+      <guid>http://localhost:1313/categories/media/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Gallery</title>
       <link>http://localhost:1313/categories/gallery/</link>
@@ -41,13 +48,6 @@
       <link>http://localhost:1313/categories/samudyata/</link>
       <pubDate>Thu, 27 Jun 2019 14:38:11 +0000</pubDate>
       <guid>http://localhost:1313/categories/samudyata/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Media</title>
-      <link>http://localhost:1313/categories/media/</link>
-      <pubDate>Thu, 20 Jun 2019 13:25:57 +0530</pubDate>
-      <guid>http://localhost:1313/categories/media/</guid>
       <description></description>
     </item>
     <item>
